@@ -1,39 +1,81 @@
-# Garden Operating System — v0.1
+# Garden Operating System — START HERE — v0.2
 
-**Status:** PROVISIONAL BASELINE / RESEARCH IN PROGRESS  
-**Built:** 2026-09-05  
-**Purpose:** Convert the exact requested plant list into a living, research-backed garden operating system that a normal human can actually run.
+**Status:** RESEARCHED OPERATING CORE / PHYSICAL SITE STILL PROVISIONAL  
+**Updated:** 2026-09-05
 
 ## Current truth
 
-The requested plant list has been authenticated from the supplied screenshots and converted into a structured plant ledger. Nothing has been silently removed.
+The exact requested plant list from the supplied screenshots is preserved in `04_PLANT_MASTER_LEDGER.csv`. No requested plant has been silently removed.
 
-This version does **not** pretend to know the exact property geometry, sunlight map, soil, water pressure, deer/rabbit pressure, or exact ZIP. Those are the remaining inputs needed before the physical layout can be locked.
+The research/operations layer has now advanced beyond the original baseline:
+- core edible profiles exist
+- core flower/herb profiles exist
+- Kentucky-aware cultivar candidates exist
+- pest IPM exists
+- disease decision trees exist
+- a human-friendly Today Engine exists
+- the GitHub/open-source audit has completed a deeper architecture pass
+- the research ledger has expanded to current Kentucky Extension and repository evidence
 
-A coarse location estimate available to the assistant suggests **northern Kentucky**. All climate-specific material in this version is therefore marked **PROVISIONAL** until the user confirms the location. For northern Kentucky, USDA 2023 mapping commonly places the area around zones 6b/7a, but exact zone must be resolved from the actual ZIP/address.
+## Still not allowed to fake
 
-## Open first
+The following remain unknown until the user provides them:
+- exact ZIP/city
+- property dimensions
+- bed dimensions
+- north orientation
+- actual sun hours
+- soil test
+- drainage observations
+- water/hose locations
+- wildlife pressure
 
-1. `02_SITE_PROFILE.md` — what is known vs unknown.
-2. `03_MASTER_LAYOUT_PROVISIONAL.md` — the bed architecture before dimensions.
-3. `04_PLANT_MASTER_LEDGER.csv` — canonical requested plant inventory.
-4. `06_ANNUAL_CALENDAR_PROVISIONAL.md` — first seasonal operating calendar.
-5. `27_GITHUB_REUSE_AUDIT.md` — software/open-source reuse findings.
-6. `30_OPEN_QUESTIONS.md` — the smallest set of questions needed to lock the exact design.
+A coarse northern-Kentucky assumption is being used only for provisional research. Do not turn that assumption into false site certainty.
 
-## Operating principle
+## Read in this order
 
-Deep detail lives in the pack. Daily operation should be simple:
+1. `README.md`
+2. `02_SITE_PROFILE.md`
+3. `03_MASTER_LAYOUT_PROVISIONAL.md`
+4. `04_PLANT_MASTER_LEDGER.csv`
+5. `05_PLANT_PROFILES/`
+6. `31_CULTIVAR_MATRIX_PROVISIONAL.md`
+7. `06_ANNUAL_CALENDAR_PROVISIONAL.md`
+8. `32_TODAY_ENGINE.md`
+9. `12_PEST_IPM.md`
+10. `13_DISEASE_PLAYBOOK.md`
+11. `27_GITHUB_REUSE_AUDIT.md`
+12. `28_RESEARCH_LEDGER.md`
+13. `29_DECISION_LOG.md`
+14. `30_OPEN_QUESTIONS.md`
+
+## Human operating principle
+
+Every operational brief should collapse complexity into:
 
 **URGENT → THIS WEEK → OPTIONAL → DO NOT TOUCH YET**
 
-## Version rules
+The repository may be technically deep. The human should not need to be.
 
-Every important conclusion is one of:
-- PROVISIONAL
-- RESEARCHED
-- SITE CONFIRMED
-- OBSERVED IN THIS GARDEN
-- SUPERSEDED
+## Version states
 
-Never append contradictions forever. Update current truth and preserve old decisions in the decision log.
+Use only:
+- `PROVISIONAL`
+- `RESEARCHED`
+- `SITE CONFIRMED`
+- `OBSERVED IN THIS GARDEN`
+- `SUPERSEDED`
+
+When new evidence changes a conclusion, update the current document and preserve the old reasoning in `29_DECISION_LOG.md` or history. Do not build a pile of contradictory instructions.
+
+## Immediate next gate
+
+Physical design cannot advance from architecture to exact coordinates without at minimum:
+1. confirmed location/ZIP
+2. rough overhead sketch with dimensions
+3. north direction
+4. bed/container dimensions
+5. approximate direct-sun hours
+6. hose/water locations
+
+All other research can continue while those are pending.
