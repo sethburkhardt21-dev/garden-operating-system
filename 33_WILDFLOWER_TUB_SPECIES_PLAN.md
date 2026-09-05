@@ -1,12 +1,12 @@
-# Wildflower Tub — Kentucky Species Architecture v0.2
+# Wildflower Tub — Richmond, Kentucky Species Architecture v0.3
 
-**Status:** RESEARCHED CONCEPT / exact mix remains PROVISIONAL until tub size, sun, and exact location are confirmed.
+**Status:** LOCATION CONFIRMED / species mix still PROVISIONAL until tub size and sun are known.
 
 The requested feature is a separate tub where seeds can be thrown in as a joyful jumble. The visual effect may be loose; the species selection cannot be random.
 
 ## Research conclusions
 
-Kentucky Extension guidance emphasizes that:
+Kentucky Extension/native-plant guidance supports these operating ideas:
 - many native wildflowers need stratification or other seed preparation
 - native/pollinator plantings benefit from good site preparation and weed control
 - massed flowers are efficient pollinator feeding stations
@@ -25,32 +25,31 @@ not:
 
 ---
 
-# Species pool — northern Kentucky provisional
+# Richmond / central Kentucky candidate species pool
 
 These are candidates for research/selection, not all meant to be crammed into one tub.
 
 ## Strong Kentucky native candidates
 
 ### Black-eyed Susan — `Rudbeckia hirta`
-- spring/summer prairie/wildflower role
-- already part of the requested flower palette
-- strong yellow visual anchor
-- useful for early establishment in a meadow-style mix
+- requested flower palette already includes black-eyed Susan
+- yellow visual anchor
+- useful first-year/early-establishment presence in meadow-style mixes
 
 ### Purple coneflower — `Echinacea purpurea`
 - reliable Kentucky perennial
 - summer bloom
-- excellent pollinator and seed-head value
-- can become too large for a very small tub, so quantity must be limited
+- strong pollinator and seed-head value
+- can become too large for a small tub, so quantity must be controlled
 
 ### Coreopsis — `Coreopsis` spp.
 - yellow daisy-like flower
 - spring/early-summer contribution depending species
-- airy structure fits the “jumble” look
+- airy structure fits the “jumble” effect
 
 ### Beardtongue — `Penstemon` spp.
 - spring/early-season vertical flower structure
-- useful because many wildflower displays are otherwise weak early in the season
+- useful because many meadow-style mixes are weak early
 
 ### Blazing star — `Liatris` spp.
 - summer vertical purple spikes
@@ -64,13 +63,13 @@ These are candidates for research/selection, not all meant to be crammed into on
 
 ### Sneezeweed — `Helenium autumnale`
 - late-season color
-- site/moisture requirements must be matched before use
+- moisture/site requirements must match the tub design
 
-## Potential additional natives to investigate
+## Potential additions to investigate
 - butterfly milkweed (`Asclepias tuberosa`) for a dry sunny large tub
-- yarrow (`Achillea millefolium` / appropriate native provenance) for airy texture
+- yarrow (`Achillea` spp./appropriate provenance) for airy texture
 - compact goldenrod species/cultivars for late nectar, only if size/spread is controlled
-- native annuals selected from a reputable regional seed source
+- Kentucky/regionally sourced native annuals
 
 ---
 
@@ -98,13 +97,37 @@ Can support a true layered mini-meadow:
 - a few tall vertical species
 - early/mid/late bloom distribution
 
-Exact plant counts must be based on **mature spread**, not seed-packet density alone.
+Exact plant/seed density must be based on mature size and germination behavior, not packet density alone.
+
+---
+
+# Two-acre siting advantage
+
+The wildflower tub no longer needs to compete for scarce vegetable-bed space.
+
+Good candidate roles:
+- visual destination at the end of a path
+- transition between the formal garden core and looser yard edge
+- pollinator-observation feature near a bench
+- separate experimental feature near but not inside the vegetable garden
+
+Avoid placing it so far from water that establishment becomes annoying.
+
+## Siting score
+For each candidate location score 1–5:
+- sun
+- water convenience
+- visibility
+- drainage
+- mower/path safety
+- seed-escape monitoring
+- pollinator observation value
 
 ---
 
 # Bloom architecture
 
-Target at least three simultaneous flower types during major pollinator season when possible.
+Target multiple flower types across major pollinator season when practical.
 
 ### Early
 - Penstemon-type spring bloom
@@ -121,7 +144,7 @@ Target at least three simultaneous flower types during major pollinator season w
 - selected goldenrod
 - Helenium where moisture/size fit
 
-The main flower garden already supplies zinnias, cosmos, dahlias, roses and other non-native/ornamental bloom, so the wildflower tub can lean more heavily native without carrying the entire property's color burden.
+The main garden already supplies zinnias, cosmos, dahlias, roses and other ornamental bloom, so the wildflower tub can lean more heavily native without carrying the entire property's color burden.
 
 ---
 
@@ -131,7 +154,7 @@ The main flower garden already supplies zinnias, cosmos, dahlias, roses and othe
 Best for species whose seed benefits from natural cold-moist stratification.
 
 Advantages:
-- lets winter perform seed conditioning
+- winter performs seed conditioning
 - natural timing
 
 Risks:
@@ -139,11 +162,11 @@ Risks:
 - washout
 - difficult identification of weeds vs seedlings
 
-## Path B — winter sowing / milk-jug stratification
-Good beginner-friendly experimental method for species needing cold stratification.
+## Path B — labeled winter sowing / controlled stratification
+Good beginner-friendly experimental path for species needing cold treatment.
 
 Advantages:
-- labeled species remain separate while germinating
+- species remain separately labeled while germinating
 - easier learning/recording
 - reduces accidental overcompetition in the final tub
 
@@ -157,9 +180,9 @@ Useful if seed supplier provides exact treatment history.
 - drainage holes are mandatory
 - do not create a permanently saturated tub
 - use a stable mineral/organic container mix rather than pure compost
-- keep enough soil depth for selected mature root systems
-- leave headspace for mulch/irrigation
-- do not fertilize heavily; excessive fertility can produce tall weak growth in prairie-type species
+- provide enough soil depth for selected mature root systems
+- leave headspace for irrigation/mulch
+- do not fertilize heavily; excessive fertility can create tall weak prairie-type growth
 
 ---
 
@@ -167,11 +190,12 @@ Useful if seed supplier provides exact treatment history.
 
 The user may physically “throw a jumble of seeds,” but first:
 1. build the approved species list
-2. calculate approximate seed proportion by mature size
+2. calculate approximate seed proportion by mature size/germination behavior
 3. mix tiny seed with an inert carrier if necessary for even distribution
-4. press seed into prepared surface based on species germination needs
+4. press seed into prepared surface according to species germination needs
 5. avoid burying light-germinating seed too deeply
-6. label the tub and retain the seed-mix recipe
+6. label the tub
+7. retain the exact seed-mix recipe
 
 The recipe must be reproducible even if the visual sowing is intentionally random.
 
@@ -182,7 +206,7 @@ The recipe must be reproducible even if the visual sowing is intentionally rando
 Before any wildflower seed enters the tub, record:
 - exact botanical species
 - Kentucky native/non-native status
-- invasive/noxious status
+- Kentucky invasive/noxious status
 - ability to self-seed beyond container
 - rhizome/spreading habit
 - mature height/spread
@@ -194,9 +218,9 @@ Anonymous “wildflower mix” packets fail this gate until every ingredient is 
 
 # First-year expectation
 
-Do not judge a perennial native mix only by the first few months. Kentucky wildflower establishment research notes that diverse perennial mixes can take substantial time to germinate/establish and that early weed competition is a major issue.
+Do not judge a perennial native mix only by the first few months. Diverse native mixes can take substantial time to establish and early weed competition can be significant.
 
-The tub therefore needs a journal:
+The tub journal should record:
 - sow date
 - stratification method
 - first emergence by species
@@ -208,15 +232,14 @@ The tub therefore needs a journal:
 - plants that disappeared
 - seed escape outside tub
 
-Year 2 mix should be revised from observed performance.
+Year 2 should be revised from observed Richmond performance.
 
 ---
 
-# Exact mix remains blocked by four inputs
+# Exact mix is now blocked by three inputs
 
 1. tub dimensions/depth
-2. direct sun hours
-3. whether only Kentucky natives are desired or native-heavy + non-invasive annuals is acceptable
-4. exact location/ZIP
+2. direct sun hours at the chosen location
+3. whether the mix should be Kentucky-native only or native-heavy + non-invasive annual color
 
-Until those are known, species stay CANDIDATE rather than LOCKED.
+Location itself is no longer unknown: **Richmond, Kentucky / Madison County is confirmed.**
