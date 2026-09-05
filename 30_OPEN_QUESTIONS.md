@@ -1,31 +1,53 @@
-# Open Questions — Priority Ordered
+# Open Questions — Richmond Two-Acre Site
 
-Answering these will let the next pass become the **exact physical garden** rather than a provisional architecture.
+**Resolved:** Richmond, Kentucky / Madison County / approximately 2-acre yard.
 
-## P0 — required to lock layout
-1. What ZIP code / city is the garden actually in? Is northern Kentucky correct?
-2. What are the dimensions of every garden bed/usable area?
-3. Which direction is north?
-4. How many hours of direct sun does each area receive in summer?
-5. Where are hose/water sources?
-6. Are the beds raised, in-ground, containers, or mixed?
+The project no longer needs a coarse-location guess. The remaining questions are the minimum data required to turn the two-acre architecture into a scaled physical plan.
+
+## P0 — required to lock coordinates
+
+1. What is the rough property shape, and where does the house sit within the two acres?
+2. Which direction is north?
+3. Where are the driveway, sheds/outbuildings, mature trees, fences, and gates?
+4. Where are the hose bibs / outdoor water sources?
+5. Which areas are obvious slopes, low spots, or remain wet after rain?
+6. Are there septic/drain-field, utility, easement, or no-dig areas?
+7. Which part of the yard do you want the main high-maintenance kitchen garden closest to?
+8. How many hours of direct sun does that candidate area receive in midsummer?
+9. Are there existing raised beds, in-ground beds, containers, trellises, or garden structures to preserve?
 
 ## P1 — major design shapers
-7. Deer/rabbit/groundhog pressure?
-8. Soil test available?
-9. Preferred maintenance commitment: ~1, 3, 5, or 8+ hours/week in peak season?
-10. How many people should the vegetable garden feed?
-11. Is food preservation/freezing/canning a goal?
-12. Do you want automatic drip irrigation?
 
-## P2 — cultivar/aesthetic resolution
-13. Which squash: zucchini/summer squash, winter squash, or both?
-14. “Daisies”: Shasta daisies or another kind?
-15. “Geraniums”: common annual Pelargoniums or hardy perennial cranesbill geraniums?
-16. Preferred red-rose form: classic hybrid-tea shape, shrub rose, climber, or mix?
-17. Do you want the optional white rose?
-18. Wildflower tub: native-focused only, or native-heavy with non-invasive annual color allowed?
-19. Garden visual preference: cottage-romantic, formal/classic, rustic, modern, gothic-romantic, or a blend?
+10. Deer pressure?
+11. Rabbit/groundhog pressure?
+12. Existing soil test available?
+13. Preferred maintenance commitment in peak season: roughly 1, 3, 5, or 8+ hours/week?
+14. How many people should the vegetable garden meaningfully feed?
+15. Is freezing/canning/drying/preservation a major goal, or primarily fresh eating?
+16. Do you want automatic drip irrigation, manual irrigation, or a hybrid?
+17. Do you want the garden to occupy a compact core with ornamental rooms around it, or a larger estate-style spread?
+
+## P2 — cultivar / use / aesthetics
+
+18. Squash: zucchini/summer squash, winter squash, or both?
+19. Daisies: Shasta daisies or another kind?
+20. Geraniums: common annual Pelargoniums or hardy perennial cranesbill Geraniums?
+21. Red roses: classic hybrid-tea shape, shrub roses, climbers, or a deliberate mix?
+22. Keep the optional one white backyard rose?
+23. Wildflower tub: Kentucky-native only, or native-heavy with non-invasive annual color allowed?
+24. Preferred visual direction: cottage-romantic, formal/classic, rustic, modern, gothic-romantic, or blend?
+25. Do you want the garden designed for maximum food yield, maximum beauty, or an explicit balanced split?
 
 ## Best next input
-A crude hand sketch with measurements is enough. It does not need to look good.
+
+A crude overhead drawing is now the highest-value input. Include:
+- house
+- driveway
+- trees
+- fences
+- sheds
+- water points
+- north arrow
+- rough distances
+
+It does not need to be to scale. Once supplied, it can be converted into a measured survey and then into the precision-map layer.
