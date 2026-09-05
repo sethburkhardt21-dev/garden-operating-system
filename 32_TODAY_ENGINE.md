@@ -1,5 +1,6 @@
-# Today Engine — Human Operating Layer
+# Today Engine — Human Operating Layer v0.3
 
+**Site:** Richmond, Kentucky / approximately 2-acre yard  
 **Goal:** A person should be able to open the garden project and know what matters today without reading the entire repository.
 
 The engine is rule-based first. Weather/sensor automation may enrich it later but must never become the only way to operate the garden.
@@ -25,7 +26,7 @@ Plants/actions where intervention would be premature or harmful.
 # Daily decision sequence
 
 ## 1. Weather gate
-Check:
+Check Richmond-area conditions and then compare them with the actual yard:
 - overnight low
 - daytime high
 - rainfall in previous 24–72 hours
@@ -44,8 +45,10 @@ Create alerts for:
 
 Weather alerts outrank routine tasks.
 
+On the two-acre site, also ask: **is one garden room behaving differently from the rest of the yard?** A low pocket can frost or stay wet while the house-side core remains fine.
+
 ## 2. Water gate
-Do not water because "today is watering day."
+Do not water because “today is watering day.”
 
 For each hydrozone:
 1. Check recent rainfall.
@@ -77,7 +80,7 @@ Kentucky Extension guidance for summer vegetables emphasizes moistening roughly 
 ### Separate container logic
 - wildflower tub
 - any potted herbs
-- grow-bag potatoes
+- grow-bag potatoes if used
 - movable flowers
 
 Containers can require attention when in-ground beds do not.
@@ -111,8 +114,10 @@ Action only when:
 - ties are cutting into stems
 - trellis anchors are loosening
 
+For this two-acre yard, also inspect whether storm exposure differs between open-yard structures and sheltered garden rooms.
+
 ## 5. Disease gate
-Walk the garden once, slowly.
+Walk the garden slowly.
 
 Inspect lower/inner foliage first on:
 - tomatoes
@@ -132,7 +137,7 @@ Look for:
 
 If symptoms appear:
 1. photograph before removing evidence
-2. record bed + date + weather pattern
+2. record bed/garden-room + date + weather pattern
 3. compare multiple symptoms
 4. isolate likely infectious vs environmental cause
 5. use the disease playbook before treating
@@ -175,13 +180,25 @@ High-return deadheading/cutting group:
 Permanent plants receive different treatment.
 
 ### Asparagus
-After the harvest season, fern growth is future-energy infrastructure. Do not cut healthy ferns merely because they look untidy.
+After harvest season, fern growth is future-energy infrastructure. Do not cut healthy ferns merely because they look untidy.
 
 ### Rhubarb
 Do not harvest heavily from newly establishing crowns. Leaves are not edible.
 
 ### Roses/daylilies/coneflower/Rudbeckia
 Avoid unnecessary digging around established root zones.
+
+## 9. Site-infrastructure gate
+Because the property is two acres, add a quick infrastructure scan when working outside:
+- hose left across mower/path?
+- irrigation leak?
+- trellis leaning?
+- fence/gate breach?
+- standing water after rain?
+- deer/groundhog evidence?
+- new shade or tree-limb issue?
+
+A site problem can affect more plants than an individual plant problem.
 
 ---
 
@@ -221,6 +238,7 @@ Five-minute check plus:
 
 ## Weekend project
 Only schedule jobs such as:
+- property/site surveying
 - building trellises
 - installing drip irrigation
 - bed edging
@@ -229,30 +247,35 @@ Only schedule jobs such as:
 - soil amendments based on test
 - lifting/storing dahlias
 - constructing the wildflower tub
+- fence/barrier work
 
 ---
 
-# Example September brief — provisional Northern Kentucky
+# Example brief — September 2026, Richmond site
 
 ### URGENT
 - If current warm-season plants are still producing, harvest overripe cucumbers/squash/tomatoes before deterioration.
 - Photograph any disease symptoms before fall cleanup removes evidence.
+- If a heavy-rain event occurs, mark standing-water/slow-drainage zones while they are visible.
 
 ### THIS WEEK
-- Order/select garlic planting stock.
-- Decide which bed can remain occupied by garlic through early summer.
-- Measure the garden and begin the sun map.
+- Order/select garlic planting stock if not already secured.
+- Use `35_TWO_ACRE_SITE_SURVEY_PROTOCOL.md` to sketch house, driveway, trees, fences, north, water points, and candidate garden core.
+- Start separate Madison County soil samples for candidate vegetable/perennial areas.
+- Measure hose distance to the best sunny garden-core candidate.
 - Mark dahlias intended for winter storage.
-- Submit soil test if not already available.
 
 ### OPTIONAL
-- Photograph the garden from fixed reference points for year-over-year comparison.
-- Pick trellis/label/edging aesthetic.
+- Photograph the two-acre yard from fixed reference points for year-over-year comparison.
+- Choose a likely aesthetic direction from `25_STYLE_UPGRADES.md`.
+- Mark possible red-rose sightline/focal locations on the rough sketch.
 
 ### DO NOT TOUCH YET
-- Do not plant garlic just because it has arrived; use the appropriate fall window and soil conditions.
-- Do not randomly fertilize before the soil test.
-- Do not finalize asparagus/rhubarb coordinates without permanent-bed geometry.
+- Do not cultivate a huge portion of the two acres merely because it is available.
+- Do not buy a property-scale irrigation system until water points and garden-room coordinates are known.
+- Do not randomly fertilize before zone-specific soil tests.
+- Do not finalize asparagus/rhubarb coordinates without drainage/sun evidence.
+- Do not call the parcel USDA 7a or 6b with certainty until the exact location is pinned on the USDA map.
 
 ---
 
@@ -260,10 +283,11 @@ Only schedule jobs such as:
 
 The eventual Today Engine may ingest:
 - date
-- confirmed location
+- confirmed Richmond location
 - local forecast
 - observed rainfall
-- frost dates
+- garden-room microclimate
+- frost alerts
 - plant stage
 - last watering
 - soil moisture
@@ -275,7 +299,7 @@ The eventual Today Engine may ingest:
 
 But every generated task must expose its reason, for example:
 
-`WATER: Bed B tomatoes — soil dry at 3–4 in, no meaningful rain in 3 days, hot forecast.`
+`WATER: Kitchen Garden tomatoes — soil dry at 3–4 in, no meaningful rain in 3 days, hot forecast.`
 
 Not:
 
