@@ -1,288 +1,202 @@
-# Master Layout — Two-Acre Richmond Architecture
+# Master Layout — Quarter-Acre Richmond Garden
 
-**Status:** SITE SCALE CONFIRMED / COORDINATES PROVISIONAL  
+**Status:** GARDEN SCALE CONFIRMED / COORDINATES PROVISIONAL  
 **Location:** Richmond, Kentucky  
-**Property:** approximately 2 acres
+**Yard:** ~2 acres  
+**Garden:** ~1/4 acre = 10,890 sq ft  
+**Greenhouse:** 16 × 24 ft enclosed greenhouse inside garden footprint
 
-This is not yet a coordinate map. It is the **macro-layout logic** for a two-acre property. Exact placement waits on house position, north, shade, slopes, water sources, trees, utilities, and actual bed dimensions.
+The yard is not the garden. The masterplan now assumes one coherent quarter-acre garden with normal open yard around it.
 
-## Governing design principle — maintenance gradient
+## Governing principle
 
-Do not scatter high-maintenance crops across two acres merely because space exists.
+Build one **compact, complete garden campus** rather than a chain of garden rooms scattered across two acres.
 
-Organize the property as concentric effort zones:
+The quarter-acre should contain nearly everything the Garden OS manages day-to-day:
+- greenhouse
+- kitchen garden
+- annual rotation
+- permanent edibles
+- herbs
+- roses
+- flower/cutting beds
+- wildflower tub
+- compost/work space
+- irrigation hub
+- paths
 
-### Ring 0 — steps from the house
-High-frequency harvest and inspection.
-- basil
-- parsley
-- cilantro
-- culinary thyme/rosemary where drainage fits
-- selected containers
-- impatiens/geraniums if this is the best part-shade aesthetic zone
+## Default internal organization
 
-### Ring 1 — primary kitchen garden
-Daily/near-daily summer attention.
+### Zone 1 — Greenhouse + work hub
+**Default structure:** 16 × 24 ft enclosed greenhouse.
+
+Place near the primary entrance and practical water/electrical route.
+
+Adjacent outdoor functions:
+- seedling hardening area
+- potting/work table
+- small tool staging
+- irrigation header/manifold
+- compost/material route
+
+The greenhouse should not sit in the middle of the best outdoor production beds if its shadow can be avoided.
+
+### Zone 2 — Kitchen garden
+Highest-frequency crops:
 - heirloom tomato
 - beefsteak tomato
 - cherry tomato
-- jalapeño
 - bell peppers
+- jalapeños
 - eggplant
 - English cucumbers
 - cabbage
-- summer squash if selected
-- accessible cut flowers
-
-This is the zone that deserves the easiest hose access, best paths, strongest fencing if needed, and most convenient harvest route.
-
-### Ring 2 — permanent and lower-frequency garden rooms
-- asparagus
-- rhubarb
-- red roses
-- daylilies
-- coneflower
-- black-eyed Susan
-- lavender/dry herbs in a suitable drainage zone
-- perennial daisy/geranium/lupine selections where site fit is confirmed
-
-### Ring 3 — space-hungry / seasonal expansion
-- pumpkin vine run
-- winter squash if selected
-- potatoes
-- garlic block
-- succession/rotation reserve
-- larger cutting-flower blocks
-
-### Ring 4 — low-frequency ecological / visual edge
-- dedicated wildflower tub
-- optional future native/pollinator strip or meadow research area
-- visual buffer / future expansion reserve
-
-The user requested a separate wildflower tub; any larger pollinator area would be an optional future addition, not a substitution.
-
----
-
-# Annual production architecture
-
-Two acres gives enough room to implement a real rotation without shrinking each crop to token scale.
-
-## Four-block annual rotation concept
-
-If the chosen garden core has enough full sun, establish four comparable annual blocks:
-
-### Block A — Solanaceae
-- tomatoes
-- peppers
-- eggplant
-- potatoes
-
-### Block B — Cucurbitaceae
-- cucumber
-- squash
-- pumpkin (with vines trained outward from the block)
-
-### Block C — Brassica / cool-season
-- cabbage
-- shoulder-season succession space
-
-### Block D — flexible / allium / flowers / recovery
-- garlic
-- selected annual flowers
-- future cover-crop/rest experiments if desired
-
-Rotate family occupancy annually where practical. Perfect rotation is not mandatory, but a two-acre property removes the usual small-yard excuse for repeatedly planting the same disease-prone family in identical soil.
-
----
-
-# Permanent edible garden
-
-## Asparagus
-Give asparagus a dedicated long-term bed with:
-- excellent drainage
-- full sun
-- no annual tillage
-- weed-control access
-- room for mature fern growth without shading the main vegetable beds
-
-## Rhubarb
-Place in a permanent bed where:
-- drainage is good
-- crowns are easy to divide/maintain
-- summer heat stress can be managed
-- it is not boxed into a hot reflective wall pocket
-
-Asparagus and rhubarb can share the same general garden room but do not need identical irrigation or spacing.
-
----
-
-# Tomato / pepper / eggplant zone
-
-Rules:
-- orient tall tomatoes so they do not cast avoidable shade over peppers/eggplant
-- support every indeterminate tomato before rapid growth begins
-- preserve airflow; two acres means there is no reason to pack tomatoes shoulder-to-shoulder
-- leave harvest access on both sides where possible
-- record disease by bed so rotation has useful history
-
-Because Richmond summers are humid, **airflow is a yield feature**, not wasted space.
-
----
-
-# Cucurbit architecture
-
-## English cucumber
-Use a strong vertical trellis near the kitchen-garden core.
-
-## Summer squash
-If selected, use a bush-form zone with harvest access around each plant.
-
-## Winter squash / pumpkin
-Use the two-acre scale intelligently:
-- plant near an outer edge of a production block
-- deliberately route vines outward into a mown/managed run
-- keep vines out of primary paths
-- avoid shading shorter vegetables
-- allow inspection access for squash bugs, vine borer symptoms, and fruit rot
-
-A pumpkin vine should consume **planned expansion space**, not emergency space.
-
----
-
-# Potato architecture
-
-The yard is large enough that grow bags are no longer required purely for space-saving.
-
-Preferred options:
-1. dedicated in-ground/raised rotation block with hilling access
-2. grow bags only if they improve harvest convenience, soil isolation, or disease management
-
-Keep potatoes in the Solanaceae rotation history.
-
----
-
-# Garlic architecture
-
-Give garlic a defined fall-to-early-summer block.
-
-Design the succession before planting:
-- garlic occupies the soil through spring
-- after harvest/cure, the bed can transition to a later crop/flower or recovery planting if timing works
-- never double-book the bed in the spring plan
-
----
-
-# Herb architecture — split by biology and convenience
-
-## Kitchen/moisture group
-Near the house or primary harvest path:
 - basil
 - parsley
 - cilantro
 
-## Dry/drainage group
-In a distinctly freer-draining location:
-- rosemary
-- thyme
-- lavender
+Use the best full sun, shortest daily route, drip irrigation, and strongest paths.
 
-Do not irrigate these as one generic herb bed.
+### Zone 3 — Annual rotation/flex beds
+Provide enough contiguous annual soil to rotate major crop families rather than making every plant permanent.
 
----
+Rotation groups:
+- Solanaceae: tomatoes, peppers, eggplant, potatoes
+- Cucurbitaceae: cucumber, squash, pumpkin
+- Brassicaceae: cabbage
+- flexible/allium: garlic + annual flowers/other succession crops
 
-# Rose garden architecture
+Do not turn the entire quarter acre into vegetable beds. Roughly 2,700 sq ft is reserved for annual edible production in the initial area budget, plus a separate ~1,200 sq ft flex/sprawling zone.
 
-The larger property allows roses to operate as true focal points rather than fillers.
+### Zone 4 — Permanent edible bed
+- asparagus
+- rhubarb
 
-Design intent:
-- **classic red roses are the repeated dominant motif**
-- optional one white rose only in the backyard
-- use repetition at entrances, axes, or garden-room transitions
-- provide sun, airflow, pruning access, and soil-level irrigation
-- avoid packing companion plants tightly around canes
+Requirements:
+- excellent drainage
+- full sun where practical
+- no annual tillage
+- permanent irrigation/access route
+- no shading conflict with kitchen garden
 
-Possible spatial roles after survey:
-- paired red-rose entrance markers
-- red-rose focal at end of a path
-- red-rose rhythm along a primary flower border
-- one isolated white-rose surprise in the backyard, only if retained
+### Zone 5 — Herb garden split by water need
+**Moister culinary group:** basil, parsley, cilantro.  
+**Dry group:** rosemary, thyme, lavender.
 
----
+The dry group needs different soil/drainage and irrigation logic even if aesthetically connected.
 
-# Flower garden architecture
+### Zone 6 — Rose + flower garden
+Red roses remain the structural motif, with one optional white backyard exception.
 
-## Sun cutting/flower border
-Tall/back:
+Cutting/ornamental palette includes:
 - dahlias
+- zinnias
 - cosmos
-- tall zinnias
-
-Middle:
-- coneflower
-- black-eyed Susan
-- snapdragons
-- daylilies
-- selected daisies
-
-Front/repetition:
 - marigolds
-- compact annuals
+- snapdragons
+- coneflowers
+- black-eyed Susans
+- daisies
+- daylilies
+- lupines if site/cultivar fit
+- geraniums as exact type is resolved
 
-## Part-shade garden
+Use repeated masses and a clear height gradient rather than one plant of everything.
+
+### Zone 7 — Shade pocket
+For:
 - impatiens
-- selected geranium type once resolved
+- selected geranium type if shade-tolerant
 
-## Vertical flower structures
-Keep separate structures/seasons for:
+This can use legitimate partial shade from landscape/structure where it exists; do not shade full-sun crops just to manufacture a shade bed.
+
+### Zone 8 — Vertical flower structures
+Separate seasonal structures or succession use for:
 - morning glory — warm-season vigorous vine
-- sweet pea — cool-season vine
+- sweet peas — cool-season vine
 
-With two acres, a decorative arch/obelisk can be placed where it is visually meaningful instead of being forced onto a vegetable trellis.
+These can share a visual material language without sharing the same growth calendar.
 
----
+### Zone 9 — Sprawling crop edge
+Place toward an outer garden boundary:
+- pumpkin
+- squash
+- potatoes
+- garlic flex rows
 
-# Wildflower tub
+Pumpkin/squash vines may run into a designated internal flex strip or just beyond the hard bed edge temporarily, but the quarter-acre remains the designed garden envelope.
 
-Still physically separate from the main beds.
+### Zone 10 — Wildflower tub
+A distinct tub/stock-tank-style feature remains separate from normal flower beds.
 
-The two-acre property means the tub can be positioned as a deliberate destination or edge feature without competing for premium vegetable soil. Exact location should balance:
-- sun
-- easy establishment watering
-- visibility
-- seed-escape monitoring
-- pollinator observation
+Use it as a deliberate pollinator/detail feature near a path, bench, or garden edge rather than as a substitute for maintaining the rest of the quarter acre.
 
----
+## Path hierarchy
 
-# Infrastructure reserved before planting
+### Main spine
+~4 ft wide where practical for cart/wheelbarrow movement.
 
-The final map must allocate space for:
-- 3–4 ft primary paths where carts/wheelbarrows are expected
-- narrower secondary harvest paths where appropriate
-- hose/mainline route
-- tool staging
-- compost/material handling
-- harvest basket/wash staging
-- trellis anchors
-- future drip header/manifold
-- deer/rabbit/groundhog exclusion if pressure requires it
+Recommended sequence:
+entrance → greenhouse/work hub → kitchen garden → flower/perennial zones → flex/sprawling edge.
 
-## Two-acre rule
-The garden should feel **large in capability, compact in daily walking distance**.
+### Secondary paths
+~2.5–3 ft where practical.
 
----
+No bed should require stepping into root-zone soil for routine harvest or maintenance.
 
-# Final coordinate lock still requires
+## Raised vs in-ground
 
-- property sketch/aerial image
-- house and driveway position
-- north arrow
-- mature tree locations
+Use a hybrid system.
+
+Raised beds are most justified for:
+- polished high-frequency kitchen garden areas
+- drainage/accessibility problems
+- soil-control areas near greenhouse
+
+In-ground beds are more economical for:
+- potatoes
+- pumpkin/squash
+- large cutting-flower blocks
+- larger annual rotation areas
+
+Do not build 10,000 sq ft of expensive raised beds simply because the garden has a formal look.
+
+## Area budget
+
+Use `39_QUARTER_ACRE_GARDEN_PROGRAM.md` as the sizing guardrail.
+
+Current approximate allocation:
+- greenhouse: 384 sq ft
+- annual edible production: 2,700 sq ft
+- permanent edible + herbs: 1,200 sq ft
+- roses + flowers: 1,800 sq ft
+- pumpkin/squash/potato/garlic/flex: 1,200 sq ft
+- paths/work/compost/irrigation: 1,800 sq ft
+- buffer/pollinator/future adjustment: 1,806 sq ft
+
+Total = 10,890 sq ft.
+
+## Visual character
+
+Target: **formal bones + cottage abundance**.
+
+Use:
+- crisp paths
+- consistent trellis/support material
+- red-rose focal repetition
+- lush vegetables and cut flowers
+- greenhouse as a purposeful architectural anchor
+- clean transition from quarter-acre garden to ordinary yard
+
+## Final coordinate lock still requires
+
+- aerial/rough property sketch
+- exact quarter-acre candidate location
+- north
+- mature trees/shade
 - slopes/low spots
-- existing beds/structures
-- sun map
-- hose/water points
-- septic/utilities/restricted areas
+- water source
+- septic/utilities/no-dig zones
 - wildlife pressure
 
-Once those arrive, convert this file into a scaled bed/zone plan rather than replacing the architecture with a new concept.
+Once those arrive, this file should become a measured bed/feature plan while preserving the 10,890 sq ft boundary and 16 × 24 greenhouse requirement.
