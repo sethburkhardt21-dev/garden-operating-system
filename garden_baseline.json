@@ -1,17 +1,36 @@
 {
-  "version": "0.1",
+  "version": "0.3",
   "built": "2026-09-05",
-  "status": "PROVISIONAL",
+  "status": "SITE_CONFIRMED_GEOMETRY_PROVISIONAL",
   "site": {
-    "coarse_region": "northern Kentucky (assistant estimate; user confirmation required)",
-    "exact_location": null
+    "city": "Richmond",
+    "state": "Kentucky",
+    "county": "Madison County",
+    "yard_acres_approx": 2,
+    "location_status": "SITE CONFIRMED",
+    "usda_zone_working_range": ["6b", "7a"],
+    "exact_parcel_half_zone": null,
+    "property_geometry_status": "PROVISIONAL",
+    "sun_map_status": "PROVISIONAL",
+    "soil_test_status": "PROVISIONAL",
+    "water_map_status": "PROVISIONAL"
   },
   "design_invariants": {
     "red_roses_primary": true,
     "white_rose_optional_backyard_max": 1,
     "wildflower_tub_separate": true,
     "preserve_requested_plants": true,
-    "portable_canonical_data": true
+    "portable_canonical_data": true,
+    "maintenance_gradient": true,
+    "do_not_cultivate_full_two_acres_by_default": true,
+    "permanent_edibles_separate": true
+  },
+  "maintenance_gradient": {
+    "ring_0": "near-house herbs, containers, frequent-use plants",
+    "ring_1": "high-maintenance kitchen garden",
+    "ring_2": "permanent edible and ornamental garden rooms",
+    "ring_3": "pumpkin/squash, potatoes, garlic, rotation and expansion",
+    "ring_4": "lower-frequency ecological/visual edge"
   },
   "plant_count": 38,
   "canonical_plant_source": "04_PLANT_MASTER_LEDGER.csv",
