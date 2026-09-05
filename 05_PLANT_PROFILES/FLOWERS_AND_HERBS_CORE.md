@@ -1,6 +1,6 @@
-# Core Flower + Herb Plant Profiles — v0.2
+# Core Flower + Herb Plant Profiles — Richmond v0.3
 
-**Status:** RESEARCHED baseline; exact cultivar/site timing remains PROVISIONAL until the site is confirmed.
+**Status:** LOCATION CONFIRMED / cultivar and exact placement still PROVISIONAL until parcel sun, drainage, and final garden-room geometry are mapped.
 
 ---
 
@@ -12,11 +12,12 @@
 **Harvest:** pinch stems above leaf nodes before plants get woody; remove flower buds when leaf production is the priority.  
 **Watch:** downy mildew, cold damage, slug/snail injury on young plants.  
 **Style role:** lush edible edging near tomatoes/harvest path.  
+**Two-acre placement:** Ring 0/1, close to the house or main harvest route.  
 **Biggest mistake:** waiting too long between harvests so plants become tall, flowering, and sparse.
 
 ## Rosemary
 **Wants:** strong sun, sharp drainage, less frequent watering than basil/parsley.  
-**Winter:** treat as conditionally hardy in the provisional northern-Kentucky plan; container culture gives an escape route during severe winter weather.  
+**Winter:** Richmond sits near a 6b–7a transition at coarse scale, so treat rosemary as conditionally hardy unless the exact cultivar and protected microclimate prove reliable. Container culture or a deliberate overwinter strategy remains the safest baseline.  
 **Harvest:** clip tips without stripping the whole plant.  
 **Watch:** root rot from wet soil, weak indoor light if overwintered.  
 **Biggest mistake:** putting it on the same frequent-water circuit as thirsty annual vegetables.
@@ -37,7 +38,7 @@
 
 ## Cilantro
 **Wants:** cooler conditions than basil, sun/part sun, even moisture.  
-**Strategy:** succession sow small batches because heat triggers bolting.  
+**Strategy:** succession sow small batches because Richmond summer heat will accelerate bolting.  
 **Harvest:** young leaves frequently; allow selected plants to flower/seed if coriander or beneficial-insect habitat is desired.  
 **Biggest mistake:** planting one giant batch in warm weather and expecting months of leaf harvest.
 
@@ -45,6 +46,7 @@
 **Wants:** full sun, excellent drainage, airflow, relatively lean conditions.  
 **Type:** cold-hardy English lavender is the default direction.  
 **Water:** establishment water, then avoid chronic wetness.  
+**Placement:** use a distinct dry garden room rather than a wet vegetable bed.  
 **Pruning:** shape after flowering/at appropriate seasonal timing without cutting brutally into old woody structure.  
 **Biggest mistake:** treating it like a rich, frequently irrigated vegetable.
 
@@ -56,9 +58,10 @@
 **Design invariant:** red is the dominant rose color.  
 **Wants:** full sun, good airflow, deep root-zone watering, disease-resistant cultivar.  
 **Kentucky priority:** black-spot resistance matters because black spot is a major regional rose disease.  
+**Two-acre advantage:** give roses mature spacing and real visual prominence; there is no reason to crowd them against vegetables.  
 **Maintenance:** deadhead as cultivar benefits, remove damaged/diseased material, prune for structure and air movement.  
 **Watch:** black spot, Japanese beetles, aphids, cane injury.  
-**Style role:** repeated focal points, not random shrubs hidden among vegetables.  
+**Style role:** repeated focal points, entrances, axes, and garden-room transitions.  
 **Biggest mistake:** choosing a rose only from bloom photography while ignoring disease resistance and mature size.
 
 ## Optional White Rose
@@ -72,9 +75,10 @@ Same biological care as the selected rose class. The design rule is stricter: **
 **Wants:** full sun, fertile drained soil, consistent water, room for airflow.  
 **Support:** stake tall/heavy-flowered cultivars early.  
 **Bloom management:** cut/deadhead regularly for continued flower production.  
-**Winter:** Kentucky plan assumes tubers will be lifted/stored unless site/cultivar evidence proves otherwise.  
+**Winter:** Richmond/Kentucky plan assumes tubers will be lifted/stored unless specific site/cultivar evidence proves otherwise.  
 **Watch:** slugs/snails when young, spider mites, stem breakage, rot in storage.  
 **Style role:** dramatic tall summer/fall focal flowers.  
+**Two-acre placement:** cutting-flower room or repeated visual blocks, but still close enough for frequent harvesting.  
 **Biggest mistake:** waiting until stems are already flopping to add support.
 
 ## Zinnias
@@ -92,9 +96,9 @@ Same biological care as the selected rose class. The design rule is stricter: **
 **Biggest mistake:** assuming marigolds magically repel every vegetable pest.
 
 ## Daisies — exact species unresolved
-Do not create a final profile until “daisy” is resolved. Shasta daisy would be a likely perennial candidate, but the original category remains open.
+Do not create a final profile until “daisy” is resolved. Shasta daisy is a likely perennial candidate, but the original category remains open.
 
-**Selection criteria:** hardiness, mature height, bloom season, disease resistance, tendency to spread, cut-flower value.
+**Selection criteria:** Richmond hardiness, mature height, bloom season, disease resistance, spread, cut-flower value.
 
 ## Purple Coneflowers
 **Wants:** sun to part sun, drained soil, moderate establishment water; more drought tolerant when established.  
@@ -110,7 +114,7 @@ Do not create a final profile until “daisy” is resolved. Shasta daisy would 
 
 ## Cosmos
 **Wants:** full sun, good drainage, not excessive fertilizer.  
-**Habit:** airy/tall annual; may need support in wind.  
+**Habit:** airy/tall annual; may need support in open-yard wind.  
 **Bloom:** cut/deadhead for continued flowering.  
 **Biggest mistake:** feeding too heavily and creating lush floppy foliage with fewer flowers.
 
@@ -132,7 +136,7 @@ Do not create a final profile until “daisy” is resolved. Shasta daisy would 
 **Timing:** fundamentally different from morning glory; do not treat both vines as one seasonal crop.  
 **Harvest:** frequent flower cutting extends display.  
 **Warning:** ornamental sweet peas are not edible garden peas.  
-**Biggest mistake:** sowing them for peak performance in the hottest part of summer.
+**Biggest mistake:** sowing them for peak performance in Richmond's hottest summer period.
 
 ## Snapdragons
 **Wants:** sun, cool-season conditions, drained fertile soil.  
@@ -142,7 +146,7 @@ Do not create a final profile until “daisy” is resolved. Shasta daisy would 
 
 ## Lupines
 **Status:** CONDITIONAL.  
-**Reason:** species/cultivar choice and heat/humidity tolerance must be verified for the exact site.  
+**Reason:** species/cultivar choice and heat/humidity tolerance must be verified for Richmond.  
 **Wants:** generally sun, excellent drainage, cooler root conditions.  
 **Biggest mistake:** buying a spectacular cultivar bred for a cooler climate and assuming it will persist in humid Kentucky summers.
 
@@ -157,7 +161,7 @@ The list may mean annual bedding `Pelargonium` or hardy perennial `Geranium` (cr
 **Use:** durable perennial structure and repeated rhythm.  
 **Maintenance:** remove spent scapes when appearance matters; divide congested clumps when bloom declines.  
 **Watch:** daylily rust/leaf streak depending cultivar and conditions.  
-**Biggest mistake:** placing them where expanding clumps will eventually smother smaller annuals.
+**Biggest mistake:** placing them where expanding clumps eventually smother smaller annuals.
 
 ---
 
@@ -174,5 +178,5 @@ The list may mean annual bedding `Pelargonium` or hardy perennial `Geranium` (cr
 **High summer:** zinnia + dahlia + cosmos + marigold.  
 **Late summer/fall:** dahlia + zinnia + coneflower + Rudbeckia + selected cosmos.
 
-## Style invariant
-Repetition beats “one of everything.” Use the requested list as a palette, then create repeated groups, height layers, and focal points so the abundance looks designed.
+## Two-acre style invariant
+Repetition beats “one of everything.” Use the requested list as a palette, then create repeated groups and garden rooms large enough to read from across the yard while keeping detailed cutting/harvest areas close enough for easy maintenance.
