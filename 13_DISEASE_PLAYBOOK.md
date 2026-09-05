@@ -1,6 +1,6 @@
-# Disease Diagnostic + Prevention Playbook — v0.2
+# Disease Diagnostic + Prevention Playbook — Richmond, Kentucky v0.3
 
-**Status:** RESEARCHED / PROVISIONAL for northern Kentucky.
+**Status:** RESEARCHED FOR KENTUCKY / LOCATION CONFIRMED / exact disease pressure becomes OBSERVED IN THIS GARDEN after field evidence.
 
 This file is symptom-first because the gardener usually sees a symptom before knowing the cause.
 
@@ -11,7 +11,7 @@ Never diagnose from a single symptom alone.
 Before treatment, collect:
 - plant ID/cultivar
 - plant age/stage
-- exact location
+- exact garden room/bed
 - when symptom first appeared
 - whether symptoms begin low/high/one side/all over
 - soil moisture
@@ -20,18 +20,18 @@ Before treatment, collect:
 - insect evidence
 - clear photos of whole plant + affected tissue + leaf underside + stem/fruit when relevant
 
-When uncertain, use local Cooperative Extension/plant diagnostic services rather than guessing.
+When uncertain, use Madison County Cooperative Extension / appropriate UK diagnostic resources rather than guessing.
 
 ---
 
-# Kentucky priority risks
+# Richmond/Kentucky priority risks
 
 ## Tomatoes
 University of Kentucky guidance describes tomato leaf diseases as common in home gardens, with warm/wet early-summer weather increasing fungal disease pressure. Early blight and Septoria commonly occur in Kentucky.
 
 ### Prevention stack
 - resistant/tolerant cultivars where available
-- adequate spacing and airflow
+- generous spacing and airflow; the two-acre property removes the need for crowding
 - stake/trellis foliage off soil
 - mulch to reduce soil splash
 - water at root zone rather than routinely wetting leaves
@@ -47,11 +47,11 @@ Possible causes:
 - other fungal/bacterial leaf diseases
 - normal lower-leaf senescence if limited
 
-Do not call every brown tomato leaf "blight."
+Do not call every brown tomato leaf “blight.”
 
 ### Symptom: blossom end turns dark/sunken
 Likely disorder to investigate: blossom-end rot.
-Check moisture consistency and root function before assuming the soil simply lacks calcium. Kentucky beginner guidance links the problem strongly with high temperatures/low soil moisture and emphasizes regular watering.
+Check moisture consistency and root function before assuming soil simply lacks calcium. Kentucky beginner guidance strongly links the problem with high temperatures/low soil moisture and emphasizes regular moisture.
 
 ### Symptom: fruit cracks
 Check rapid moisture swings, cultivar tendency, ripeness, and weather.
@@ -73,15 +73,14 @@ Prevention:
 ---
 
 ## Cucurbits — cucumber, squash, pumpkin
-### Priority disease complex
-Kentucky resources flag substantial disease pressure in cucurbits. Important late-season pumpkin problems include powdery mildew, downy mildew, black rot and Plectosporium.
+Kentucky resources flag meaningful disease pressure in cucurbits. Important late-season pumpkin problems include powdery mildew, downy mildew, black rot and Plectosporium.
 
 ### Symptom: white powder on leaves
 Possible:
 - powdery mildew
 - harmless residue/spray deposit
 
-Check whether growth is fuzzy/powdery and expanding across leaves before diagnosing.
+Check whether growth is fuzzy/powdery and expanding before diagnosing.
 
 ### Symptom: angular/yellow lesions with rapid decline
 Consider downy mildew and other leaf diseases. Use Extension images/diagnostics before treatment.
@@ -98,10 +97,12 @@ Check:
 ### Prevention
 - resistant cultivars
 - spacing
-- trellising cucumber when practical
+- trellising cucumber where practical
 - crop-family rotation
 - remove severely infected residues appropriately
 - avoid following cucurbits immediately with cucurbits when alternatives exist
+
+On the two-acre site, route pumpkin/squash vines so stems remain inspectable and foliage is not packed into a humid wall.
 
 ---
 
@@ -135,14 +136,14 @@ Immediate response to crown decline:
 - stop assuming it needs more water
 - inspect soil saturation/drainage
 - inspect crown tissue
-- isolate affected plant if severe
+- isolate/remove severely affected tissue only when diagnosis supports it
 
 Rhubarb leaves are toxic and should not be eaten.
 
 ---
 
 ## Asparagus
-Soil-borne pathogens are among the most damaging problems in asparagus plantings. Site drainage is therefore infrastructure, not an afterthought.
+Soil-borne pathogens are among the most damaging problems in asparagus plantings. Site drainage is infrastructure, not an afterthought.
 
 Red flags:
 - chronic wet soil
@@ -156,14 +157,14 @@ Red flags:
 
 ## LEAVES YELLOW
 Check in order:
-1. Is it only oldest/lower foliage?
-2. Soil dry or saturated?
-3. Heat stress?
-4. Root damage?
-5. Nitrogen deficiency pattern?
-6. Spots/lesions indicating disease?
-7. Sap-feeding insects underneath?
-8. Recent herbicide/fertilizer exposure?
+1. only oldest/lower foliage?
+2. soil dry or saturated?
+3. heat stress?
+4. root damage?
+5. nitrogen-deficiency pattern?
+6. spots/lesions indicating disease?
+7. sap-feeding insects underneath?
+8. recent herbicide/fertilizer exposure?
 
 ## LEAVES CURL
 Check:
@@ -179,8 +180,6 @@ Check:
 - mineral/spray residue
 - dust
 
-Use magnification/photo comparison if uncertain.
-
 ## BLACK SPOTS
 Plant matters:
 - rose → black spot high on list
@@ -195,14 +194,14 @@ Usually start in IPM, not disease:
 - flea beetles
 - Japanese beetles
 - slugs/snails
-- physical hail/wind injury
+- hail/wind injury
 
 ## WILTING
 Check soil before watering.
 
-Dry soil + hot conditions → water stress plausible.
-Wet soil + wilt → root oxygen/root disease/vascular disease/stem injury more concerning.
-One vine only → inspect stem/root physically.
+Dry soil + heat → water stress plausible.  
+Wet soil + wilt → root oxygen/root disease/vascular disease/stem injury more concerning.  
+One vine only → inspect stem/root physically.  
 Whole bed after heat → environmental stress more likely.
 
 ## FLOWERS BUT NO FRUIT
@@ -224,6 +223,21 @@ Record photos before removal, then inspect:
 - crown rot
 - vascular discoloration
 - mechanical break
+
+---
+
+# Site-scale disease mapping
+
+On a two-acre property, disease patterns can expose microclimate problems.
+
+Record whether repeated disease clusters occur in:
+- low/wet areas
+- shaded edges
+- poor-airflow fence corners
+- lawn-sprinkler overspray zones
+- beds with the same crop family history
+
+If the same disease repeatedly concentrates in one garden room, change the **site design**, not just the spray schedule.
 
 ---
 
@@ -255,4 +269,4 @@ Before using any fungicide/bactericide:
 5. pollinator/environmental impacts must be considered
 6. record product/date/rate/result
 
-No treatment should exist only because "something looks bad."
+No treatment should exist only because “something looks bad.”
