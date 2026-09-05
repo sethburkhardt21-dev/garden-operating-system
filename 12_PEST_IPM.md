@@ -1,6 +1,6 @@
-# Integrated Pest Management — v0.2
+# Integrated Pest Management — Richmond, Kentucky v0.3
 
-**Status:** RESEARCHED / PROVISIONAL for northern Kentucky. Exact pressure becomes SITE CONFIRMED only after the first season of observations.
+**Status:** RESEARCHED for Kentucky / SITE LOCATION CONFIRMED / exact pest pressure becomes OBSERVED IN THIS GARDEN only after site evidence and the first full season.
 
 The garden uses IPM, not a reflexive pesticide schedule.
 
@@ -12,13 +12,13 @@ The garden uses IPM, not a reflexive pesticide schedule.
 4. Use physical/mechanical control.
 5. Protect or encourage beneficial organisms.
 6. Use the lowest-impact appropriate labeled treatment if justified.
-7. Escalate only if the expected crop/plant loss warrants it.
+7. Escalate only if expected crop/plant loss warrants it.
 
 Never treat an edible crop with a pesticide unless the label explicitly allows that crop and use. Protect pollinators and avoid spraying open flowers when pollinators are active.
 
 ---
 
-# Priority pest groups for this exact garden
+# Priority pest groups for this exact Richmond garden
 
 ## Cucurbits — cucumber, squash, pumpkin
 
@@ -28,12 +28,12 @@ Never treat an edible crop with a pesticide unless the label explicitly allows t
 **Scout:** newly emerged/transplanted cucurbits are especially vulnerable.
 
 **First response:**
-- inspect daily while plants are small
+- inspect frequently while plants are small
 - remove beetles mechanically where practical
 - use row cover before flowering if compatible with pollination plan
 - uncover at flowering when pollinator access is required unless hand pollination is planned
 
-Kentucky's backyard cucurbit IPM guidance uses approximately one cucumber beetle or squash bug per plant as a management trigger, rather than treating at the first sight of any insect.
+Kentucky backyard cucurbit IPM guidance uses roughly one cucumber beetle or squash bug per plant as a management trigger rather than treating at the first sight of any insect.
 
 ### Squash bugs
 **Look for:** bronze egg clusters, gray nymphs, adults around stems/undersides, stippling and wilting.
@@ -43,10 +43,10 @@ Kentucky's backyard cucurbit IPM guidance uses approximately one cucumber beetle
 ### Squash vine borer
 **Look for:** sudden vine wilt, frass/sawdust-like material near stem base, swollen/damaged stem.
 
-**Design mitigation:** use cultivar/species choices and timing strategically; inspect stem bases before assuming a wilted cucurbit only needs water.
+**Design mitigation:** inspect stem bases before assuming wilt means only water stress. The two-acre site gives room to route vines where stems remain accessible for inspection.
 
 ### Aphids/spider mites
-Usually secondary unless populations are large. Check undersides and look for beneficial predators before acting.
+Usually secondary unless populations become large. Check undersides and look for beneficial predators before acting.
 
 ---
 
@@ -57,8 +57,8 @@ Usually secondary unless populations are large. Check undersides and look for be
 
 **Best early controls:**
 - physical exclusion with insect netting/row cover
-- hand removal in a small garden
-- keep the cover sealed at edges
+- hand removal at home-garden scale
+- keep covers sealed at edges
 
 If biological treatment becomes justified, confirm pest identity and product label first.
 
@@ -79,13 +79,13 @@ Priority on potatoes and potentially eggplant.
 
 **Look for:** striped adults, orange egg clusters, red/orange larvae, rapid defoliation.
 
-**First response:** frequent scouting and hand removal at small-garden scale; rotate potatoes away from prior Solanaceae ground where possible.
+**First response:** frequent scouting and hand removal; rotate potatoes away from prior Solanaceae ground where practical.
 
 ## Aphids
 Treat the population, not the existence of an aphid. Look for curled new growth, sticky honeydew, and natural enemies.
 
 ## Pepper/tomato fruit pests
-Any fruit chewing, boring, or internal feeding should be photographed and identified before treatment because several different insects can create superficially similar damage.
+Any fruit chewing, boring, or internal feeding should be photographed and identified before treatment because multiple insects can create similar damage.
 
 ---
 
@@ -94,11 +94,11 @@ Any fruit chewing, boring, or internal feeding should be photographed and identi
 ## Japanese beetles
 Kentucky rose guidance flags Japanese beetles as a recurring problem even on disease-resistant roses.
 
-**Small-garden strategy:**
+**Home-garden strategy:**
 - inspect in morning
 - knock adults into soapy water where practical
 - avoid creating a broad-spectrum spray routine that kills pollinators and natural enemies
-- expect aesthetic damage tolerance to be part of the plan
+- expect some aesthetic damage tolerance
 
 ## Aphids
 Often manageable with water spray/mechanical control and predator conservation unless infestations are severe.
@@ -122,19 +122,31 @@ Aphids, whiteflies, mites and similar pests become more concerning when they dis
 
 ---
 
-# Mammals — site pressure still unknown
+# Mammals — especially important on a two-acre yard
+
+Wildlife pressure is still unmeasured. On two acres, solve recurring mammal damage at the **zone/perimeter level** where possible rather than protecting every plant separately.
 
 ## Deer
-If present, this changes the physical architecture. A true deer problem is better solved with a barrier strategy than endless plant-by-plant rescue.
+If present at meaningful pressure, this changes the physical architecture. A real deer problem is better solved with a barrier strategy around the high-value kitchen/perennial core than endless plant-by-plant rescue.
 
 ## Rabbits
-Protect young vegetables and tender stems with low fencing/hardware cloth where needed.
+Protect young vegetables and tender stems with low fencing/hardware cloth where needed. Map entry points.
 
 ## Groundhogs
-A confirmed groundhog can defeat ordinary low fencing; this becomes a structural exclusion problem.
+A confirmed groundhog can defeat ordinary low fencing; this becomes a structural exclusion and burrow-location problem.
 
 ## Squirrels/chipmunks
-Expect occasional fruit digging/seed disturbance. Do not redesign the whole garden until actual loss is measured.
+Expect occasional fruit digging/seed disturbance. Do not redesign the entire garden until actual loss is measured.
+
+### Wildlife survey
+Before the final fence design, record:
+- tracks
+- browse damage height
+- pellets/droppings
+- burrows
+- fence gaps
+- tree/brush corridors
+- time-of-day sightings
 
 ---
 
@@ -145,7 +157,7 @@ This garden deliberately includes roses, coneflowers, Rudbeckia, zinnias, cosmos
 Therefore:
 - avoid broad-spectrum insecticide use as a default
 - never treat open flowers casually
-- prefer evening timing only when the product label and target justify treatment
+- use treatment timing only when label/target justify it
 - read the full label
 - do not assume “organic” means harmless to pollinators
 
@@ -165,4 +177,7 @@ Every meaningful event should record:
 - action taken
 - result after 24 h / 7 d
 
-The goal is to learn which pests are actually important in this garden rather than importing every theoretical Kentucky pest into the maintenance burden.
+The goal is to learn which pests are actually important in **this Richmond property** rather than importing every theoretical Kentucky pest into the maintenance burden.
+
+## Local escalation
+For ambiguous or severe recurring problems, Madison County Cooperative Extension is the first local horticultural escalation point before guessing or repeatedly treating.
