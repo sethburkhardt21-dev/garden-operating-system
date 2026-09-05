@@ -1,53 +1,80 @@
-# Garden Operating System — START HERE — v0.2
+# Garden Operating System — START HERE — v0.3
 
-**Status:** RESEARCHED OPERATING CORE / PHYSICAL SITE STILL PROVISIONAL  
+**Status:** RICHMOND SITE CONFIRMED / TWO-ACRE ARCHITECTURE / COORDINATES PROVISIONAL  
 **Updated:** 2026-09-05
 
 ## Current truth
 
 The exact requested plant list from the supplied screenshots is preserved in `04_PLANT_MASTER_LEDGER.csv`. No requested plant has been silently removed.
 
-The research/operations layer has now advanced beyond the original baseline:
-- core edible profiles exist
-- core flower/herb profiles exist
-- Kentucky-aware cultivar candidates exist
-- pest IPM exists
-- disease decision trees exist
-- a human-friendly Today Engine exists
-- the GitHub/open-source audit has completed a deeper architecture pass
-- the research ledger has expanded to current Kentucky Extension and repository evidence
+The user has now site-confirmed:
+- **Richmond, Kentucky / Madison County**
+- **approximately 2-acre yard**
+
+The old northern-Kentucky assumption is superseded.
+
+The research/operations layer includes:
+- core edible profiles
+- core flower/herb profiles
+- Kentucky-aware cultivar candidates
+- pest IPM
+- disease decision trees
+- harvest system
+- human-friendly Today Engine
+- open-source/GitHub reuse audit
+- Richmond/Madison local research baseline
+- two-acre maintenance-gradient layout architecture
+- a site-survey protocol for converting the yard into a precision map
+
+## Site architecture now in force
+
+Do not spread daily-care crops over the entire yard simply because two acres exist.
+
+Use the maintenance gradient:
+
+1. **Near-house convenience** — herbs/containers/frequent harvest.
+2. **Kitchen-garden core** — tomatoes, peppers, eggplant, cucumbers, cabbage, frequent vegetables/flowers.
+3. **Permanent garden rooms** — asparagus, rhubarb, roses, perennial flowers, dry herbs.
+4. **Expansion/space-hungry zone** — pumpkin, squash, potatoes, garlic, rotation blocks.
+5. **Low-frequency edge** — wildflower feature and optional future ecological expansion.
+
+Goal: **large capability, compact daily route.**
 
 ## Still not allowed to fake
 
-The following remain unknown until the user provides them:
-- exact ZIP/city
-- property dimensions
-- bed dimensions
+These remain unknown:
+- exact parcel/property shape
+- house position within the two acres
 - north orientation
+- mature-tree locations/shadows
 - actual sun hours
-- soil test
-- drainage observations
-- water/hose locations
+- soil-test results
+- drainage/low spots
+- water/hose positions and pressure
+- septic/utilities/no-dig zones
 - wildlife pressure
+- final garden-core dimensions
 
-A coarse northern-Kentucky assumption is being used only for provisional research. Do not turn that assumption into false site certainty.
+Richmond is on a coarse USDA 2023 6b–7a transition. Do not claim the exact parcel half-zone until it is pinned on the USDA map.
 
 ## Read in this order
 
 1. `README.md`
 2. `02_SITE_PROFILE.md`
 3. `03_MASTER_LAYOUT_PROVISIONAL.md`
-4. `04_PLANT_MASTER_LEDGER.csv`
-5. `05_PLANT_PROFILES/`
-6. `31_CULTIVAR_MATRIX_PROVISIONAL.md`
-7. `06_ANNUAL_CALENDAR_PROVISIONAL.md`
-8. `32_TODAY_ENGINE.md`
-9. `12_PEST_IPM.md`
-10. `13_DISEASE_PLAYBOOK.md`
-11. `27_GITHUB_REUSE_AUDIT.md`
-12. `28_RESEARCH_LEDGER.md`
-13. `29_DECISION_LOG.md`
-14. `30_OPEN_QUESTIONS.md`
+4. `34_RICHMOND_KY_SITE_BASELINE.md`
+5. `35_TWO_ACRE_SITE_SURVEY_PROTOCOL.md`
+6. `04_PLANT_MASTER_LEDGER.csv`
+7. `05_PLANT_PROFILES/`
+8. `31_CULTIVAR_MATRIX_PROVISIONAL.md`
+9. `06_ANNUAL_CALENDAR_PROVISIONAL.md`
+10. `32_TODAY_ENGINE.md`
+11. `12_PEST_IPM.md`
+12. `13_DISEASE_PLAYBOOK.md`
+13. `27_GITHUB_REUSE_AUDIT.md`
+14. `28_RESEARCH_LEDGER.md`
+15. `29_DECISION_LOG.md`
+16. `30_OPEN_QUESTIONS.md`
 
 ## Human operating principle
 
@@ -66,16 +93,19 @@ Use only:
 - `OBSERVED IN THIS GARDEN`
 - `SUPERSEDED`
 
-When new evidence changes a conclusion, update the current document and preserve the old reasoning in `29_DECISION_LOG.md` or history. Do not build a pile of contradictory instructions.
+When new evidence changes a conclusion, update the current document and preserve old reasoning in `29_DECISION_LOG.md` or history. Do not build a pile of contradictory instructions.
 
 ## Immediate next gate
 
-Physical design cannot advance from architecture to exact coordinates without at minimum:
-1. confirmed location/ZIP
-2. rough overhead sketch with dimensions
-3. north direction
-4. bed/container dimensions
-5. approximate direct-sun hours
-6. hose/water locations
+Location and property scale are now solved.
 
-All other research can continue while those are pending.
+Physical design can advance to exact coordinates once the user provides, at minimum:
+1. rough overhead yard sketch/aerial with house and major features
+2. north direction
+3. candidate garden-core dimensions or reference measurements
+4. major mature trees
+5. hose/water locations
+6. obvious slopes/low wet areas
+7. approximate direct-sun hours for the best candidate garden area
+
+Use `35_TWO_ACRE_SITE_SURVEY_PROTOCOL.md`; a crude sketch is enough to begin.
