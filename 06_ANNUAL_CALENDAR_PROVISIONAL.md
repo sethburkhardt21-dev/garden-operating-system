@@ -1,158 +1,210 @@
-# Annual Calendar — Richmond, Kentucky v0.3
+# Annual Calendar — Richmond, Kentucky v0.4
 
-**Status:** LOCATION-CONFIRMED / PARCEL-MICROCLIMATE PROVISIONAL  
-**Updated:** 2026-09-05
+**Status:** LOCATION + GARDEN SCALE CONFIRMED / PARCEL-MICROCLIMATE PROVISIONAL  
+**Updated:** 2026-09-05  
+**Garden:** ~1/4 acre including 16 × 24 ft enclosed greenhouse
 
-Richmond sits in Madison County and should be planned with Central/Eastern Kentucky Extension timing plus parcel-specific frost/topography observations. Do not turn any average frost date into a guarantee.
+Use Central/Eastern Kentucky Extension timing plus actual Richmond-yard frost, soil, and weather observations. The greenhouse changes season-extension options but does not make outdoor planting dates irrelevant.
 
-## September 2026 — current planning window
+## September 2026
 
-### URGENT / high value now
-- photograph the yard and any existing beds from fixed viewpoints before seasonal change removes evidence
-- order/select garlic planting stock if not already secured
-- choose candidate zones for 2027 vegetable core, asparagus/rhubarb, roses, dry herbs, and pumpkin run
-- mark obvious low/wet spots after heavy rain
-- begin separate soil samples for biologically different garden zones
+### Highest-value work now
+- identify the best quarter-acre garden candidate rather than mapping all two acres in fine detail
+- stake the provisional 16 × 24 ft greenhouse footprint
+- photograph the greenhouse and garden candidate from fixed viewpoints
+- order/select garlic planting stock
+- begin separate soil samples for vegetable, greenhouse-adjacent, perennial, flower/rose, dry-herb, and problem areas
+- map house/drive/trees/fences/sheds/water/north/major slopes
+- record morning/noon/afternoon sun for greenhouse and vegetable candidates
+- mark which dahlias are worth storing
+- document pest/disease evidence before cleanup
 
-### This month
-- map house, drive, trees, fences, sheds, hose bibs, and major slopes on a rough overhead sketch
-- measure the likely high-maintenance garden core rather than the entire two acres in fine detail first
-- record sun at morning/noon/afternoon for candidate vegetable areas
-- decide which dahlias are worth lifting/storing
-- document current pest/disease evidence before cleanup destroys diagnostic history
-
-### Soil-testing advantage
-Madison County currently advertises free soil testing for residents, up to 10 samples per home/farm per calendar year. Use separate samples for candidate production/perennial zones rather than combining the entire two-acre yard.
+### Greenhouse planning
+- choose whether year-one use is primarily propagation/season extension or includes protected fruiting crops
+- decide unheated vs frost-protection heat as the default
+- assess water/electrical feasibility
+- observe wind and drainage at the staked footprint
 
 ---
 
 ## October–early November 2026
 
 ### Garlic
-University of Kentucky home-garden guidance places garlic in the fall planting cycle; dedicated Kentucky garlic guidance emphasizes roughly October into early November.
+Plant in the designated quarter-acre flex/rotation area according to Kentucky guidance and site conditions.
 
-Actions:
-- plant only in a sunny, well-drained, prepared bed
-- record variety/source and exact planting date
-- mulch after planting as appropriate
-- map the garlic block because it remains occupied through spring/early summer
+Record:
+- cultivar/source
+- planting date
+- bed ID
+- clove count
+- spacing/depth
+- mulch
 
-### Cleanup / overwintering
-- after frost finishes tender crops, remove/manage diseased crop residue appropriately
-- clean cages, stakes, trellises, harvest tools
-- lift/store dahlia tubers where needed
-- label permanent crowns/plants so spring cleanup does not damage them
-- inspect irrigation components before freeze weather
+### Greenhouse procurement/design gate
+Before ordering/constructing:
+- confirm sun
+- confirm drainage
+- confirm door/path approach
+- confirm water route
+- confirm foundation/anchoring concept
+- confirm venting strategy
+- confirm whether electrical service is required
+
+### Seasonal cleanup
+- manage spent warm-season crops and diseased residues appropriately
+- lift/store dahlias as needed
+- clean supports/tools
+- inspect irrigation before freeze weather
 
 ---
 
 ## November–December 2026
 
-- finalize the 2027 scaled layout from site measurements
-- decide exact permanent asparagus/rhubarb locations
-- choose primary rose locations based on full-sun/airflow evidence
-- estimate irrigation mainline length from real water-source geometry
-- finalize seed inventory and cultivar shortlist
-- order slow-to-source perennial plants/crowns where reputable suppliers open reservations
-- create a 2027 seed-start calendar backward from Richmond planting windows
+- finalize the quarter-acre boundary
+- place greenhouse, main path, kitchen garden, permanent beds, rose/flower area, flex zone, and compost/work area
+- finalize greenhouse frame/glazing/ventilation specification
+- reserve greenhouse bench/work/ground-crop zones
+- estimate irrigation from real measurements
+- choose permanent asparagus/rhubarb locations
+- finalize cultivar shortlist and moderate first-year counts
+- order slow-to-source crowns/roses/dahlias/specialty seed as appropriate
 
 ---
 
-# 2027 growing-year framework
+# 2027 greenhouse + outdoor operating year
 
 ## January
-- inventory seed viability and quantities
-- order tomato, pepper, eggplant, cucumber, squash, pumpkin, cabbage, herb, and flower cultivars
-- order certified seed potatoes
-- reserve asparagus/rhubarb crowns if not already sourced
-- buy/build seed-starting supplies
-- finish trellis/support design before spring purchasing rush
+### Greenhouse / indoor prep
+- inspect structure if installed
+- verify vents/fans/heater/frost-protection system
+- clean benches/trays
+- inventory potting media and labels
+
+### Planning
+- order seed/seed potatoes
+- reserve asparagus/rhubarb crowns
+- finalize sowing calendar
 
 ## February
-- begin crops with long indoor lead times according to cultivar-specific schedule
-- start slower cool-season flowers where appropriate
-- prepare labels/database entries before sowing
-- inspect stored dahlia tubers periodically
+### Greenhouse propagation begins as crop schedules require
+Potential starts:
+- peppers
+- eggplant
+- slower flowers
+- selected herbs
+
+Keep airflow and light strong; do not crowd benches just because space exists.
 
 ## March
-UK guidance for Kentucky places early spring establishment of permanent/cool crops in this general period.
-
-Likely tasks:
-- prepare and plant asparagus crowns when soil conditions are suitable
-- plant rhubarb crowns in the spring window
-- establish spring cabbage according to transplant maturity/weather
+- sow/start tomatoes according to target transplant window
+- continue greenhouse seedling production
+- begin hardening cool-season transplants as weather allows
+- plant asparagus/rhubarb outdoors when soil conditions fit Kentucky guidance
+- establish spring cabbage according to conditions
 - prepare potato area
-- finish permanent drip/header infrastructure before warm-season beds fill
+
+Greenhouse rule: sunny March days can overheat an enclosed structure even while nights remain cold; ventilation is active management.
 
 ## April
-- continue cool-season work
-- harden appropriate transplants gradually
-- install tomato/cucumber structures before they are needed
-- monitor real soil temperature and frost forecasts rather than assuming warm-season planting is safe from one calendar date
-- prepare rose locations and flower beds
+- harden transplants in stages
+- use greenhouse for weather protection rather than permanently sheltering plants that need outdoor adaptation
+- install outdoor trellises/supports
+- prepare rose/flower beds
+- monitor greenhouse daytime temperatures and ventilation
 
-## May — major warm-season transition
-Current UK Central Kentucky tables place several requested warm-season crops around early-to-mid May safe-planting windows, with Eastern Kentucky generally later.
-
-Likely transition:
-- tomatoes after hardening and safe conditions
-- peppers/eggplant once soil and nights are warm enough
-- English cucumbers
+## May — outdoor warm-season transition
+Move hardened crops outside when soil, nights, and frost risk are appropriate:
+- tomatoes
+- peppers
+- eggplant
+- cucumber
 - squash
-- pumpkins
+- pumpkin
 - basil
-- warm-season annual flowers
+- warm-season flowers
 
-Do not plant all warm-season crops on one day merely for convenience.
+### Greenhouse after transplant season
+Retain only a deliberate amount of protected production, e.g.:
+- 1–2 tomatoes
+- 1 English cucumber
+- selected peppers/herbs
+- ongoing propagation/work area
+
+Do not leave the greenhouse packed with leftover seedlings indefinitely.
 
 ## June
-- tomato training begins in earnest
-- trellis cucumbers continuously
-- scout cucurbits for cucumber beetles/squash bugs/vine-borer indicators
-- mulch after soil is warm and beds are established
-- maintain deep irrigation based on soil need
-- harvest early herbs/cool crops
-- transition garlic bed after harvest when appropriate
+### Outdoors
+- tomato training
+- cucumber trellising
+- cucurbit pest scouting
+- mulch and irrigation
+- early harvests
+
+### Greenhouse
+- increase ventilation/shade as needed
+- monitor spider mites/aphids/whiteflies and disease
+- keep floor/bench area dry enough to avoid chronic humidity problems
 
 ## July
-- peak harvest/scouting period
-- frequent cucumber/summer squash harvest if grown
-- tomato disease scouting increases during humid/wet weather
-- monitor pepper bacterial-spot symptoms
-- cut/deadhead dahlias, zinnias, cosmos, roses, snapdragons as applicable
-- establish fall cabbage timing early enough for maturity
-- keep pumpkin vines routed into their planned run
+Kentucky greenhouse heat becomes a major management issue.
+
+### Greenhouse priority order
+1. prevent overheating
+2. ventilate aggressively
+3. use shade cloth if needed
+4. maintain circulation
+5. water by substrate need
+
+Outdoor garden:
+- peak harvest
+- tomato/pepper/cucurbit disease scouting
+- flower cutting/deadheading
+- fall-crop planning
 
 ## August
-- maintain harvest
-- preserve/cure/store crops as needed
-- continue fall garden work
-- assess which cultivars deserve repeat status in 2028
-- inspect irrigation uniformity during heat/dry periods
-- photograph disease progression rather than relying on memory
+- maintain greenhouse summer ventilation
+- start selected fall transplants if useful
+- preserve/cure/store outdoor crops
+- assess greenhouse protected-crop value versus labor/heat burden
+- begin fall cabbage/flower cycles as planned
 
 ## September
-- begin the next annual review cycle
+- use greenhouse to stage fall crops/propagation
+- assess which plants benefited enough from protection to repeat
 - order next garlic stock
-- soil-test rotation blocks where amendments may be needed
-- compare planned vs actual yield, disease, labor, and style performance
+- start annual yield/labor review
+
+## October–November
+- use greenhouse for frost protection/season extension where justified
+- move tender container plants in only if greenhouse temperature capability matches their needs
+- do not assume an unheated greenhouse is frost-free
+- prepare winter ventilation/condensation strategy
+
+## December
+- reduce or stop production according to heating choice
+- winterize unused irrigation lines
+- inspect structure, seals, vents, fans, heater, and storm anchoring
+- compare greenhouse energy/labor input with actual value produced
 
 ---
 
-# Kentucky timing anchors from current UK guidance
+# Outdoor Kentucky timing anchors
 
-Useful planning anchors for Central Kentucky include approximately:
-- asparagus crowns: mid-March earliest safe planting
-- rhubarb crowns: early/mid-March
-- cabbage plants: late March spring window
-- cucumbers: around early May
-- tomatoes: around early May
-- eggplant: around early/mid May
-- pumpkins: early May
-- summer/winter squash: around early/mid May
-- garlic: fall, with early-November outer timing in the Kentucky home-garden table
+Use current Kentucky Extension guidance as planning anchors for:
+- early spring permanent crowns/cool crops
+- early-to-mid May warm-season vegetables depending site/weather
+- summer succession/fall planting
+- fall garlic
 
-These are **planning anchors**, not site-specific guarantees. Richmond topography, soil temperature, cold pockets, current forecasts, and cultivar maturity can move the practical date.
+The greenhouse can shift **seed-starting, hardening, and protected production**, but it does not justify placing tender outdoor crops into cold soil simply because seedlings are ready.
 
-## Season-extension rule
-If deliberately planting earlier/later than normal windows, have the protection system ready **before** the weather event: row cover, supports, clamps/weights, and a ventilation plan.
+## Greenhouse operating invariant
+
+For every protected crop, record:
+- why it is inside
+- expected advantage
+- temperature requirement
+- ventilation requirement
+- expected move-out/harvest date
+
+The greenhouse should solve real seasonal problems, not become a place where plants accumulate without a plan.
