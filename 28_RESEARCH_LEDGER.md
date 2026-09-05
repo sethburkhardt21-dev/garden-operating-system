@@ -1,4 +1,4 @@
-# Research Ledger — v0.3
+# Research Ledger — v0.4
 
 **Updated:** 2026-09-05  
 **Rule:** record source, use, claim, confidence, and caveats. Local/cultivar-specific evidence overrides generic data when they conflict.
@@ -133,7 +133,7 @@ URL: https://github.com/danielbrendel/hortusfox-web
 
 ## R-022 Madison County Extension — local authority
 Source: Madison County Cooperative Extension / University of Kentucky  
-Finding: Richmond has local horticulture programming through Madison County Extension; current office/horticulture resources are available locally.  
+Finding: Richmond has local horticulture programming through Madison County Extension.  
 Use: primary locality-specific escalation point for soil, horticulture, pest/disease, and regional programming.  
 Status: SITE-LOCAL RESEARCHED  
 URL: https://extension.mgcafe.uky.edu/madison/horticulture
@@ -141,21 +141,49 @@ URL: https://extension.mgcafe.uky.edu/madison/horticulture
 ## R-023 Madison County soil testing
 Source: Madison County Extension soil-testing notice  
 Finding: Madison County currently advertises free soil testing for residents, up to 10 samples per home/farm per calendar year.  
-Use: enables separate samples across the two-acre property instead of one averaged sample.  
+Use: enables separate management-zone samples rather than one averaged property sample.  
 Status: SITE-LOCAL RESEARCHED  
 URL: https://madison.mgcafe.uky.edu/sites/madison.ca.uky.edu/files/Taking%20Soil%20tests%202018.pdf
 
 ## R-024 Richmond / Madison hardiness transition
 Primary source: USDA 2023 Plant Hardiness Zone Map methodology/map  
-Secondary location lookup: current Richmond/40475 zone summaries derived from 2023 USDA mapping  
-Finding: Richmond/Madison County spans the 6b–7a transition at city/ZIP scale. Exact parcel half-zone remains unresolved without map pin/address.  
+Secondary location lookup: current Richmond/40475 summaries derived from 2023 USDA mapping  
+Finding: Richmond/Madison County spans the 6b–7a transition at city/ZIP scale. Exact parcel half-zone remains unresolved without a map pin/address.  
 Use: conservative perennial selection until exact parcel is pinned.  
 Status: RESEARCHED / PARCEL PROVISIONAL  
 Primary URL: https://planthardiness.ars.usda.gov/
 
 ## R-025 Kentucky regional planting windows — Richmond application
 Source: University of Kentucky `ID-128` and current Kentucky planting tables  
-Finding: Central/Eastern Kentucky tables provide planning anchors for the requested crops, including spring asparagus/rhubarb/cabbage and early-to-mid-May warm-season cucurbits/tomato/eggplant, with fall garlic. UK explicitly warns that topography/microclimate can shift frost timing.  
+Finding: Central/Eastern Kentucky tables provide planning anchors for the requested crops, with local microclimate adjustments.  
 Use: replace the superseded northern-Kentucky calendar assumption.  
 Status: RESEARCHED / PARCEL MICROCLIMATE PROVISIONAL  
 URL: https://publications.mgcafe.uky.edu/id-128
+
+## R-026 Kentucky greenhouse structures
+Source: University of Kentucky Center for Crop Diversification, `Greenhouse Structures` / greenhouse resources  
+Finding: greenhouses differ from simpler high tunnels by their ability to actively control the growing environment; crop purpose should drive structure/equipment choices.  
+Use: supports treating the requested greenhouse as a real enclosed controlled-environment structure rather than a temporary hoop cover.  
+Status: RESEARCHED  
+URL: https://ccd.uky.edu/resources/systems/greenhouse
+
+## R-027 Kentucky greenhouse heating and cooling
+Source: University of Kentucky greenhouse structures/heating-cooling guidance, including `ID-131 Basics for Heating and Cooling Greenhouses`  
+Finding: Kentucky greenhouses often need supplemental heat for early spring/late fall production, while hot humid summers require substantial ventilation/cooling. Passive vents, side openings, fans, and shade are important tools; evaporative cooling is less effective in humid climates.  
+Use: greenhouse design prioritizes ventilation and optional/justified heat rather than assuming full-time winter heating.  
+Status: RESEARCHED  
+URL: https://www2.ca.uky.edu/agc/pubs/id/id131/id131.pdf
+
+## R-028 Greenhouse orientation guidance
+Source: University of Kentucky Cooperative Extension educational greenhouse manual  
+Finding: for locations south of 40° latitude, a north–south long axis is a useful warm-weather orientation candidate because of light distribution/ventilation considerations; east–west can favor winter solar gain in more northern settings. Site shade/wind/access can override the generic orientation rule.  
+Use: Richmond default greenhouse candidate uses north–south long axis, subject to actual parcel geometry and sun/wind observations.  
+Status: RESEARCHED / SITE PLACEMENT PROVISIONAL  
+URL: https://cld.ca.uky.edu/sites/cld.ca.uky.edu/files/Greenhouse_Manual.pdf
+
+## R-029 Kentucky high-tunnel comparison
+Source: University of Kentucky Center for Crop Diversification high-tunnel resources  
+Finding: high tunnels are generally passively heated/cooled ground-crop structures and can extend Kentucky production seasons, but they are not the same as a controlled greenhouse.  
+Use: confirms the Garden OS greenhouse requirement should remain distinct from a high-tunnel-only solution.  
+Status: RESEARCHED  
+URL: https://ccd.uky.edu/resources/systems/hightunnel
