@@ -1,9 +1,9 @@
-# Irrigation Plan — Richmond Two-Acre Hydrozone Architecture
+# Irrigation Plan — Richmond Quarter-Acre Garden
 
 **Status:** BIOLOGICAL ZONES RESEARCHED / PHYSICAL PIPE ROUTES PROVISIONAL  
 **Updated:** 2026-09-05
 
-A two-acre yard changes irrigation from “which hose do I use?” into a site-infrastructure problem. The solution should keep the high-maintenance garden compact enough that watering is easy, then extend water only where it materially reduces labor.
+The yard is about two acres, but irrigation is designed for one **quarter-acre garden (~10,890 sq ft)** plus its 16 × 24 ft enclosed greenhouse. Do not build an irrigation network for the entire yard.
 
 ## Core invariant
 
@@ -14,11 +14,12 @@ Every irrigation decision should consider:
 - soil moisture at useful root depth
 - plant stage
 - container vs in-ground conditions
+- greenhouse vs outdoor conditions
 - heat/wind
 - drainage
 - disease pressure
 
-## Hydrozone H1 — consistent-moisture production
+## Hydrozone H1 — consistent-moisture outdoor production
 
 Plants:
 - tomatoes
@@ -33,183 +34,150 @@ Plants:
 - parsley
 - cilantro
 
-Goal:
-- deep, consistent root-zone moisture
-- no chronic saturation
-- minimal routine leaf wetting
-
 Preferred delivery:
-- dripline / emitter system at soil level
-- mulch after soil warms and planting is established
+- dripline/emitters at soil level
+- mulch where appropriate
+- separately controllable from dry herbs and greenhouse
 
 ## H2 — dry/drainage herbs
 
-Plants:
 - lavender
 - rosemary
 - thyme
 
-Goal:
-- excellent drainage
-- more drying between irrigation events
+Use less frequent watering and excellent drainage. Do not copy H1 runtime.
 
-These should not share the exact H1 runtime simply because they are near the kitchen garden.
+## H3 — roses / selected perennials
 
-## H3 — roses
+Deep soil-level watering with foliage kept as dry as practical.
 
-Goal:
-- deep watering at soil level
-- avoid routine overhead wetting that increases leaf-disease pressure
-- maintain airflow and dry foliage
+## H4 — containers / wildflower tub
 
-## H4 — containers
-
-Includes:
-- wildflower tub
-- any potted herbs
-- grow bags if used
-- decorative containers
-
-Containers can require water when in-ground beds do not. They need their own inspection logic and may justify a dedicated micro-drip line.
+Containers may need water when in-ground beds do not. Use separate micro-drip or manual inspection.
 
 ## H5 — permanent edible perennials
 
-Plants:
 - asparagus
 - rhubarb
 
-Establishment years need closer moisture monitoring than mature plantings. Keep them on a permanent route that will not be ripped out during annual rotation changes.
+Establishment-year attention is higher than mature-year care.
+
+## H6 — greenhouse
+
+The enclosed greenhouse is its own irrigation environment.
+
+Possible delivery:
+- hand hose/wand for seedlings
+- bench-level micro-irrigation for pots
+- drip for tall protected crops
+- separate shutoff from outdoor beds
+
+Greenhouse watering must respond to:
+- pot/container size
+- substrate
+- crop stage
+- inside temperature
+- ventilation
+- humidity
+
+Do not assume outdoor rainfall reduces greenhouse water demand.
 
 ---
 
-# Two-acre physical architecture
+# Physical architecture
 
-## Level 0 — manual reconnaissance
+## Water entry / garden hub
 
-Before buying a large irrigation system:
-- identify every outdoor spigot
-- measure distance to candidate garden core
-- test hose reach
-- time fill rate into a known container if system sizing is needed
-- note elevation change
-- note whether hose must cross driveway/paths
+The quarter-acre plan should have one deliberate water/irrigation hub near the greenhouse/work area where practical.
 
-This determines whether the garden core can remain hose-served or needs a dedicated mainline.
-
-## Level 1 — best-value kitchen-garden system
-
-For the high-maintenance core:
+Suggested sequence:
 1. backflow protection as locally appropriate
 2. timer/controller
-3. pressure regulator
-4. filter
-5. main header
-6. separate controllable hydrozones
-7. dripline/emitters
-8. flush ends
-9. manual shutoff/override
+3. filter
+4. pressure regulator
+5. main header/manifold
+6. independently controlled zone branches
+7. flush ends / service points
+8. manual override
 
-Keep H1 vegetables, H2 dry herbs, H3 roses, and H4 containers separately controllable where practical.
+## Recommended controllable branches
+- `OUT-VEG` — annual vegetables
+- `OUT-DRY` — lavender/rosemary/thyme
+- `OUT-ROSE` — roses/perennials as needed
+- `OUT-PERM` — asparagus/rhubarb
+- `OUT-CONT` — containers/wildflower tub
+- `GH` — greenhouse
 
-## Level 2 — remote garden-room extension
+The exact number of valves can be simplified if the actual bed layout is small enough, but greenhouse and dry-herb control should remain independent.
 
-If permanent beds/flower rooms sit far from the house:
-- run a durable mainline to a remote valve/manifold or spigot
-- branch locally rather than dragging long hoses every day
-- protect lines from mower/traffic damage
-- mark buried lines on the precision map
+## Mainline scale rule
 
-Do not install buried infrastructure until the site survey confirms paths, utilities, garden-room coordinates, and likely long-term layout.
-
-## Level 3 — weather/sensor-assisted system
-
-Optional inputs:
-- local weather forecast
-- observed rainfall
-- rain gauge
-- soil moisture sensor in representative zones
-- flow meter
-- leak/continuous-flow alert
-
-Sensor data should refine decisions, not replace visual/soil checks.
+Do not extend buried or permanent irrigation across the remaining ~1.75 acres unless a future non-garden need is explicitly added.
 
 ---
 
-# Design for Richmond humidity
+# Greenhouse-specific water notes
 
-The irrigation system must not make disease conditions worse.
+- locate the greenhouse where a reliable water route is practical
+- use a shutoff inside or immediately adjacent if feasible
+- design floor/drainage so spills are harmless
+- avoid standing water under benches
+- keep seedling watering gentle enough not to displace media
+- separate propagation water needs from large fruiting-crop drip needs
+
+If gutters are installed, captured rainwater may supplement container/ornamental watering, but storage volume and water quality must be managed realistically.
+
+---
+
+# Richmond humidity / disease design
 
 Prefer:
-- early-day irrigation when timing matters
-- soil-level delivery
-- enough emitter coverage to wet roots evenly without saturating crowns
-- reduced leaf wetness on tomatoes, cucurbits, and roses
-- no lawn-sprinkler overspray across disease-sensitive beds if avoidable
+- soil/substrate-level watering
+- morning irrigation where timing matters
+- adequate spacing/airflow
+- fast drying after accidental foliar wetting
+- no sprinkler overspray across tomatoes/cucurbits/roses if avoidable
 
-## Heavy-rain override
-After significant rain:
-- pause scheduled irrigation
-- inspect drainage
-- check whether low spots remain saturated
-- increase disease scouting in following days
+In the greenhouse, ventilation and watering interact: overwatering + poor air exchange is a disease amplifier.
+
+## Heavy-rain outdoor override
+Pause outdoor schedules after significant rain and inspect drainage. Greenhouse irrigation remains a separate decision because roofed crops received no rain.
 
 ## Heat-wave override
-Before/during hot dry periods:
-- check root-zone moisture rather than only wilt
-- prioritize containers and newly established plants
-- use deep irrigation rather than repeated shallow sprinkles
+Prioritize:
+1. greenhouse temperature/ventilation
+2. greenhouse containers
+3. outdoor containers
+4. newly established plants
+5. root-zone moisture in high-demand outdoor beds
 
 ---
 
-# Water-efficiency priorities
+# Best-value implementation target
 
-Because the property is large:
-1. concentrate thirsty/high-frequency crops
-2. mulch appropriately
-3. separate dry plants from thirsty plants
-4. use drip where it saves labor/water
-5. fix leaks immediately
-6. route pumpkin/squash so vines do not force irrigation lines across paths
-7. avoid irrigating unused lawn merely to reach a garden bed
+For an average quarter-acre garden, the preferred endpoint is:
+- compact buried/secured mainline only within the garden
+- drip/micro-irrigation by hydrozone
+- greenhouse branch
+- simple controller with manual override
+- rain gauge
+- optional one or two representative soil-moisture sensors later
+- optional flow/leak alert later
 
----
-
-# Rainwater capture — optional future layer
-
-Investigate only after roof/downspout geometry is known.
-
-Potential uses:
-- container watering
-- supplemental ornamental irrigation
-- emergency reserve
-
-Do not assume a rain barrel can supply the entire two-acre garden. Storage volume, roof catchment, rainfall timing, and elevation determine usefulness.
+Do not over-automate before observing one full season.
 
 ---
 
-# Winterization
+# Data still needed for final bill of materials
 
-Before hard freezes:
-- drain vulnerable above-ground lines
-- disconnect timers/regulators where manufacturer requires
-- protect exposed valves
-- store hoses properly
-- record any buried mainline/valve coordinates
-
----
-
-# Data to collect before final irrigation bill of materials
-
-- hose-bib count + locations
-- water source type
-- pressure
-- flow rate
-- elevation difference
-- final garden-core size
-- length/width of each bed
-- number of hydrozones
+- quarter-acre garden coordinates
+- water source location
+- pressure/flow rate
+- greenhouse location
+- bed lengths/widths
+- greenhouse bench/ground-crop layout
+- elevation changes
 - container count
-- distance to permanent beds
-- whether remote spigot/mainline is allowed
+- exact number of hydrozones
 
-Until those exist, do not purchase hundreds of feet of tubing based on the fact that the yard is two acres.
+Until these are known, reserve the system architecture but do not buy arbitrary tubing lengths.
