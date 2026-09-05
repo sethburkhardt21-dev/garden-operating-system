@@ -33,11 +33,13 @@ Two acres does **not** mean two acres should be cultivated.
 
 ## Richmond-specific research now integrated
 
-- Madison County Extension becomes the primary local Extension reference.
+- Madison County Extension is the primary local Extension reference.
 - Madison County currently advertises free soil testing for residents, up to 10 samples per home/farm per calendar year.
 - Richmond/Madison County sits across the USDA 2023 **6b–7a transition** at coarse city/ZIP scale; exact parcel half-zone remains to be pinned.
-- Kentucky Central/Eastern planting windows now replace the old northern-Kentucky assumption.
-- The 2027 planning calendar is now localized to Richmond rather than generic Kentucky.
+- Kentucky Central/Eastern planting windows replace the old northern-Kentucky assumption.
+- The 2027 planning calendar is localized to Richmond.
+- The first evidence-based plant-count/space envelope is now built from current Kentucky home-garden guidance.
+- An active September–December 2026 implementation sprint is now in the repo.
 
 ## What is still provisional
 
@@ -51,26 +53,32 @@ The site is known, but the exact physical map still needs:
 - soil-test results
 - wildlife pressure
 - final cultivated footprint
+- household production/preservation goals
 - several cultivar/use choices
 
 ## Start here
 
 1. `00_START_HERE.md` — current state and next gate.
-2. `02_SITE_PROFILE.md` — confirmed Richmond/two-acre site facts + remaining inputs.
-3. `03_MASTER_LAYOUT_PROVISIONAL.md` — two-acre maintenance-gradient architecture.
-4. `34_RICHMOND_KY_SITE_BASELINE.md` — local climate/Extension/soil-testing research.
-5. `35_TWO_ACRE_SITE_SURVEY_PROTOCOL.md` — how to convert the yard into an exact map.
-6. `04_PLANT_MASTER_LEDGER.csv` — canonical requested inventory.
-7. `05_PLANT_PROFILES/` — human care cards for core edibles, flowers, and herbs.
-8. `06_ANNUAL_CALENDAR_PROVISIONAL.md` — Richmond-localized seasonal calendar.
-9. `31_CULTIVAR_MATRIX_PROVISIONAL.md` — Kentucky-aware cultivar shortlist.
-10. `32_TODAY_ENGINE.md` — simple daily operating logic.
-11. `12_PEST_IPM.md` — integrated pest management.
-12. `13_DISEASE_PLAYBOOK.md` — symptom-first diagnosis/prevention.
-13. `27_GITHUB_REUSE_AUDIT.md` — open-source reuse analysis.
-14. `28_RESEARCH_LEDGER.md` — evidence/provenance ledger.
-15. `29_DECISION_LOG.md` — accepted decisions and superseded assumptions.
-16. `30_OPEN_QUESTIONS.md` — remaining site/use/aesthetic questions.
+2. `37_FALL_2026_RICHMOND_ACTION_PLAN.md` — what to execute now through winter.
+3. `02_SITE_PROFILE.md` — confirmed Richmond/two-acre site facts + remaining inputs.
+4. `03_MASTER_LAYOUT_PROVISIONAL.md` — two-acre maintenance-gradient architecture.
+5. `34_RICHMOND_KY_SITE_BASELINE.md` — local climate/Extension/soil-testing research.
+6. `35_TWO_ACRE_SITE_SURVEY_PROTOCOL.md` — how to convert the yard into an exact map.
+7. `36_2027_PLANT_COUNT_AND_SPACE_MODEL.md` — first-year count/bed sizing framework.
+8. `04_PLANT_MASTER_LEDGER.csv` — canonical requested inventory.
+9. `05_PLANT_PROFILES/` — human care cards.
+10. `06_ANNUAL_CALENDAR_PROVISIONAL.md` — Richmond seasonal calendar.
+11. `31_CULTIVAR_MATRIX_PROVISIONAL.md` — Richmond/Kentucky-aware cultivar shortlist.
+12. `32_TODAY_ENGINE.md` — simple daily operating logic.
+13. `09_SOIL_PLAN.md` — site-specific soil sampling/improvement plan.
+14. `10_IRRIGATION_PLAN.md` — two-acre irrigation/hydrozone architecture.
+15. `12_PEST_IPM.md` — integrated pest management.
+16. `13_DISEASE_PLAYBOOK.md` — symptom-first diagnosis/prevention.
+17. `25_STYLE_UPGRADES.md` — two-acre style/garden-room system.
+18. `27_GITHUB_REUSE_AUDIT.md` — open-source reuse analysis.
+19. `28_RESEARCH_LEDGER.md` — evidence/provenance ledger.
+20. `29_DECISION_LOG.md` — accepted decisions and superseded assumptions.
+21. `30_OPEN_QUESTIONS.md` — remaining site/use/aesthetic questions.
 
 ## Human operating principle
 
