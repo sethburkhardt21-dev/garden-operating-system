@@ -1,13 +1,15 @@
 {
-  "version": "0.3",
-  "built": "2026-09-05",
-  "status": "SITE_CONFIRMED_GEOMETRY_PROVISIONAL",
+  "version": "0.4",
+  "updated": "2026-09-05",
+  "status": "SITE_AND_GARDEN_SCALE_CONFIRMED_COORDINATES_PROVISIONAL",
   "site": {
     "city": "Richmond",
     "state": "Kentucky",
     "county": "Madison County",
-    "yard_acres_approx": 2,
-    "location_status": "SITE CONFIRMED",
+    "yard_acres_approx": 2.0,
+    "garden_acres_target": 0.25,
+    "garden_square_feet_target": 10890,
+    "remaining_yard_not_garden_by_default": true,
     "usda_zone_working_range": ["6b", "7a"],
     "exact_parcel_half_zone": null,
     "property_geometry_status": "PROVISIONAL",
@@ -15,22 +17,41 @@
     "soil_test_status": "PROVISIONAL",
     "water_map_status": "PROVISIONAL"
   },
+  "greenhouse": {
+    "required": true,
+    "inside_garden_footprint": true,
+    "type": "enclosed greenhouse",
+    "default_width_ft": 16,
+    "default_length_ft": 24,
+    "default_area_sqft": 384,
+    "year_round_full_heat_assumed": false,
+    "primary_roles": [
+      "seed starting",
+      "transplant production",
+      "season extension",
+      "protected crop experiments",
+      "potting and work space"
+    ]
+  },
   "design_invariants": {
     "red_roses_primary": true,
     "white_rose_optional_backyard_max": 1,
     "wildflower_tub_separate": true,
     "preserve_requested_plants": true,
     "portable_canonical_data": true,
-    "maintenance_gradient": true,
-    "do_not_cultivate_full_two_acres_by_default": true,
+    "quarter_acre_boundary_requires_explicit_user_change_to_expand": true,
+    "hybrid_raised_and_in_ground_beds": true,
     "permanent_edibles_separate": true
   },
-  "maintenance_gradient": {
-    "ring_0": "near-house herbs, containers, frequent-use plants",
-    "ring_1": "high-maintenance kitchen garden",
-    "ring_2": "permanent edible and ornamental garden rooms",
-    "ring_3": "pumpkin/squash, potatoes, garlic, rotation and expansion",
-    "ring_4": "lower-frequency ecological/visual edge"
+  "area_budget_sqft": {
+    "greenhouse": 384,
+    "annual_edibles": 2700,
+    "permanent_edibles_and_herbs": 1200,
+    "roses_and_flowers": 1800,
+    "sprawling_and_flex_crops": 1200,
+    "paths_work_compost_irrigation": 1800,
+    "buffer_pollinator_future_adjustment": 1806,
+    "total": 10890
   },
   "plant_count": 38,
   "canonical_plant_source": "04_PLANT_MASTER_LEDGER.csv",
