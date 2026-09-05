@@ -1,0 +1,39 @@
+plant_id,category,requested_name,taxonomy_family,lifecycle,preferred_sun,water_group,support,permanent_bed,status,critical_note
+VEG-001,Vegetable,Heirloom tomato,Solanum lycopersicum / Solanaceae,Annual,Full sun,Consistent moderate,Stake/cage/trellis,No,PROVISIONAL,Cultivar unresolved; prioritize disease resistance + flavor.
+VEG-002,Vegetable,Beefsteak tomato,Solanum lycopersicum / Solanaceae,Annual,Full sun,Consistent moderate,Heavy-duty stake/cage,No,PROVISIONAL,Large fruit; strongest support and airflow needed.
+VEG-003,Vegetable,Cherry tomato,Solanum lycopersicum / Solanaceae,Annual,Full sun,Consistent moderate,Stake/cage/trellis,No,PROVISIONAL,Often vigorous; likely best vertical producer.
+VEG-004,Vegetable,Jalapeño,Capsicum annuum / Solanaceae,Annual,Full sun,"Moderate, even",Optional stake,No,PROVISIONAL,Warm-season crop.
+VEG-005,Vegetable,Bell pepper,Capsicum annuum / Solanaceae,Annual,Full sun,"Moderate, even",Optional stake/cage,No,PROVISIONAL,Warm-season crop; avoid crowding.
+VEG-006,Vegetable,Eggplant,Solanum melongena / Solanaceae,Annual,Full sun,"Moderate, even",Stake/cage useful,No,PROVISIONAL,Warm-season; heavy fruit can need support.
+VEG-007,Vegetable,Squash,Cucurbita spp. / Cucurbitaceae,Annual,Full sun,Moderate-high,Depends on cultivar,No,PROVISIONAL,Cultivar must be resolved: bush summer squash vs vining winter squash.
+VEG-008,Vegetable,English cucumber,Cucumis sativus / Cucurbitaceae,Annual,Full sun,Consistent moderate-high,Strong vertical trellis,No,PROVISIONAL,Trellis to save space and improve access.
+VEG-009,Vegetable,Asparagus,Asparagus officinalis / Asparagaceae,Perennial,Full sun,Moderate during establishment,None,YES,PROVISIONAL,Permanent bed; long-lived crop; do not bury in annual rotation.
+HERB-001,Herb,Basil,Ocimum basilicum / Lamiaceae,Annual,Full sun,Moderate,None,No,PROVISIONAL,Succession sowing useful.
+HERB-002,Herb,Rosemary,Salvia rosmarinus / Lamiaceae,Tender perennial,Full sun,Low-moderate; sharp drainage,Container useful,Conditional,PROVISIONAL,Kentucky winter survival can be unreliable; container/overwinter plan likely.
+HERB-003,Herb,Thyme,Thymus vulgaris / Lamiaceae,Perennial,Full sun,Low-moderate,None,YES/likely,PROVISIONAL,Prefers drainage; separate from thirsty vegetables.
+HERB-004,Herb,Parsley,Petroselinum crispum / Apiaceae,Biennial usually grown annual,Sun-part sun,Moderate,None,No,PROVISIONAL,Can succession sow.
+HERB-005,Herb,Cilantro,Coriandrum sativum / Apiaceae,Annual,Sun-part sun,Moderate,None,No,PROVISIONAL,Cool-season tendency; succession sow frequently.
+HERB-006,Herb,Lavender,Lavandula spp. / Lamiaceae,Perennial,Full sun,Low; excellent drainage,None,YES/likely,PROVISIONAL,Keep out of wet hydrozone; cultivar hardiness matters.
+VEG-010,Vegetable,Garlic,Allium sativum / Amaryllidaceae,Annual/bulb crop,Full sun,Moderate,None,No,PROVISIONAL,Kentucky fall planting crop; reserve bed through early summer.
+VEG-011,Vegetable,Baby potatoes,Solanum tuberosum / Solanaceae,Annual,Full sun,Moderate,Hilling/container,No,PROVISIONAL,"Baby is harvest size, not botanical type; cultivar unresolved."
+VEG-012,Vegetable,Golden potatoes,Solanum tuberosum / Solanaceae,Annual,Full sun,Moderate,Hilling/container,No,PROVISIONAL,Likely Yukon Gold-type; cultivar unresolved.
+VEG-013,Vegetable,Pumpkin,Cucurbita pepo/maxima/moschata / Cucurbitaceae,Annual,Full sun,Moderate-high,Ground vine or heavy trellis,No,PROVISIONAL,Large spatial footprint; may need edge/outward-running vine zone.
+VEG-014,Vegetable,Cabbage,Brassica oleracea var. capitata / Brassicaceae,Annual/biennial crop,Full sun,Consistent moderate,None,No,PROVISIONAL,Cool-season crop; spring/fall windows.
+VEG-015,Vegetable,Rhubarb,Rheum × hybridum / Polygonaceae,Perennial,Full sun-part sun,Moderate,None,YES,PROVISIONAL,Permanent bed; cultivar and summer-heat strategy matter.
+FLW-001,Flower,Red roses,Rosa spp. / Rosaceae,Perennial shrub,Full sun,"Moderate, deep",Rose support only if needed,YES,PROVISIONAL,Primary rose theme: classic red only.
+FLW-002,Flower,Optional white rose,Rosa spp. / Rosaceae,Perennial shrub,Full sun,"Moderate, deep",As cultivar requires,YES,PROVISIONAL,Exactly one optional backyard exception.
+FLW-003,Flower,Dahlias,Dahlia spp. / Asteraceae,Tender perennial/tuber,Full sun,Moderate,Stake tall types,Conditional,PROVISIONAL,Tubers generally lifted/stored for Kentucky winter.
+FLW-004,Flower,Zinnias,Zinnia elegans / Asteraceae,Annual,Full sun,Moderate,Tall types may stake,No,PROVISIONAL,Excellent cut flower; deadheading extends bloom.
+FLW-005,Flower,Marigolds,Tagetes spp. / Asteraceae,Annual,Full sun,Moderate-low,None,No,PROVISIONAL,"Use in repeated edging masses, not random scattering."
+FLW-006,Flower,Daisies,Species unresolved / Asteraceae,Depends,Sun varies,Varies,Varies,Unknown,PROVISIONAL,Must resolve exact daisy species/cultivar.
+FLW-007,Flower,Purple coneflowers,Echinacea purpurea / Asteraceae,Perennial,Full sun-part sun,Low-moderate established,None,YES,PROVISIONAL,Strong pollinator/perennial backbone.
+FLW-008,Flower,Black-eyed Susans,Rudbeckia spp. / Asteraceae,Perennial/biennial depending type,Full sun,Low-moderate,None,YES/likely,PROVISIONAL,Late-season color; exact type unresolved.
+FLW-009,Flower,Cosmos,Cosmos bipinnatus etc. / Asteraceae,Annual,Full sun,Low-moderate,Tall types may stake,No,PROVISIONAL,Airy filler; can self-sow.
+FLW-010,Flower,Impatiens,Impatiens spp. / Balsaminaceae,Annual,Part shade-shade,Moderate-high,None,No,PROVISIONAL,Separate from hot full-sun beds.
+FLW-011,Flower,Morning glories,Ipomoea spp. / Convolvulaceae,Annual vine,Full sun,Moderate,Dedicated trellis,No,PROVISIONAL,Potentially aggressive self-seeding; species choice important.
+FLW-012,Flower,Sweet peas,Lathyrus odoratus / Fabaceae,Annual vine,Full sun; cool season,Moderate,Trellis/netting,No,PROVISIONAL,Cool-season vine; timing differs from morning glory.
+FLW-013,Flower,Snapdragons,Antirrhinum majus / Plantaginaceae,Cool-season annual/short-lived perennial,Full sun,Moderate,Tall types may stake,No,PROVISIONAL,Great spring/fall color and cutting.
+FLW-014,Flower,Lupines,Lupinus spp. / Fabaceae,Perennial/annual depending type,Full sun,Moderate; drainage critical,None,Conditional,PROVISIONAL,Heat/humidity suitability must be cultivar-checked.
+FLW-015,Flower,Geraniums,Pelargonium or Geranium spp.,Depends,Sun-part sun,Moderate,None,Conditional,PROVISIONAL,Resolve whether common annual Pelargonium or hardy cranesbill Geranium.
+FLW-016,Flower,Daylilies,Hemerocallis spp. / Asphodelaceae,Perennial,Full sun-part sun,Moderate,None,YES,PROVISIONAL,Durable perennial structure plant.
+SPEC-001,Special,Wildflower tub,Regional mix TBD,Mixed,Sun TBD,Establishment moisture; then species-dependent,Container,Dedicated,PROVISIONAL,Separate tub; region-appropriate mix only; screen invasive/problem species.
