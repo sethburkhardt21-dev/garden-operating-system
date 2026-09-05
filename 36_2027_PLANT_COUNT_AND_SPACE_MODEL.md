@@ -1,249 +1,230 @@
-# 2027 Plant Count + Space Model — Richmond Two-Acre Site
+# 2027 Plant Count + Space Model — Quarter-Acre Richmond Garden
 
-**Status:** RESEARCHED SIZING FRAMEWORK / household-use counts not yet locked  
+**Status:** BALANCED FIRST-YEAR MODEL / exact shopping quantities still provisional  
 **Updated:** 2026-09-05
 
-The yard is approximately two acres, but the vegetable garden should be sized by **human use + maintenance capacity**, not by land availability.
+The property is approximately two acres, but the Garden OS now uses only about **1/4 acre (10,890 sq ft)** including paths, greenhouse, flowers, work areas, and all crops.
 
-University of Kentucky `ID-128` gives two especially important planning rules:
+This file intentionally avoids scaling plant counts merely because a quarter acre could physically hold more. The goal is a normal, abundant household garden that is pleasant to maintain.
 
-1. A well-planned and properly maintained garden can produce roughly **600–700 lb per 1,000 sq ft** under good conditions.
-2. Gardeners should plant only as large a garden as they can maintain; overplanting commonly creates weed, pest, irrigation, and harvest failures.
+## Core rule
 
-Therefore, the two-acre property should begin with a deliberately compact production core and expand only from observed 2027 demand/performance.
+**Quarter acre is the maximum designed footprint, not a command to fill every bed with maximum-density crops.**
 
----
-
-# 1. Kentucky per-person planning anchors
-
-Current UK home-garden guidance provides approximate amounts to plant **per person** for fresh use and preservation. These are planning anchors, not mandates.
-
-| Crop | UK fresh-use planning anchor per person | Requested Garden OS interpretation |
-|---|---:|---|
-| Tomatoes | 3–5 plants | split across heirloom / beefsteak / cherry |
-| Peppers | 3–5 plants | split heavily toward bell, fewer jalapeños unless hot peppers are used often |
-| Eggplant | 2–3 plants | classic/selected type |
-| Cucumbers | 1–2 hills | English cucumber on trellis; actual plant count depends on cultivar/sowing method |
-| Cabbage | 3–4 plants | spring/fall succession can split the total |
-| Pumpkins | 1–2 hills | purpose determines cultivar and vine-run size |
-| Summer squash | 2–3 hills | only if `squash` is resolved as summer squash |
-| Winter squash | 1–3 hills | only if selected |
-| Asparagus | 10–15 ft row | long-term perennial row length, not first-year harvest expectation |
-| Potatoes | 50–100 ft row | high-output/storage-scale anchor; likely excessive unless potatoes are a major goal |
-
-Important: these UK values were designed as household planning references. They should be scaled down where the user does not consume that crop heavily.
+Use 2027 to learn actual household consumption, disease pressure, labor, and yield. Increase individual crops later only when they are actually wanted.
 
 ---
 
-# 2. Planting-spacing anchors from current Kentucky guidance
+# Balanced 2027 edible counts
 
-Use these as baseline geometry; cultivar-specific mature size can require more room.
+## Tomatoes — 6 outdoor plants total
+- heirloom: **2**
+- beefsteak: **2**
+- cherry: **2**
 
-| Crop | In-row / plant spacing | Row spacing / structural note |
-|---|---:|---|
-| Asparagus | ~18 in between crowns | ~30 in between rows in ID-128; permanent bed |
-| Cabbage | ~9–18 in | ~30 in rows |
-| Cucumbers | ~24–36 in | ~30 in row baseline; Garden OS intends vertical trellis |
-| Eggplant | ~18 in | ~30 in rows |
-| Garlic | ~6 in | ~12–18 in rows; 1–2 in planting depth in current beginner guide |
-| Peppers | ~14–18 in | ~30–36 in rows |
-| Potatoes | ~10–12 in | ~36 in rows; ~3–5 in planting depth baseline |
-| Pumpkins | ~4 ft between hills/plants | ~8–12 ft rows / deliberate vine-run space |
-| Summer squash | ~24 in hills | ~48 in rows |
-| Winter squash | ~48 in | ~6–8 ft rows |
-| Rhubarb | ~3 ft between crowns | ~4–5 ft rows; permanent bed |
+Enough to compare types and provide a strong household harvest without creating a tomato farm.
 
-Tomato geometry should ultimately be cultivar/support-system specific. A home-garden row with strong support and generous airflow is preferable to compressing plants simply to increase count.
-
----
-
-# 3. Provisional balanced first-year count envelope
-
-This is **not a locked shopping list**. It is a reasonable test build that includes every requested edible category while staying small relative to a two-acre yard.
-
-## Tomatoes
-- heirloom: **2 plants**
-- beefsteak: **2 plants**
-- cherry: **2 plants**
-- total: **6 tomato plants**
-
-Why: enough replication to compare cultivar/plant performance without creating an industrial tomato row.
+### Greenhouse tomato option
+The greenhouse may hold **1–2 protected indeterminate tomatoes** as an experiment, but those are not mandatory additions. If used, reduce or maintain outdoor counts according to household demand rather than automatically increasing total production.
 
 ## Peppers
-- bell: **6 plants**
-- jalapeño: **3 plants**
+- bell: **6**
+- jalapeño: **3**
 
-Why: bell peppers usually have broader fresh/cooking use; three jalapeños can still produce a substantial hot-pepper supply.
+Optional greenhouse shoulder-season peppers can be moved/managed as experiments, not a second full pepper crop.
 
 ## Eggplant
 - **3 plants**
 
-Enough to evaluate selected cultivar performance without overwhelming use.
-
 ## English cucumber
-- **2–3 plants** on a dedicated trellis
+- **2–3 outdoor trellised plants**
 
-Goal: continuous harvest with strong access/airflow.
+Optional greenhouse cucumber: **1 plant/trained vine** only if protected production is desired and it does not crowd the propagation area.
 
 ## Squash
-Until resolved:
-- summer squash path: **2 plants/hills**
-- winter squash path: **1–2 hills**
-- if both are desired, treat them as separate crops, not one ambiguous allocation
+Until exact type is resolved:
+- summer squash: **2 plants/hills**
+- winter squash: **1–2 hills**
+- if both are wanted, keep the total modest in year one
 
 ## Pumpkin
-- **2 hills/plants** in first year
+- **2 plants/hills**
 
-Route vines outward into a deliberate low-conflict run. Because the property is large, pumpkin size can be selected by use rather than tiny-yard necessity.
+Use a deliberate outer-edge vine run.
 
 ## Cabbage
-- spring trial: **6–8 plants**
-- fall trial: **6–8 plants**
+- spring: **6–8 plants**
+- fall: **6–8 plants**
 
-This produces useful comparison data while recognizing Kentucky shoulder-season timing.
+This creates useful seasonal comparison without overwhelming harvest.
 
 ## Garlic
 - **40–80 cloves**
 
-At ~6 in in-row spacing this is only about 20–40 ft of total row length. A four-row 4 × 8 ft bed can hold roughly 60+ cloves depending exact row arrangement.
+This is enough for a meaningful household crop while still leaving flexible rotation space.
 
 ## Potatoes
-Because “baby” is a harvest stage and “golden” is a type direction:
-- golden/yellow cultivar: **20–30 ft row**
-- second cultivar intended for baby/new-potato harvest: **20–30 ft row**
+- golden/yellow type: **20–30 ft row equivalent**
+- second type for baby/new-potato harvest: **20–30 ft row equivalent**
 
-This is intentionally below UK's large per-person storage-scale anchor until actual household demand is known.
+Do not use the quarter-acre footprint to justify 100+ ft rows until household demand proves it.
 
 ## Asparagus
-- provisional establishment: **15–24 crowns**
+- **15–24 crowns**
 
-At ~18 in spacing this gives roughly 22–36 ft of total crown row. It is enough to create a real permanent planting while remaining manageable.
+Permanent, long-term crop; no first-year harvest.
 
 ## Rhubarb
 - **2–3 crowns**
 
-Current UK guidance notes that only a few plants may be sufficient for a household. Three crowns create redundancy and cultivar-comparison potential without wasting space.
-
 ---
 
-# 4. Herb count envelope
+# Herbs
 
 ## Basil
 - 4–8 plants at a time
-- succession sow/replace rather than planting 30 plants once
+- succession replace rather than planting a huge one-time block
 
 ## Rosemary
 - 1–2 plants
-- one can remain containerized as winter insurance
+- one may stay containerized for winter flexibility
 
 ## Thyme
-- 2–4 culinary plants / small repeated edge
+- 2–4 culinary plants or a short repeated edge
 
 ## Parsley
-- 3–6 plants with succession/reseeding as needed
+- 3–6 plants
 
 ## Cilantro
-- small repeated sowings rather than fixed permanent count
-- target short rows/batches every few weeks in favorable weather
+- repeated short sowings instead of a large permanent patch
 
 ## Lavender
-- 3–7 plants if used as a repeated dry-zone visual rhythm
-- exact count depends on mature cultivar width and garden-room design
+- 3–7 plants depending mature cultivar width
 
 ---
 
-# 5. Rose + flower count logic
+# Roses + flowers
 
-Flower counts should be driven by visual massing and cut-flower goals, not a one-of-each checklist.
+The flower garden should feel generous, but counts should create masses without consuming the quarter acre.
 
 ## Red roses
-Minimum design threshold:
-- **3 red roses** if using a single focal grouping
+Recommended starting architecture:
+- **3–5 red roses** total
 
-Stronger estate rhythm:
-- **5–9 red roses** distributed in repeated focal groups or along a path/axis
-
-Do not buy exact rose count until mature widths and site coordinates are known.
+Use them as entrance/path/focal punctuation.
 
 ## Optional white rose
-- **0 or 1**, backyard only
+- 0 or 1, backyard only
 
 ## Dahlias
-- trial: 6–12 tubers/plants
-- abundant cutting block: 12–24+
+- **8–16 tubers/plants**
 
 ## Zinnias
-- sow as blocks/rows rather than isolated plants
-- one or more 4 × 8 ft blocks can provide strong bouquet production
+- 1–2 modest blocks/rows; succession sow if bouquet use proves high
+
+## Cosmos
+- 1 modest row/block
 
 ## Marigolds
-- use repeated edge groups, approximately 5–9 plants per repeated visual unit depending cultivar width
+- repeated edge groups rather than hundreds of plants
 
-## Coneflowers / Black-eyed Susans / Daylilies
-- perennial masses should generally use odd-numbered groups or repeated drifts rather than isolated singles
-- exact counts depend on mature spread and the mapped border length
+## Snapdragons
+- one spring/fall cutting row or block
 
-## Cosmos / Snapdragons / Sweet peas
-- use linear/block sowings sized to the cutting garden/trellis, not one specimen each
+## Coneflower / black-eyed Susan / daylily / daisies
+- use repeated groups sized by mature spread
+- favor a few strong drifts over dozens of scattered single plants
 
 ## Impatiens
-- use a shade mass once the part-shade pocket is identified
+- one defined shade pocket
 
-## Morning glory
-- use one dedicated structural feature; plant count depends on trellis width and cultivar vigor
-
----
-
-# 6. First-year garden-core module concept
-
-A practical production core can be built from modular beds instead of one huge rectangle.
-
-Possible modules:
-- `TOMATO`: ~4 × 24 ft
-- `PEPPER-EGGPLANT`: ~4 × 20–24 ft
-- `CUCUMBER`: 8–12 ft vertical trellis bed
-- `CABBAGE/GARLIC SUCCESSION`: 4 × 8 to 4 × 12 ft modules
-- `POTATO`: dedicated 3-ft-spaced rows, ~40–60 total row ft
-- `SUMMER SQUASH`: ~8 × 10 ft open zone
-- `PUMPKIN`: planting point at edge + large outward vine run
-- `ASPARAGUS`: permanent 4–6 ft wide bed sized for ~22–36 ft total crown row
-- `RHUBARB`: permanent 5 × 10–15 ft zone
-- `HERBS`: ~8 × 12 ft split into wet/dry subzones only if soil/drainage allows; otherwise use two separate areas
-
-Add paths around these modules. Bed area alone is not the operational footprint.
+## Morning glory / sweet peas
+- one dedicated vertical feature each, or one structure used in different seasons if biology/timing permits
 
 ---
 
-# 7. Expansion trigger
+# Greenhouse occupancy model — 16 × 24 ft
 
-Do **not** increase 2028 counts merely because land remains empty.
+The greenhouse's first job is **supporting the entire outdoor garden**, not maximizing greenhouse yield.
 
-Expand a crop only when at least one is true:
-- 2027 harvest was consistently consumed/gifted/preserved with little waste
-- household wanted more
-- cultivar performed well
-- maintenance stayed comfortable
-- irrigation/support capacity can scale
+## Late winter / early spring
+Use most bench capacity for:
+- tomatoes
+- peppers
+- eggplant
+- cabbage starts where appropriate
+- herbs
+- snapdragons/flowers
+- dahlia starts/propagation if used
 
-Reduce a crop when:
-- high waste
-- low flavor score
-- disease burden high
-- labor burden disproportionate
-- harvest timing conflicts with travel/work
+## Spring transition
+- harden/stage transplants
+- begin clearing benches as plants move outside
+- reserve a small permanent work/propagation zone
+
+## Summer
+Possible uses:
+- 1–2 protected tomatoes
+- 1 cucumber
+- peppers/herbs
+- propagation/experiments
+
+But Kentucky heat means ventilation and shade management are mandatory; do not assume greenhouse summer production is automatically easier than outdoor growing.
+
+## Fall
+- start fall crops/transplants
+- extend herbs/greens
+- protect selected crops from early frost
+
+## Winter
+- use level depends on heating choice
+- default is not full commercial winter production
 
 ---
 
-# 8. Data needed to lock counts
+# Approximate bed-space program
 
-1. household size
-2. fresh-eating vs preservation goal
-3. favorite vegetables among the requested list
-4. desired tomato volume
-5. pepper heat tolerance/use
-6. pumpkin purpose
-7. summer vs winter squash choice
-8. weekly maintenance budget
-9. whether gifting excess produce is desirable
+The quarter-acre area budget is in `39_QUARTER_ACRE_GARDEN_PROGRAM.md`.
 
-Until those are known, the balanced first-year count envelope is `PROVISIONAL`, not a purchase order.
+Within the ~2,700 sq ft annual edible allocation, a reasonable first-year build can use a fraction of the space actively and keep some area for:
+- rotation
+- succession
+- cover crop/rest
+- access
+- experimentation
+
+Example modules:
+- tomatoes: ~4 × 24 ft or equivalent
+- peppers/eggplant: ~4 × 20–24 ft
+- cucumber trellis: ~8–12 ft long bed
+- cabbage/garlic modules: multiple 4 × 8 or 4 × 12 ft beds
+- squash: ~8 × 10 ft open area
+- potato rows: ~40–60 total row feet
+- pumpkin: edge planting + controlled vine lane
+
+## Permanent modules
+- asparagus: bed sized for 15–24 crowns
+- rhubarb: ~2–3 crown spaces with mature spread
+- herbs: split into moist and dry zones
+
+---
+
+# Expansion trigger
+
+Increase a crop only if 2027 shows:
+- harvest is consistently used/gifted/preserved
+- family wants more
+- maintenance is comfortable
+- disease burden is acceptable
+- irrigation/support capacity is adequate
+
+Reduce when:
+- food is wasted
+- flavor is disappointing
+- crop creates disproportionate work
+- disease pressure remains high
+- greenhouse/outdoor duplication produces too much of the same crop
+
+## Default philosophy
+
+A successful quarter-acre garden should have **room to breathe**. Empty rotation/flex space is not failure; it is resilience.
