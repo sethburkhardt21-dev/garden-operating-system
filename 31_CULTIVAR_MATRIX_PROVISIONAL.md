@@ -1,195 +1,280 @@
-# Cultivar Matrix — Provisional Kentucky Pass
+# Cultivar Matrix — Richmond, Kentucky Pass v0.3
 
-**Status:** RESEARCHED / PROVISIONAL until exact ZIP, bed dimensions, sun map, and user taste preferences are confirmed.
+**Status:** LOCATION CONFIRMED / CULTIVARS PROVISIONAL until bed geometry, sun/drainage, exact parcel hardiness, availability, and user taste/use preferences are confirmed.
 
-This file resolves broad requested categories into serious candidates without silently replacing the original request. A cultivar is not LOCKED until availability, site fit, and the user's flavor/appearance preferences are checked.
+This file resolves broad requested categories into serious candidates without silently replacing the original request. A cultivar is not `LOCKED` until availability, site fit, and the user's flavor/appearance preferences are checked.
 
 ## Evidence rule
 
-Primary Kentucky sources currently used:
-- University of Kentucky Extension `ID-128` — Home Vegetable Gardening in Kentucky (2024 revision)
-- University of Kentucky Extension `ID-133` — Vegetable Cultivars for Kentucky Gardens; still linked by current UK home-grower resources
+Primary Kentucky sources:
+- University of Kentucky Extension `ID-128` — Home Vegetable Gardening in Kentucky
+- University of Kentucky Extension `ID-133` — Vegetable Cultivars for Kentucky Gardens
 - University of Kentucky 2026 horticulture disease-resistance guidance
-- Current UK Crop Diversification crop profiles where applicable
+- current UK Crop Diversification crop profiles where applicable
+- Madison County Extension for local questions/diagnostics
 
 Because some cultivar tables are older than the current season, newer disease-resistance guidance receives extra weight.
 
-## Tomatoes
+## Site effect of two acres
 
-### Heirloom tomato — requested category preserved
+Land availability is no longer the main cultivar constraint.
+
+This changes the strategy:
+- we can pair flavor-first and disease-first tomatoes instead of choosing one compromise plant
+- pumpkins/winter squash can receive a deliberate vine run
+- potato production can use in-ground rotation blocks rather than space-saving containers
+- roses/perennials can be chosen at mature size without squeezing into annual beds
+
+Still constrained by:
+- labor
+- water access
+- disease pressure
+- household use
+- final garden-core footprint
+
+---
+
+# Tomatoes
+
+## Heirloom tomato — requested category preserved
 **Leading candidate: Cherokee Purple**
-- Kentucky-recommended list includes Cherokee Purple.
-- Strength: classic heirloom flavor/appearance.
-- Weakness: heirloom status usually means less disease insurance than modern resistant hybrids.
-- Role: flavor/showpiece tomato rather than the only tomato carrying the harvest.
+- appears in Kentucky-recommended cultivar lists
+- strength: classic heirloom flavor/appearance
+- weakness: less disease insurance than many modern resistant hybrids
+- role: flavor/showpiece tomato rather than the only tomato carrying the harvest
 
-**Backup strategy:** pair the heirloom with at least one disease-resistant slicer so one bad disease year does not erase the tomato crop.
+**Two-acre strategy:** grow at least one modern disease-resilient slicer elsewhere in the tomato row so heirloom failure does not erase the harvest.
 
-### Beefsteak tomato
+## Beefsteak tomato
 **Leading candidate: Big Beef**
-- Kentucky cultivar list includes Big Beef and records multiple resistance traits.
-- Good fit for the requested large slicer/beefsteak role.
-- Indeterminate habit means strong support and pruning/training access are required.
+- Kentucky cultivar guidance lists Big Beef with multiple resistance traits
+- strong fit for requested large slicer/beefsteak role
+- indeterminate habit requires strong support and harvest access
 
 **Alternative: classic Beefsteak**
-- Preserves the literal traditional type.
-- Use only if seed source and disease profile are acceptable.
+- preserves literal traditional type
+- use only if seed source and disease profile are acceptable
 
-### Cherry tomato
+## Cherry tomato
 **Tier 1 candidates:**
-1. **Sun Gold** — Kentucky 2026 guidance includes it among cherry/small-fruited tomatoes with some early-blight resistance; exceptional sweetness reputation, but fruit is orange rather than red.
-2. **Mountain Magic** — Kentucky cultivar guidance lists strong resistance package; excellent resilience candidate.
-3. **Matt's Wild Cherry** — Kentucky guidance notes early-blight resistance; very vigorous growth.
+1. **Sun Gold** — Kentucky 2026 guidance includes it among small-fruited tomatoes with useful disease resilience; orange rather than red.
+2. **Mountain Magic** — strong resilience candidate with Kentucky recommendation history.
+3. **Matt's Wild Cherry** — disease-resilient small-fruited option; extremely vigorous.
 
-**Design recommendation:** if space allows two cherry plants, choose one flavor-first cultivar plus one disease-first cultivar.
+**Current direction:** because space exists, consider two cherry plants with different purposes: one flavor-first + one resilience-first.
 
-## Peppers
+---
 
-### Bell pepper
+# Peppers
+
+## Bell pepper
 **Leading candidates:**
-- **Aristotle** — Kentucky recommended; bacterial leaf spot resistance noted.
-- **Alliance** — Kentucky recommended; bacterial leaf spot + PVY resistance noted.
-- **Red Knight** — specifically useful if mature red bells are desired.
+- **Aristotle** — Kentucky recommended; bacterial leaf spot resistance noted
+- **Alliance** — Kentucky recommended; bacterial leaf spot + PVY resistance noted
+- **Red Knight** — useful if mature red bells are desired
 
-**2026 disease note:** UK guidance identifies bacterial spot as the most common pepper disease and recommends resistance to as many races as practical.
+Kentucky guidance identifies bacterial spot as a major pepper disease, so broad race resistance is weighted heavily.
 
-### Jalapeño
-**Leading disease-resistance candidates from Kentucky commercial guidance:**
-- **Baluarte** — races 1/2/3 bacterial spot resistance; large fruit.
-- **Tormenta** — races 1/2/3 + TEV resistance; thick fruit.
-- **El Jefe** — races 1/2/3 bacterial spot resistance.
+## Jalapeño
+**Disease-resistance candidates from Kentucky/commercial guidance:**
+- **Baluarte** — races 1/2/3 bacterial spot resistance; large fruit
+- **Tormenta** — races 1/2/3 + TEV resistance; thick fruit
+- **El Jefe** — races 1/2/3 bacterial spot resistance
 
-For a home garden, final selection should balance heat level, flavor, fruit size, seed availability, and resistance.
+Final selection balances:
+- heat level
+- flavor
+- fruit size
+- yield
+- resistance
+- seed availability
 
-## Eggplant
+---
 
-Exact cultivar remains OPEN pending the current Kentucky recommendation table and user preference for:
+# Eggplant
+
+Exact cultivar remains OPEN pending preference for:
 - classic large purple fruit
 - slender Asian type
 - compact/container form
 
-**Selection rule:** prioritize heat performance, bacterial/fungal resilience, manageable plant size, and consistent fruit set.
+For this site, containers are not required for space; use them only if they improve convenience or soil management.
 
-## English cucumber
+Selection priorities:
+- Kentucky heat performance
+- bacterial/fungal resilience
+- manageable plant habit
+- consistent fruit set
+
+---
+
+# English cucumber
 
 The requested type is a long slicing/English cucumber, not a pickler.
 
-**Selection criteria:**
-- gynoecious/parthenocarpic characteristics if protected growing is ever used
-- powdery/downy mildew resistance where available
+Selection criteria:
+- true long slicing/English fruit quality
 - trellis suitability
-- thin skin + low bitterness
+- thin skin / low bitterness
+- powdery/downy mildew resistance where available
+- strong performance in humid conditions
 
-UK guidance warns against following cucumbers with another cucurbit because of disease/insect pressure. Final cultivar stays OPEN until an English-type candidate with current disease data is verified.
+Final cultivar stays OPEN until a current English-type candidate with reliable disease data and seed availability is verified.
 
-## Squash
+---
 
-The word `squash` is still ambiguous and must not be silently resolved.
+# Squash
+
+The word `squash` remains ambiguous and must not be silently resolved.
 
 Choose one or both:
 - **summer squash / zucchini** — compact, high-output, frequent harvest
-- **winter squash** — longer-season storage crop, often more sprawling
+- **winter squash** — longer-season storage crop, usually more sprawling
 
-Kentucky recommendations include disease-resistant winter squash options. Final choice waits on space and user intent.
+The two-acre property can support both if desired, but the user must decide whether both belong in the requested category.
 
-## Pumpkin
+---
 
-**Space-first decision.** Pumpkin cultivar determines whether this plant is realistic in a normal bed.
+# Pumpkin
 
-Kentucky recommendations include:
-- **Gladiator** — ~25 lb class, powdery mildew resistance listed
-- **Aladdin** — ~25–35 lb class, powdery mildew resistance listed
+The two-acre yard removes the previous assumption that pumpkin must be minimized for lack of land.
 
-If the garden is compact, prefer a smaller/less-vigorous pumpkin rather than sacrificing half the property to one vine.
+**Leading larger carving/display candidates from Kentucky guidance:**
+- **Gladiator** — roughly 25 lb class; powdery-mildew resistance listed
+- **Aladdin** — roughly 25–35 lb class; powdery-mildew resistance listed
 
-## Potatoes
+Other directions to investigate before locking:
+- pie/sugar pumpkin for eating
+- compact/bush or semi-bush type if the chosen garden core is tight
+- giant/display type only if intentionally desired
 
-### Baby potatoes
+**Current design rule:** cultivar determines the planned vine-run size. Choose pumpkin purpose first, then size the run; do not pick a giant cultivar and improvise later.
+
+---
+
+# Potatoes
+
+## Baby potatoes
 `Baby` is a harvest stage, not a cultivar.
 
-Best interpretation: choose a productive small/new-potato-friendly cultivar and harvest part of the crop young.
+Interpretation:
+- select a high-quality potato cultivar
+- harvest part of the crop young as baby/new potatoes
+- allow remaining plants/tubers to mature if desired
 
-### Golden potatoes
+## Golden potatoes
 **Candidate direction:** yellow-fleshed/Yukon Gold-type cultivar.
 
-UK cultivar resources list several regional potato types, but exact yellow cultivar availability should be checked against certified seed-potato suppliers before locking.
+Final choice should be verified against current certified seed-potato availability.
 
-**Rule:** buy certified seed potatoes, not grocery potatoes.
+**Rule:** use certified seed potatoes, not grocery-store potatoes as the default planting source.
 
-## Cabbage
+The two-acre site favors dedicated rotation blocks over containers unless containers solve a separate problem.
 
-Final cultivar remains OPEN until spring vs fall crop is selected.
+---
+
+# Cabbage
+
+Final cultivar remains OPEN until spring vs fall emphasis is selected.
 
 Selection priorities:
 - black rot/downy mildew resistance where available
 - head size appropriate for household use
-- maturity window that fits Kentucky shoulder seasons
+- maturity window fitting Kentucky shoulder seasons
 - heat tolerance for spring crop or cold tolerance for fall crop
 
-## Garlic
+Because space exists, spring and fall cabbage can be treated as separate successions rather than forcing one cultivar to do everything.
 
-**Preferred direction: hardneck garlic** for the provisional Kentucky climate.
+---
 
-UK's 2026 garlic guidance highlights hardneck types for Kentucky winter conditions. Final variety should consider:
+# Garlic
+
+**Preferred direction: hardneck garlic** for Kentucky winter conditions.
+
+Selection criteria:
 - flavor
 - clove size/count
 - storage length
 - scape production
 - supplier disease cleanliness
 
-Order planting stock early; do not use anonymous supermarket garlic as the default planting source.
+Order planting stock early. Do not use anonymous supermarket garlic as the default source.
 
-## Asparagus
+---
+
+# Asparagus
 
 **Preferred direction: modern all-male hybrid.**
 
-Kentucky Extension recommends all-male types for productivity. Candidate selection should prioritize:
-- local crown availability
-- rust/fusarium tolerance where documented
+Kentucky Extension favors all-male types for productivity.
+
+Candidate selection should prioritize:
+- crown availability
+- rust/Fusarium tolerance where documented
 - spear quality
-- cold hardiness
+- hardiness through Richmond's 6b–7a transition
 
-`Purple Passion`/purple types can be considered as a secondary novelty planting, but the production backbone should be a proven green all-male hybrid unless the user prefers otherwise.
+Purple asparagus can be a secondary novelty planting, but the production backbone should be a proven green all-male hybrid unless the user prefers otherwise.
 
-## Rhubarb
+---
 
-Kentucky Extension currently recommends:
+# Rhubarb
+
+Kentucky Extension recommends:
 - **Canada Red**
 - **MacDonald**
 - **Valentine**
 - **Victoria**
 
-**Current recommendation:** shortlist `Valentine` and `Canada Red` if strong red stalk color is desired; retain `Victoria` as a dependable comparison candidate.
+**Current direction:**
+- shortlist `Valentine` and `Canada Red` if strong red stalk color matters
+- retain `Victoria` as a dependable comparison candidate
 
-## Herbs
+Because Richmond summers can be hot/humid, exact bed microclimate and drainage remain important even with recommended cultivars.
 
-### Basil
+---
+
+# Herbs
+
+## Basil
 Candidate architecture:
 - Genovese-type for primary culinary use
-- optional disease-resistant basil if downy mildew pressure warrants it
+- disease-resistant basil if downy mildew pressure warrants it
 
-### Rosemary
-Select a cold-tolerant cultivar but still assume container/overwinter protection may be needed until the exact zone and microclimate are confirmed.
+## Rosemary
+Select a cold-tolerant cultivar, but Richmond's coarse 6b–7a transition means winter survival should not be assumed. Container/overwinter protection remains the conservative baseline until the exact microclimate is observed.
 
-### Thyme
-English/common culinary thyme is the default candidate; use creeping thyme only for ornamental edging, not as the sole kitchen thyme.
+## Thyme
+English/common culinary thyme is the default candidate. Use creeping thyme only for ornamental edging, not as the sole kitchen thyme.
 
-### Parsley
+## Parsley
 Flat-leaf Italian parsley is the leading culinary candidate unless curly form is preferred aesthetically.
 
-### Cilantro
-Favor a slow-bolting cultivar because Kentucky heat shortens the useful leaf period.
+## Cilantro
+Favor a slow-bolting cultivar because Richmond summer heat shortens the useful leaf period.
 
-### Lavender
-Select a cold-hardy English lavender (`Lavandula angustifolia` type) rather than assuming every lavender will tolerate winter humidity/cold.
+## Lavender
+Select a cold-hardy English lavender (`Lavandula angustifolia` type) and give it a distinctly well-drained garden room.
 
-## Cultivar locking protocol
+---
 
-A cultivar becomes `LOCKED` only after this sequence:
-1. Requested category preserved.
-2. Exact site/climate confirmed.
-3. Disease-resistance package checked.
-4. Mature size fits actual geometry.
-5. User taste/color/use preference checked.
-6. Seed/plant source is realistically available.
-7. Final choice recorded in `04_PLANT_MASTER_LEDGER.csv` and Decision Log.
+# Cultivar locking protocol
+
+A cultivar becomes `LOCKED` only after:
+1. requested category is preserved
+2. Richmond site fit is checked
+3. exact parcel microclimate matters are resolved where relevant
+4. disease-resistance package is checked
+5. mature size fits actual garden-room geometry
+6. user taste/color/use preference is checked
+7. seed/plant source is realistically available
+8. final choice is recorded in `04_PLANT_MASTER_LEDGER.csv` and `29_DECISION_LOG.md`
+
+## Next cultivar questions with highest leverage
+
+1. Pumpkin purpose: carving/display, eating/pie, or both?
+2. Squash: summer, winter, or both?
+3. Eggplant form: classic large purple or slender Asian?
+4. Cherry tomato color preference: must it be red, or is Sun Gold's orange acceptable?
+5. Bell pepper: primarily green harvest, colored ripe harvest, or both?
+6. Rhubarb: strong red color important?
