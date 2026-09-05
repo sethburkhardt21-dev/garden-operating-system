@@ -1,175 +1,190 @@
-# Two-Acre Site Survey Protocol
+# Two-Acre Yard / Quarter-Acre Garden Site Survey Protocol
 
-**Purpose:** turn the Richmond yard from “about two acres” into a map accurate enough to place beds, paths, trellises, irrigation, roses, perennial crops, and vine runs without false precision.
+**Purpose:** survey only enough of the ~2-acre Richmond yard to place one accurate, maintainable **quarter-acre garden (~10,890 sq ft)** and its **16 × 24 ft greenhouse**.
 
-This protocol is designed to be doable by one person with a phone, tape measure/laser measure, stakes, and a notebook.
+Do not waste time fully surveying every foot of lawn before the garden site is chosen.
 
-## Phase 1 — crude map in 15 minutes
+## Phase 1 — crude property map
 
-Draw the property as a simple shape and add:
+Draw:
 - house
-- driveway
-- street/front boundary
+- driveway/street
 - sheds/outbuildings
 - fences/gates
 - major mature trees
 - patio/deck
-- current garden beds
 - hose bibs
-- visible slopes/ditches
+- obvious slopes/ditches
+- septic/utility restrictions if known
 - north arrow
 
-Do not worry about scale yet.
+## Phase 2 — identify 1–3 quarter-acre candidates
 
-## Phase 2 — establish fixed reference points
+Look for contiguous areas roughly capable of holding ~10,890 sq ft.
 
-Choose 4–8 permanent points that are unlikely to move:
+A perfect rectangle is not required. Useful comparison footprints include approximately:
+- 90 × 121 ft
+- 100 × 109 ft
+- 80 × 136 ft
+
+Each candidate should be scored for:
+- direct sun
+- water distance
+- drainage
+- convenience from house
+- wildlife exposure
+- greenhouse suitability
+- interference with normal yard use
+
+## Phase 3 — fixed reference points
+
+Choose 4–8 durable references:
 - house corners
 - fence corners
 - shed corners
-- mature-tree trunks
+- mature tree trunks
 - driveway corners
 
-Give them IDs: `REF-01`, `REF-02`, etc.
+IDs: `REF-01`, `REF-02`, etc.
 
-Every future bed/feature should eventually be measurable from at least two known references. This makes the map recoverable even if stakes disappear.
+The final quarter-acre boundary and greenhouse should be recoverable from at least two known references.
 
-## Phase 3 — property / garden-core dimensions
-
-Priority is not measuring every inch of two acres first.
+## Phase 4 — candidate dimensions
 
 Measure in this order:
-1. house footprint / major walls
-2. candidate garden-core rectangle/polygon
-3. distance from garden core to nearest water source
-4. mature trees near the core
-5. fences/gates controlling access
-6. slopes/low spots
-7. secondary expansion areas
-8. remaining property boundary only as needed
+1. candidate quarter-acre boundary
+2. distance to house
+3. water-source distance
+4. relevant mature trees
+5. fences/gates
+6. greenhouse candidate rectangle
+7. obvious slopes/low spots
+8. only then additional property geometry if needed
 
-Record units consistently in feet/inches or meters.
+## Phase 5 — sun survey
 
-## Phase 4 — sunlight survey
+For each quarter-acre candidate:
 
-For each candidate garden room create a row:
-
-| Area ID | 9 AM | Noon | 3 PM | 6 PM | Approx direct sun | Shade source |
+| Area ID | 9 AM | Noon | 3 PM | 6 PM | Approx direct sun | Major shade source |
 |---|---|---|---|---|---|---|
-| CORE-A | | | | | | |
-| PEREN-A | | | | | | |
-| ROSE-A | | | | | | |
-| DRY-A | | | | | | |
+| GARDEN-A | | | | | | |
+| GARDEN-B | | | | | | |
 
-Repeat on at least two clear days if possible.
+Then separately score likely internal zones:
+- `GH-A` greenhouse
+- `VEG-A` kitchen garden
+- `ROSE-A`
+- `PERM-A` asparagus/rhubarb
+- `DRY-A` lavender/rosemary/thyme
+- `SHADE-A` impatiens pocket
 
-### Priority requirements
-- tomatoes/peppers/eggplant/cucurbits: strongest sun candidates
-- roses: strong sun + airflow
-- lavender/rosemary/thyme: strong sun + drainage
-- impatiens: part-shade candidate
+Priority:
+- greenhouse/vegetables/roses/dry herbs need strongest sun candidates
+- impatiens need legitimate part shade
 
-## Phase 5 — drainage survey
+## Phase 6 — greenhouse stake test
 
-After a meaningful rain event, inspect at:
-- 1 hour
-- 6 hours
+Stake **16 × 24 ft** inside the strongest garden candidate.
+
+Observe:
+- sun through the day
+- nearby tree/building shadow
+- door approach
+- cart turning room
+- water route
+- electrical route if desired
+- slope/drainage
+- whether the greenhouse would shade vegetables
+- whether gutters can discharge safely
+
+Keep stakes in place long enough to experience normal yard use before committing.
+
+## Phase 7 — drainage survey
+
+After meaningful rain inspect:
+- ~1 hour
+- ~6 hours
 - next morning
-- ~24 hours if saturated
+- ~24 hours if still wet
+
+Mark standing water, saturated ground, erosion, downspout flow, and fast-draining areas.
+
+Greenhouse foundation/entrance and asparagus/rhubarb cannot be placed casually in a chronic wet pocket.
+
+## Phase 8 — topography / frost logic
 
 Mark:
-- standing water
-- saturated/spongy soil
-- fast-draining high spots
-- erosion channels
-- downspout discharge
-- roof runoff patterns
-
-Photo-name examples:
-`DRAIN_CORE-A_2026-09-20_1h.jpg`
-`DRAIN_CORE-A_2026-09-20_24h.jpg`
-
-## Phase 6 — topography / cold-air map
-
-You do not need survey-grade elevation at first.
-
-Label:
 - HIGH
 - MID
 - LOW
 - SLOPE-DOWN direction
 
-Cold air tends to settle into low areas. Flag low sunny pockets as possible frost-risk zones rather than automatically calling them the best vegetable site.
+A sunny low basin may still be a poor greenhouse or earliest-warm-crop location because cold air can settle there.
 
-## Phase 7 — water-friction test
+## Phase 9 — water-friction test
 
-From each hose bib:
-- measure distance to candidate vegetable core
+From each candidate:
+- measure spigot-to-garden distance
+- measure spigot-to-greenhouse distance
 - test hose reach
+- note drive/path crossings
 - note elevation change
-- note whether hose crosses driveway/path
-- time how long it takes to fill a known container if irrigation sizing becomes necessary
+- time fill of a known container if irrigation sizing is needed
 
-Score candidate areas:
-- `A` = easy water
-- `B` = manageable
-- `C` = annoying daily
-- `D` = requires infrastructure
+Score:
+- A = easy
+- B = manageable
+- C = annoying
+- D = needs infrastructure
 
-A perfect sunny bed that is miserable to water is not automatically the best garden location.
+## Phase 10 — wildlife pressure
 
-## Phase 8 — wildlife pressure survey
+Record evidence of:
+- deer
+- rabbits
+- groundhogs
+- squirrels/chipmunks
+- voles
+- slugs/snails
 
-Record direct evidence, not assumptions:
-- deer tracks/browse height
-- rabbit pellets/bite pattern
-- groundhog holes
-- squirrel/chipmunk digging
-- vole tunnels
-- slug/snail evidence
+If heavy pressure exists, the quarter-acre garden boundary may double as a fenced management boundary.
 
-Map entry points and shelter corridors.
+## Phase 11 — soil sampling
 
-## Phase 9 — soil sampling
+Use separate samples for the chosen garden candidate only:
+- vegetable area
+- greenhouse/adjacent in-ground area if relevant
+- permanent edible bed
+- flowers/roses
+- dry herbs
+- problem wet area
 
-Use the separate sample IDs in `34_RICHMOND_KY_SITE_BASELINE.md`.
+Do not test the rest of the yard unless it has a separate landscaping reason.
 
-Do not mix:
-- vegetable core soil
-- wet low spot
-- rose/perennial soil
-- dry-herb area
+## Phase 12 — photo protocol
 
-into one sample.
+Minimum:
+- quarter-acre candidate from each side
+- greenhouse rectangle
+- kitchen-garden zone
+- permanent bed
+- rose/flower zone
+- water source/path
+- any wet/low problem
 
-## Phase 10 — photograph protocol
-
-Take fixed-view photographs at minimum:
-- north-looking
-- south-looking
-- east-looking
-- west-looking
-- candidate kitchen garden
-- candidate permanent bed
-- candidate rose/flower area
-- candidate pumpkin/outflow area
-
-Stand in the same spot each season when possible.
-
-Naming convention:
-`SITE_REF01_NORTH_2026-09-05.jpg`
+Use repeatable fixed viewpoints.
 
 ## Deliverable schema
-
-The completed survey should eventually create:
 
 ```text
 SITE/
   property_sketch.jpg
-  measurements.csv
+  quarter_acre_candidates.csv
+  chosen_garden_boundary.csv
   reference_points.csv
   sun_map.csv
   drainage_log.csv
+  greenhouse_siting.md
   soil_tests/
   photos/
   water_map.md
@@ -178,13 +193,14 @@ SITE/
 
 ## Coordinate-lock gate
 
-Do not call the map “exact” until it contains:
+Do not call the garden map exact until it contains:
 - north
-- at least two reliable references
-- major structures
-- measured garden-core footprint
+- at least two reliable reference points
+- measured quarter-acre boundary
+- greenhouse 16 × 24 ft footprint
+- house/major nearby structures
 - water location
 - major shade objects
-- major slopes/low spots
+- major slopes/wet spots
 
-Once this gate passes, reproduce the property in Open Garden Planner or equivalent precision-map tooling and export JSON + SVG/PDF + CSV plant list for portability.
+Then reproduce the **quarter-acre garden**, not the whole two acres, in Open Garden Planner or equivalent precision mapping unless broader yard context is useful for reference.
