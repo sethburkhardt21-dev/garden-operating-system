@@ -1,9 +1,11 @@
 # Fall 2026 Action Plan — Richmond, Kentucky
 
 **Status:** ACTIVE SEASON PLAN  
-**Window:** September–December 2026
+**Window:** September–December 2026  
+**Garden scale:** ~1/4 acre inside a ~2-acre yard  
+**Greenhouse:** 16 × 24 ft enclosed structure reserved inside garden footprint
 
-The project is currently in a high-value planning/setup window. The best fall work is not to plant everything immediately; it is to use the season to lock the site, establish garlic, preserve evidence, and prepare 2027 permanent infrastructure.
+The most valuable fall work is now to identify the best quarter-acre location, site the greenhouse intelligently, establish garlic, test soils, preserve evidence, and prepare 2027 infrastructure.
 
 ---
 
@@ -11,48 +13,62 @@ The project is currently in a high-value planning/setup window. The best fall wo
 
 ## URGENT / do first
 
-### 1. Make the crude two-acre map
-Use `35_TWO_ACRE_SITE_SURVEY_PROTOCOL.md`.
+### 1. Find the quarter-acre candidate zone
+Use the property survey protocol, but do **not** map the entire two acres in obsessive detail first.
+
+Identify one or two contiguous areas roughly capable of holding ~10,890 sq ft plus normal access from the house.
 
 Record:
 - house
 - driveway
-- trees
-- fences
-- sheds
+- major trees
+- fences/sheds
 - north
 - water points
 - obvious slopes/low areas
-- candidate sunny kitchen-garden core
+- candidate garden envelope
 
-### 2. Start fixed-point photos
-Take 6–12 property photos and name them consistently.
+### 2. Reserve greenhouse candidate space
+Inside the best quarter-acre candidate, stake a provisional **16 × 24 ft** rectangle.
 
-Purpose:
-- 2027 comparison
-- shade reference
-- drainage evidence
-- eventual precision-map calibration
+Check:
+- sun through the day
+- shade from trees/buildings
+- approach path
+- water distance
+- electrical feasibility if desired
+- drainage
+- whether the structure would shade prime outdoor beds
 
-### 3. Order garlic
-Kentucky Extension guidance places garlic planting roughly **October through early November**, with Central Kentucky guidance extending to about **Nov. 7**.
+Do not order the greenhouse only from brochure appearance before this test.
 
-Do not wait until planting week to discover the preferred hardneck stock is sold out.
+### 3. Start fixed-point photos
+Photograph:
+- quarter-acre candidate from all sides
+- greenhouse rectangle
+- likely vegetable core
+- likely rose/flower area
+- likely permanent-bed area
+- water route
 
-### 4. Submit soil tests
-Use Madison County's resident soil-testing program.
+### 4. Order garlic
+Kentucky Extension guidance places garlic planting roughly October into early November. Buy preferred planting stock before availability narrows.
 
+### 5. Submit soil tests
 Priority samples:
-- kitchen-garden candidate
+- annual vegetable core candidate
+- greenhouse/adjacent production area if in-ground beds may be used
 - asparagus/rhubarb candidate
 - rose/cutting-flower candidate
 - dry-herb candidate
-- wet/problem area if distinct
+- obvious wet/problem area
 
-### 5. Measure water friction
-Measure hose distance from the nearest spigot to the best garden-core candidate.
-
-Do not design the 2027 kitchen garden where daily watering requires dragging hundreds of feet of hose unless infrastructure is intentionally planned.
+### 6. Measure water friction
+Measure hose distance and practical route from spigot to:
+- quarter-acre entrance
+- greenhouse
+- vegetable core
+- permanent beds
 
 ---
 
@@ -61,195 +77,163 @@ Do not design the 2027 kitchen garden where daily watering requires dragging hun
 ## Site-selection work
 
 ### Sun survey
-Record direct-sun behavior at:
-- morning
-- noon
-- mid-afternoon
-- late afternoon
+Record morning/noon/mid-afternoon/late-afternoon sun for:
+- greenhouse candidate
+- kitchen garden
+- rose area
+- dry herb zone
+- potential shade pocket
 
 ### Drainage survey
-After meaningful rain, mark:
+After meaningful rain mark:
 - standing water
 - saturated low areas
 - erosion channels
 - fast-draining areas
+- roof/downspout influence
 
 ### Wildlife survey
-Look for:
-- deer browse/tracks
-- rabbit evidence
-- groundhog burrows
-- squirrel/chipmunk digging
+Look for actual deer/rabbit/groundhog/squirrel evidence. This decides whether the quarter-acre garden needs perimeter exclusion.
 
-This determines whether fencing is a garden-core requirement rather than an afterthought.
+## Greenhouse design decisions
+Choose provisional:
+- frame/glazing type
+- natural vs powered ventilation
+- whether electricity is desired
+- frost-protection heat vs unheated default
+- bench vs ground-bed balance
+- door width and approach
+
+See `38_GREENHOUSE_PLAN.md`.
 
 ## Garlic bed prep
-Once soil/location are chosen:
-- select sunny well-drained soil
-- correct only soil-test-supported major issues
-- remove perennial weeds
-- define bed edges and access
+Choose sunny well-drained soil within the quarter-acre rotation/flex area. Correct only soil-test-supported issues.
 
-Do not fertilize blindly.
-
-## 2027 permanent-bed candidates
-Stake temporary corners for:
+## Permanent-bed staking
+Temporarily stake:
 - asparagus
 - rhubarb
-- rose focal area
+- red-rose focal positions
 - dry herb zone
 
-Then live with the markers for a few weeks. Walk around them, mow around them, and see whether they interfere with normal yard use before making them permanent.
+Walk and mow around the markers for a few weeks before construction.
 
 ---
 
-# October 1–November 7 — Central Kentucky garlic window
+# October–early November
 
-Current Kentucky beginner guidance:
-- spacing: about **6 in** between cloves
-- rows: about **12–18 in** apart
-- depth: about **1–2 in**
-- plant root end down
-- sunny, well-drained site
+## Garlic
+Plant according to current Kentucky guidance and site conditions.
 
-## Garlic execution checklist
-
-1. Confirm bed drains well.
-2. Record cultivar/source.
-3. Separate healthy cloves shortly before planting.
-4. Lay out rows before opening holes.
-5. Plant at planned spacing/depth.
-6. Label cultivar/row.
-7. Photograph bed.
-8. Record exact planting date.
-9. Mulch appropriately for winter.
-10. Add the garlic block to the map because the bed stays occupied through spring/early summer.
-
-## Garlic data record
-- number of cloves planted
-- cultivar
-- source
-- cost
-- spacing
-- bed ID
+Record:
+- cultivar/source
+- clove count
+- exact bed ID
+- spacing/depth
+- mulch
 - planting date
-- mulch type/depth
 
-This turns 2027 garlic performance into reusable evidence.
+## Greenhouse procurement gate
+By the time major fall construction purchases are considered, confirm:
+- greenhouse receives strong sun
+- drainage is acceptable
+- door/path approach works
+- water route is practical
+- intended foundation/anchors fit site
+- utility conflicts are clear
 
----
-
-# October–first killing frost
+If those are not known, reserve the footprint but delay irreversible installation.
 
 ## Dahlias
-Before frost:
-- tag desired cultivars/colors while flowers are visible
-- photograph blooms with labels
-- stop relying on memory for tuber identity
+Tag desired cultivars before frost, then lift/store according to Kentucky winter needs.
 
-After frost/top growth is appropriately finished:
-- follow the Kentucky dahlia-storage workflow
-- lift carefully
-- dry/cure as appropriate
-- inspect for rot/damage
-- label every tuber/clump
-- store in a cool protected environment using the chosen method
-
-Record spring survival rate next year.
-
-## Roses
-- photograph disease burden before leaf fall
-- note which areas have best airflow
-- do not perform random heavy pruning simply because fall arrived
-- clean up confirmed heavily diseased fallen material where appropriate
-
-## Warm-season vegetables
-Before cleanup:
-- photograph disease/pest symptoms
-- record cultivar if known
-- record yield impressions
-- note support failures
-- record which beds stayed wet/dry
-
-Evidence disappears when plants are removed.
+## Roses / summer crops
+Photograph disease burden and performance before cleanup removes evidence.
 
 ---
 
 # November
 
-## After garlic is in
-Focus on infrastructure and design.
+## Build the quarter-acre skeleton
+Decide:
+- primary 4-ft-ish path/spine
+- greenhouse/work hub
+- annual kitchen-garden zone
+- permanent edible zone
+- flower/rose zone
+- flex/sprawling zone
+- compost/material location
+- irrigation header route
 
-### Precision map preparation
-- refine reference points
-- measure candidate garden-core dimensions
-- measure trees/structures that cast shade
-- record major path/driveway widths
+Do not build all 10,890 sq ft as raised beds.
 
-### 2027 bed system
-Decide whether the annual core uses:
-- in-ground rows
-- raised beds
-- hybrid
+### Hybrid bed system
+Use raised beds where they improve:
+- access
+- drainage
+- appearance near entrance/greenhouse
+- soil control
 
-Do not choose raised beds solely because they look organized; use them where they improve drainage, access, soil control, or style enough to justify cost.
+Use in-ground beds where sensible for:
+- potatoes
+- squash/pumpkin
+- cutting flowers
+- broader rotation strips
 
-### Trellis decisions
-Lock structural language:
-- tomato supports
-- cucumber trellis
-- morning-glory structure
-- sweet-pea structure
-
-They can share an aesthetic without sharing the same biology.
+### Trellis language
+Choose one coherent structural style for:
+- tomatoes
+- cucumber
+- morning glory
+- sweet peas
 
 ---
 
 # December
 
-## Seed / plant procurement architecture
+## Seed / plant order
+Use `36_2027_PLANT_COUNT_AND_SPACE_MODEL.md`. The new rule is moderate household quantities, not filling the quarter acre for the sake of filling it.
 
-Create a final order list only after:
-- cultivar matrix review
-- household/use goals
-- first-year count envelope
-- storage space for seed/tubers
+## Greenhouse seasonal plan
+Assign approximate winter/spring bench space for:
+- tomato seedlings
+- pepper seedlings
+- eggplant
+- herbs
+- cabbage/flowers as scheduled
+- potting/work space
 
-## Priority slow-to-source items
-Potentially reserve/order:
-- asparagus crowns
-- rhubarb crowns
-- selected roses
-- named dahlia tubers if expanding
-- specialty seed varieties
+Do not plan 100% greenhouse occupancy; retain working room and air circulation.
 
-## Software experiment preparation
-Once the property sketch is measured enough:
-- reproduce the site in Open Garden Planner or equivalent
-- test Jninty as the garden journal/task/seed-bank layer
-- retain repository Markdown/CSV/JSON as canonical truth
+## Precision map
+Once the quarter-acre envelope has references/dimensions:
+- reproduce it in Open Garden Planner or equivalent
+- include the 16 × 24 greenhouse
+- export JSON + graphical plan + plant list
 
 ---
 
 # Fall 2026 definition of done
 
-By winter, aim to have:
-
-- [ ] Richmond site confirmed in project — DONE
-- [ ] two-acre scale recorded — DONE
+- [x] Richmond site confirmed
+- [x] ~2-acre yard recorded
+- [x] garden size limited to ~1/4 acre
+- [x] enclosed greenhouse requirement added
+- [x] greenhouse planning footprint set to 16 × 24 ft
+- [ ] quarter-acre candidate location chosen
 - [ ] rough property sketch
 - [ ] north arrow
-- [ ] water points
+- [ ] greenhouse rectangle field-tested
+- [ ] water route measured
 - [ ] sun notes
 - [ ] drainage notes
 - [ ] wildlife-pressure notes
 - [ ] separate soil tests
-- [ ] garlic planted and mapped
+- [ ] garlic planted/mapped
 - [ ] dahlia tubers stored/labeled if present
 - [ ] permanent-bed candidate zones marked
-- [ ] garden-core location chosen
+- [ ] primary paths/work hub sketched
 - [ ] 2027 cultivar shortlist refined
-- [ ] preliminary plant counts chosen
-- [ ] trellis/style language selected
+- [ ] moderate first-year plant counts chosen
 
-If those are completed, winter work becomes **detailed design and procurement**, not guessing.
+If these are completed, winter work becomes construction/procurement rather than guessing.
