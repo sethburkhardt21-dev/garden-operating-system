@@ -1,11 +1,11 @@
 # Quarter-Acre Garden Program — Richmond, Kentucky
 
-**Status:** FOOTPRINT LOCKED / INTERNAL COORDINATES PROVISIONAL  
-**Updated:** 2026-09-05
+**Status:** FOOTPRINT LOCKED / DEFAULT BLUEPRINT CREATED / REAL-PARCEL ORIENTATION PROVISIONAL  
+**Updated:** 2026-09-07
 
 ## Locked scale
 
-The property remains approximately **2 acres**, but the actual cultivated Garden Operating System footprint is now approximately **1/4 acre**.
+The property remains approximately **2 acres**, but the actual cultivated Garden Operating System footprint is approximately **1/4 acre**.
 
 **Quarter acre = 10,890 sq ft.**
 
@@ -23,17 +23,30 @@ It should be:
 - large enough to include an enclosed greenhouse
 - small enough that the daily route stays efficient
 
+## Canonical average blueprint
+
+The project now has a default quarter-acre geometry:
+
+**90 ft × 121 ft = 10,890 sq ft**
+
+See `40_DEFAULT_QUARTER_ACRE_LAYOUT.md`.
+
+This is the default design coordinate system, not a claim that the actual property contains a pre-existing 90 × 121 ft rectangle in the perfect location. The blueprint may be rotated, mirrored, or translated to fit the real yard while preserving its internal logic.
+
 ## Default greenhouse
 
 Inside the quarter-acre envelope:
 
 **16 × 24 ft enclosed greenhouse = 384 sq ft**
 
-See `38_GREENHOUSE_PLAN.md`.
+See:
+- `38_GREENHOUSE_PLAN.md` — structure/role
+- `41_GREENHOUSE_OPERATING_SYSTEM.md` — environment/control/operations
+- `42_2027_SEED_START_AND_SUCCESSION.md` — propagation schedule
 
 ## Area budget
 
-This is a planning budget, not a final survey drawing.
+This is a planning budget, not a requirement that every function occupy one rectangular polygon.
 
 | Function | Approx sq ft | Purpose |
 |---|---:|---|
@@ -46,28 +59,18 @@ This is a planning budget, not a final survey drawing.
 | Buffer / pollinator / wildflower / future adjustment | 1,806 | breathing room, wildflower tub, small expansion, design transitions |
 | **TOTAL** | **10,890** | **1/4 acre** |
 
-Do not interpret these numbers as mandatory bed rectangles. Their purpose is to stop the project from accidentally expanding beyond a normal quarter-acre garden.
-
-## Suggested physical shape
-
-A quarter acre can be represented by many dimensions. Useful planning examples:
-- ~90 × 121 ft
-- ~100 × 109 ft
-- ~80 × 136 ft
-
-Final shape follows the actual property and sunlight.
+Do not interpret these numbers as mandatory crop density. Empty/recovery space, airflow and access are part of the garden.
 
 ## Internal garden rooms
 
 ### Room 1 — entrance / greenhouse / work hub
-Place the greenhouse close to the primary garden entrance and convenient water/electricity if feasible.
+Place the greenhouse toward the north side of the default layout and convenient to the garden entrance route, water, and electricity if feasible.
 
 Adjacent features:
 - potting/work area
 - hose/irrigation header
-- small tool storage or staging
 - seedling hardening area
-- attractive entrance marker
+- cart/tool staging
 
 ### Room 2 — kitchen garden
 The most frequently visited beds.
@@ -90,7 +93,7 @@ Use efficient 30–48 in paths, strong trellises, and drip irrigation.
 - rhubarb
 - selected thyme/rosemary/lavender in biologically correct dry areas
 
-Permanent beds should sit outside the annual crop rotation but within convenient walking distance.
+Permanent beds sit outside annual rotation but remain easy to reach.
 
 ### Room 4 — cutting / flower garden
 - dahlias
@@ -107,12 +110,9 @@ Use flower masses rather than isolated plants.
 ### Room 5 — rose structure
 Classic red roses act as architectural punctuation rather than consuming a giant standalone rose garden.
 
-Use:
-- entrance pair/group
-- path-end focal grouping
-- flower-garden transition
-
-Optional white rose remains one backyard-only exception.
+Default first-year plan:
+- 3–5 red roses
+- optional white rose: 0 or 1, backyard only
 
 ### Room 6 — flexible/sprawling crop zone
 - pumpkin
@@ -125,7 +125,7 @@ Place at an outer edge so vines can move into designated space without crossing 
 ### Room 7 — shade pocket
 For impatiens and any plant that genuinely prefers partial shade.
 
-Do not force this room if the quarter-acre site is uniformly exposed; use shade created by a suitable structure or nearby landscape where biologically appropriate.
+Do not invent a shade bed if the final quarter-acre site has none; use a real part-shade location created by existing landscape/structure where appropriate.
 
 ### Room 8 — wildflower tub / pollinator detail
 The requested wildflower feature remains a dedicated tub, not the whole quarter acre.
@@ -137,7 +137,7 @@ It can sit near a bench/path junction or garden edge where it is visible and eas
 ### Primary spine
 ~4 ft wide where practical.
 Connect:
-entrance → greenhouse → kitchen garden → flower/perennial rooms → outer flex area.
+entrance → main garden rooms → greenhouse/work hub.
 
 ### Secondary paths
 ~2.5–3 ft as appropriate for bed access.
@@ -153,13 +153,25 @@ Use raised beds selectively for:
 - high-frequency crops
 - accessibility
 - soil-control needs
-- polished visual areas near the entrance/greenhouse
+- polished visual areas near entrance/greenhouse
 
-Use in-ground beds/rows where they are more economical for:
+Use in-ground beds/rows where more economical for:
 - potatoes
 - pumpkin/squash
 - cutting flowers
 - larger rotation blocks
+
+See `43_2027_BED_ASSIGNMENT_AND_ROTATION.md` for the default first-year assignment.
+
+## Build order
+
+See `44_INFRASTRUCTURE_AND_BUILD_SEQUENCE.md`.
+
+Canonical sequence:
+
+**SITE → WATER/DRAINAGE → GREENHOUSE → PRIMARY PATHS → PERMANENT BEDS → IRRIGATION → ANNUAL BEDS → TRELLISES → FLOWERS/ROSES → POLISH**
+
+The purpose is to avoid digging up finished work to add utilities later.
 
 ## Maintenance expectation
 
