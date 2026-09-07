@@ -1,62 +1,69 @@
-# Soil Plan — Richmond / Madison County Two-Acre Site
+# Soil Plan — Richmond Quarter-Acre Garden v0.6
 
 **Status:** SAMPLING STRATEGY LOCKED / AMENDMENTS PROVISIONAL UNTIL TEST RESULTS  
-**Updated:** 2026-09-05
+**Updated:** 2026-09-07
 
 ## First principle
 
 **Test before aggressively amending.**
 
-A two-acre yard almost certainly contains more than one useful soil-management zone. Do not treat the property as one homogeneous pot of soil.
+The property is ~2 acres, but the Garden OS cultivates only one quarter acre. Soil sampling should therefore focus on the biologically distinct management zones **inside or directly affecting the quarter-acre garden**, not the entire yard.
 
 Madison County currently advertises free soil testing for residents, up to 10 samples per home/farm per calendar year. Use that capacity strategically.
 
 ## Sample architecture
 
-### SOIL-A — primary kitchen-garden candidate
-Use for tomatoes, peppers, eggplant, cucumber, squash, cabbage, potatoes, basil/parsley/cilantro where appropriate.
+### SOIL-A — kitchen + primary annual production
+Use for K01–K08 and representative annual vegetable soil where the same soil history/management applies.
 
-### SOIL-B — alternate/rotation production block
-Important because the two-acre site can support real crop rotation.
+### SOIL-B — rotation field
+Use for R1–R4 if this field differs from the kitchen beds or will be managed in-ground rather than with imported raised-bed soil.
 
-### SOIL-C — permanent asparagus/rhubarb area
+### SOIL-C — permanent asparagus/rhubarb room
 Prepare this correctly before crowns go in; future correction is harder.
 
-### SOIL-D — rose / cutting-flower area
-Use to guide pH/fertility before investing in long-lived roses and perennial flowers.
+### SOIL-D — rose / cutting-flower garden
+Use before investing in long-lived roses and perennial flowers.
 
-### SOIL-E — dry-herb candidate
-Lavender, rosemary, thyme require drainage management that may matter more than simply adding fertility.
+### SOIL-E — dry-herb garden
+P03: lavender, rosemary, thyme. Drainage may matter more than maximizing fertility.
 
-### SOIL-F — problem wet/poor area
-Only sample separately if it is visibly distinct. The purpose is diagnosis, not to force garden placement there.
+### SOIL-F — greenhouse native soil / foundation edge
+Only if greenhouse beds/native soil will actually be used. If the greenhouse is entirely benches/containers over a constructed floor, a native-soil fertility test may not be useful.
 
-### SOIL-G+ — optional future expansion
-Use remaining free sample capacity only where a genuinely different management zone exists.
+### SOIL-G — problem wet/poor area
+Only sample separately when a visibly distinct problem area intersects the planned garden or drainage route.
 
-## Sampling rule
+### Remaining sample capacity
+Use only for a genuinely different management zone, not to test the ordinary lawn just because free samples remain.
+
+---
+
+# Sampling rule
 
 Within one management zone:
-- collect multiple small subsamples from representative locations
-- avoid compost piles, fertilizer spills, pet waste spots, fence edges, and other abnormal points unless that abnormal point is specifically being diagnosed
-- mix subsamples for that zone into one representative sample according to Extension instructions
+- collect multiple representative subsamples
+- avoid compost piles, fertilizer spills, pet waste spots, ash piles, fence edges, and other abnormal points unless diagnosing that exact spot
+- mix subsamples for that zone according to Extension instructions
+- label the sample before leaving the site
 
-Do **not** mix different management zones together.
+Do **not** mix kitchen beds, dry herbs, roses, wet spots, and rotation soil into one composite sample.
 
 ## What to record with every result
 
 - sample ID
-- exact map location
+- exact bed/zone IDs
 - date
 - current vegetation/use
-- intended future use
+- intended 2027 use
 - pH
-- phosphorus recommendation/result
-- potassium recommendation/result
+- phosphorus result/recommendation
+- potassium result/recommendation
 - lime recommendation
 - fertilizer recommendation
 - organic matter if provided
-- notes from Extension
+- Extension notes
+- original report file/photo
 
 Store the original report, not only a transcription.
 
@@ -64,36 +71,51 @@ Store the original report, not only a transcription.
 
 # Biological soil zones
 
-## Rich, moisture-retentive but drained production soil
-Applies primarily to annual vegetables and many cut flowers.
+## Annual vegetable / cutting-flower production soil
+Applies primarily to:
+- K01–K08
+- R1–R4 depending crop
+- FL01/FL02 where soil is shared
 
 Goal:
-- adequate organic matter
 - good aggregation
-- drainage without droughty behavior
-- fertility based on test, not guesswork
+- adequate organic matter
+- water-holding without chronic saturation
+- fertility based on test
 
-## Excellent-drainage herb zone
-Lavender, rosemary, thyme.
+## Dry-herb soil — P03
+Lavender / rosemary / thyme.
 
 Goal:
 - drainage first
-- avoid creating overly rich, wet soil simply because nearby vegetables like it
+- avoid rich wet soil
+- independent irrigation
 
-## Permanent edible zone
-Asparagus/rhubarb.
+## Permanent edible soil — P01/P02
+Asparagus / rhubarb.
 
 Goal:
 - deep preparation before planting
-- perennial weed reduction before crowns are installed
+- perennial weed suppression before crowns go in
 - drainage correction before the bed becomes permanent
+- fertility correction before planting where test supports it
 
-## Rose zone
+## Rose / perennial flower soil
 Goal:
 - drainage
-- suitable pH/fertility from test
+- suitable pH/fertility from actual test
 - organic matter where appropriate
-- mulch/irrigation design that reduces splash without burying crowns/canes incorrectly
+- mulch/irrigation system that reduces splash and does not bury rose crowns/canes
+
+## Greenhouse media
+Container/bench crops are not automatically governed by native-yard soil tests.
+
+Track separately:
+- purchased media lot/type
+- pH/EC if measured
+- crop response
+- fertilizer history
+- sanitation/reuse status
 
 ---
 
@@ -101,11 +123,12 @@ Goal:
 
 - do not automatically lime
 - do not add phosphorus “for roots” without evidence
-- do not repeatedly add high-P manure/compost without tracking soil levels
-- do not assume all two acres need the same compost rate
+- do not repeatedly add high-P manure/compost without tracking accumulation
+- do not assume the entire quarter acre needs the same compost rate
 - do not bury unfinished organic waste in planting holes
 - do not fertilize lavender/rosemary heavily by default
-- do not use one test from the lawn to represent a prepared garden bed
+- do not use one lawn test to represent raised beds or imported garden soil
+- do not use a greenhouse potting-mix test to represent outdoor soil
 
 ---
 
@@ -113,40 +136,56 @@ Goal:
 
 A perfect pH result does not fix standing water.
 
-For each garden zone also record:
-- how long water stands after rain
-- whether soil stays sticky/saturated
+For each garden zone record:
+- standing-water duration after rain
+- saturation/sponginess
 - crusting
 - compaction
 - erosion
 - slope
+- downspout/runoff influence
 
-If a candidate vegetable site remains saturated, solve drainage/placement first rather than trying to fertilizer-amend the problem away.
+If a candidate greenhouse, asparagus, lavender, rose, or vegetable area remains wet, solve placement/drainage before fertilizing the problem.
+
+---
+
+# Bed-area amendment rule
+
+When a soil report recommends a rate per 1,000 sq ft or acre, calculate the amendment from the **actual managed bed area**, not the full quarter-acre boundary.
+
+Examples of managed areas are stored in:
+- `data/bed_inventory_v0_6.csv`
+- `45_VISUAL_MASTERPLAN_AND_BED_GRID.md`
+
+Paths, greenhouse floor, benches, and unused buffer ground should not automatically receive vegetable-bed amendments.
 
 ---
 
 # Multi-year soil improvement
 
-## Year 0 / pre-plant
+## Pre-plant / 2026–early 2027
 - test
-- correct only documented major chemistry issues
+- correct documented chemistry issues
 - remove perennial weeds
-- improve structure with appropriate organic matter
+- improve structure with appropriate organic matter where needed
+- solve drainage
 - establish paths so bed soil is not repeatedly compacted
 
-## Year 1
-- record growth and deficiency symptoms
+## 2027
+- record growth/deficiency patterns
 - avoid chasing every leaf color with fertilizer
 - mulch appropriately
-- re-test only where needed or where major amendments were made
+- keep amendment history by bed
+- re-test only where needed or where major changes were made
 
-## Year 2+
+## 2028+
 Track trend by bed/zone:
 - pH
 - nutrient accumulation/depletion
 - organic matter
 - drainage/compaction
 - crop performance
+- disease relationship to drainage/crowding
 
 The goal is a stable soil system, not maximum fertilizer input.
 
@@ -155,12 +194,13 @@ The goal is a stable soil system, not maximum fertilizer input.
 # Soil-result integration gate
 
 When reports arrive:
-1. enter raw results into the repository
-2. map each result to its zone
-3. compare to crop requirements
-4. calculate amendments by actual bed area
-5. separate required corrections from optional optimization
-6. record product, rate, date, and reason
-7. update this file from `PROVISIONAL` to `SITE CONFIRMED` for each zone
+1. save original reports
+2. enter raw results into the repository
+3. map each result to specific bed IDs
+4. compare with crop needs and Extension recommendations
+5. calculate amendments from actual managed area
+6. separate required corrections from optional optimization
+7. record product/rate/date/reason
+8. update that zone from `PROVISIONAL` to `SITE CONFIRMED`
 
-Do not purchase bulk amendments until the garden-core area and the relevant soil-test recommendation are both known.
+Do not purchase bulk amendments until both the relevant soil result and actual managed bed area are known.
