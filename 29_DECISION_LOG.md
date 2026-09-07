@@ -5,8 +5,8 @@ Status: ACCEPTED
 Reason: user explicitly wants this exact garden rather than a generic optimized replacement.
 
 ## D-002 Do not lock physical coordinates before site geometry
-Status: ACCEPTED
-Reason: exact layout without dimensions/sun map would create false precision.
+Status: MODIFIED BY D-025
+Reason: false precision is still prohibited for the real parcel, but an average normalized design coordinate system is now intentionally allowed so the project can continue without waiting for a survey.
 
 ## D-003 Separate permanent crops
 Status: ACCEPTED
@@ -112,3 +112,67 @@ Status: ACCEPTED
 Date: 2026-09-05
 Reason: building the entire quarter acre as raised beds would be expensive and unnecessary.
 Consequence: use raised beds selectively for high-frequency/access/drainage/soil-control areas and in-ground beds for potatoes, pumpkins/squash, large cutting-flower blocks, and broader rotations where appropriate.
+
+## D-025 Adopt a normalized 90 × 121 ft default quarter-acre blueprint
+Status: ACCEPTED DEFAULT
+Date: 2026-09-07
+Reason: the user asked for an average design rather than waiting for exact property geometry.
+Consequence:
+- Garden OS now has a canonical design canvas of exactly 10,890 sq ft.
+- southwest is `(0,0)`; east is +x; north is +y.
+- the blueprint may be rotated, mirrored, or translated onto the actual property later.
+- real parcel coordinates remain provisional until surveyed.
+
+## D-026 Place the greenhouse toward the north side of the default blueprint
+Status: ACCEPTED DEFAULT
+Date: 2026-09-07
+Reason: this preserves convenient access while reducing avoidable shade over primary outdoor production areas.
+Default design coordinates: approximately `x=6–22`, `y=93–117`.
+Consequence: actual property sun/wind/water conditions may move it, but north-side siting is the baseline.
+
+## D-027 Greenhouse propagation outranks permanent protected production
+Status: ACCEPTED
+Date: 2026-09-07
+Reason: the greenhouse exists primarily to support the entire quarter-acre garden.
+Priority order:
+1. propagation
+2. transplant staging/hardening support
+3. shoulder-season production
+4. selected protected crops
+5. overwintering experiments
+6. storage
+Consequence: do not fill February–May bench space with permanent fruiting crops or clutter.
+
+## D-028 Use normal first-year crop quantities despite available space
+Status: ACCEPTED DEFAULT
+Date: 2026-09-07
+Reason: the user requested an average garden rather than maximum quarter-acre production.
+Examples:
+- 6 tomatoes total
+- 6 bell peppers
+- 3 jalapeños
+- 3 eggplants
+- 2–3 English cucumbers
+- 2 pumpkin plants/hills
+- modest squash allocation
+- 6–8 spring + 6–8 fall cabbage
+- 40–80 garlic cloves
+- 15–24 asparagus crowns
+- 2–3 rhubarb crowns
+Consequence: unused capacity is reserve/airflow/succession/beauty, not an error.
+
+## D-029 Use four annual rotation blocks plus high-frequency kitchen beds
+Status: ACCEPTED DEFAULT
+Date: 2026-09-07
+Reason: this balances easy daily access with useful crop-family history.
+Consequence:
+- four ~12 × 24 ft annual blocks form the rotation backbone
+- kitchen beds near the greenhouse keep tomatoes/peppers/cucumber/cabbage/herbs easy to inspect and harvest
+- kitchen-bed family history must still be tracked separately.
+
+## D-030 Build infrastructure in dependency order
+Status: ACCEPTED
+Date: 2026-09-07
+Canonical sequence:
+`SITE → WATER/DRAINAGE → GREENHOUSE → PRIMARY PATHS → PERMANENT BEDS → IRRIGATION → ANNUAL BEDS → TRELLISES → FLOWERS/ROSES → POLISH`
+Reason: minimize expensive rework and avoid burying utilities after finished beds/paths are installed.
