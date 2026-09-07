@@ -1,151 +1,175 @@
-# Integrated Pest Management — Richmond, Kentucky v0.3
+# Integrated Pest Management — Richmond, Kentucky v0.7
 
-**Status:** RESEARCHED for Kentucky / SITE LOCATION CONFIRMED / exact pest pressure becomes OBSERVED IN THIS GARDEN only after site evidence and the first full season.
+**Status:** RESEARCHED FOR KENTUCKY / SITE LOCATION + QUARTER-ACRE DESIGN CONFIRMED / exact pest pressure becomes `OBSERVED IN THIS GARDEN` only from real evidence.
 
 The garden uses IPM, not a reflexive pesticide schedule.
 
 ## Escalation ladder
 
 1. Correctly identify the organism or damage.
-2. Decide whether the damage is actually significant.
+2. Decide whether damage is actually significant.
 3. Improve cultural conditions.
 4. Use physical/mechanical control.
-5. Protect or encourage beneficial organisms.
+5. Protect/encourage beneficial organisms.
 6. Use the lowest-impact appropriate labeled treatment if justified.
-7. Escalate only if expected crop/plant loss warrants it.
+7. Escalate only when expected loss warrants it.
 
-Never treat an edible crop with a pesticide unless the label explicitly allows that crop and use. Protect pollinators and avoid spraying open flowers when pollinators are active.
+Never treat an edible crop with a pesticide unless the label explicitly allows that crop/use. Protect pollinators and avoid casually treating open flowers.
 
 ---
 
-# Priority pest groups for this exact Richmond garden
+# Priority pest groups for this exact Garden OS
 
-## Cucurbits — cucumber, squash, pumpkin
+## Cucurbits — K06 / R2 / F01
 
 ### Cucumber beetles
-**Look for:** striped or spotted beetles, chewing on cotyledons/leaves/flowers, possible bacterial-wilt association.
+**Look for:** striped/spotted beetles, chewing on cotyledons/leaves/flowers, possible bacterial-wilt association.
 
-**Scout:** newly emerged/transplanted cucurbits are especially vulnerable.
+**Scout:** newly emerged/transplanted plants are especially vulnerable.
 
 **First response:**
 - inspect frequently while plants are small
-- remove beetles mechanically where practical
-- use row cover before flowering if compatible with pollination plan
-- uncover at flowering when pollinator access is required unless hand pollination is planned
+- remove mechanically where practical
+- use row cover before flowering if compatible with pollination
+- uncover at flowering when pollinator access is needed unless hand pollination is intentionally used
 
-Kentucky backyard cucurbit IPM guidance uses roughly one cucumber beetle or squash bug per plant as a management trigger rather than treating at the first sight of any insect.
+Kentucky backyard cucurbit IPM guidance uses approximately one cucumber beetle or squash bug per plant as a management trigger rather than automatically treating at first sight.
 
 ### Squash bugs
-**Look for:** bronze egg clusters, gray nymphs, adults around stems/undersides, stippling and wilting.
+**Look for:** bronze egg clusters, gray nymphs, adults around stems/undersides, stippling/wilting.
 
-**First response:** remove egg masses and nymph clusters early. Inspect boards/debris where adults hide.
+**First response:** remove egg masses/nymph clusters early; inspect hiding places/debris.
 
 ### Squash vine borer
 **Look for:** sudden vine wilt, frass/sawdust-like material near stem base, swollen/damaged stem.
 
-**Design mitigation:** inspect stem bases before assuming wilt means only water stress. The two-acre site gives room to route vines where stems remain accessible for inspection.
+**Design mitigation:** v0.7 deliberately routes squash/pumpkin through R2/F01 so rooted stems remain accessible for inspection while vines move away from the main spine.
 
-### Aphids/spider mites
-Usually secondary unless populations become large. Check undersides and look for beneficial predators before acting.
+### Aphids / spider mites
+Usually secondary unless populations become large. Check undersides and beneficial predators before acting.
 
 ---
 
-# Cabbage
+# Cabbage — K07 / R3 overflow
 
 ## Imported cabbageworm / cabbage looper / related caterpillars
 **Look for:** irregular holes, frass, caterpillars on undersides/inner leaves.
 
 **Best early controls:**
 - physical exclusion with insect netting/row cover
-- hand removal at home-garden scale
+- hand removal at household-garden scale
 - keep covers sealed at edges
 
-If biological treatment becomes justified, confirm pest identity and product label first.
+If biological treatment becomes justified, confirm pest identity and label first.
 
 ## Flea beetles
-Small shot-hole damage can be severe on young plants. Physical exclusion and fast, healthy crop establishment are higher-value than chasing every adult insect.
+Shot-hole damage can be severe on young plants. Physical exclusion and fast healthy establishment are higher-value than chasing every adult.
 
 ---
 
-# Tomatoes / peppers / eggplant / potatoes
+# Tomatoes / peppers / eggplant / potatoes — K01–K05 / R1
 
 ## Hornworms
 **Look for:** large missing leaf areas, dark droppings, stripped stems.
 
-**First response:** hand-pick. If a hornworm is covered with parasitoid-wasp cocoons, consider leaving it because it is already functioning as a beneficial-insect nursery.
+**First response:** hand-pick. If covered with parasitoid-wasp cocoons, consider leaving the hornworm because it is already functioning as a beneficial-insect nursery.
 
 ## Colorado potato beetle
-Priority on potatoes and potentially eggplant.
+Priority on R1 potatoes and potentially eggplant.
 
 **Look for:** striped adults, orange egg clusters, red/orange larvae, rapid defoliation.
 
-**First response:** frequent scouting and hand removal; rotate potatoes away from prior Solanaceae ground where practical.
+**First response:** frequent scouting/hand removal; maintain Solanaceae rotation records.
 
 ## Aphids
-Treat the population, not the existence of an aphid. Look for curled new growth, sticky honeydew, and natural enemies.
+Treat damaging population growth, not the mere existence of one aphid. Look for curled new growth, honeydew, and natural enemies.
 
-## Pepper/tomato fruit pests
-Any fruit chewing, boring, or internal feeding should be photographed and identified before treatment because multiple insects can create similar damage.
+## Fruit-feeding pests
+Photograph and identify before treatment because several insects can create similar fruit damage.
 
 ---
 
-# Roses
+# Roses — RS-ENT-L / RS-ENT-R / RS-FOCAL + optional repetitions
 
 ## Japanese beetles
-Kentucky rose guidance flags Japanese beetles as a recurring problem even on disease-resistant roses.
-
-**Home-garden strategy:**
+**Household-garden strategy:**
 - inspect in morning
 - knock adults into soapy water where practical
-- avoid creating a broad-spectrum spray routine that kills pollinators and natural enemies
-- expect some aesthetic damage tolerance
+- avoid broad-spectrum spray routines that kill pollinators/natural enemies
+- tolerate some cosmetic damage when plant health is not threatened
 
 ## Aphids
-Often manageable with water spray/mechanical control and predator conservation unless infestations are severe.
+Often manageable with water/mechanical control and predator conservation unless infestations become severe.
+
+## Diagnostic caution
+Rose rosette is a disease, not an insect-feeding problem even though mites transmit it. Distorted/broomed/thorny growth belongs in `13_DISEASE_PLAYBOOK.md`, not a generic insecticide response.
 
 ---
 
-# Flowers / herbs
+# Flower / herb garden — FL01–FL03 / P03 / vertical features
 
 ## Slugs and snails
-Potential problem in moist/shaded areas, especially around impatiens and tender seedlings.
+Potential issue in moist/shaded areas and tender seedlings.
 
 **Look for:** irregular holes + slime trails + nighttime activity.
 
-**Mitigation:** reduce persistent wet hiding habitat directly around vulnerable plants; hand-pick/trap as needed.
+**Mitigation:** reduce persistent wet hiding habitat immediately around vulnerable plants; hand-pick/trap when warranted.
 
 ## Caterpillars / leaf-chewing insects
-Do not assume all caterpillars are pests. Several requested plants are intentionally pollinator-friendly. Identify before removal.
+Do not assume all caterpillars are pests. The garden intentionally supports pollinators and beneficial insects. Identify first.
 
 ## Sap-feeding insects
-Aphids, whiteflies, mites and similar pests become more concerning when they distort new growth, spread rapidly, or coat foliage with honeydew.
+Aphids, whiteflies, mites and related pests become more concerning when they distort growth, spread rapidly, or create significant honeydew/stippling.
 
 ---
 
-# Mammals — especially important on a two-acre yard
+# Greenhouse pest layer — Z7 / GH-PROP / GH-BENCH / GH-TALL
 
-Wildlife pressure is still unmeasured. On two acres, solve recurring mammal damage at the **zone/perimeter level** where possible rather than protecting every plant separately.
+Enclosed space can amplify a small pest problem quickly.
+
+Priority monitoring:
+- aphids
+- whiteflies
+- spider mites
+- fungus gnats where propagation media stays wet
+- thrips where suspected from damage/sticky-card catches
+
+## Greenhouse operating rules
+- inspect leaf undersides during watering
+- quarantine questionable incoming plants in GH-QUAR when practical
+- yellow sticky cards may be used as **monitoring** tools, not as proof the pest problem is solved
+- avoid chronic wet media that favors fungus-gnat problems
+- remove heavily infested disposable plant material before it becomes a breeding reservoir
+- clean propagation debris and algae-prone wet surfaces
+
+Any pesticide used inside the greenhouse must be labeled for that crop/pest/location and used according to label restrictions, ventilation, re-entry, and harvest requirements.
+
+---
+
+# Mammals — 2-acre property context, quarter-acre protected target
+
+The cultivated target is one quarter acre. If recurring wildlife pressure exists, protect the **Garden OS boundary/high-value rooms** rather than trying to wildlife-proof the full property.
 
 ## Deer
-If present at meaningful pressure, this changes the physical architecture. A real deer problem is better solved with a barrier strategy around the high-value kitchen/perennial core than endless plant-by-plant rescue.
+If meaningful pressure is observed, use a real perimeter/barrier strategy around the quarter-acre garden rather than plant-by-plant rescue.
 
 ## Rabbits
-Protect young vegetables and tender stems with low fencing/hardware cloth where needed. Map entry points.
+Protect young vegetables/tender stems with appropriate low exclusion where needed; map entry points.
 
 ## Groundhogs
-A confirmed groundhog can defeat ordinary low fencing; this becomes a structural exclusion and burrow-location problem.
+A confirmed groundhog is a structural exclusion/burrow-location problem; ordinary low fencing may be inadequate.
 
 ## Squirrels/chipmunks
-Expect occasional fruit digging/seed disturbance. Do not redesign the entire garden until actual loss is measured.
+Expect occasional digging/fruit disturbance. Do not redesign the garden until measured loss justifies it.
 
-### Wildlife survey
-Before the final fence design, record:
+## Wildlife evidence log
+Record:
 - tracks
-- browse damage height
-- pellets/droppings
+- browse height/pattern
+- droppings
 - burrows
 - fence gaps
-- tree/brush corridors
+- nearby cover corridors
 - time-of-day sightings
 
 ---
@@ -155,9 +179,9 @@ Before the final fence design, record:
 This garden deliberately includes roses, coneflowers, Rudbeckia, zinnias, cosmos, lavender, herbs, wildflowers and other bloom sources.
 
 Therefore:
-- avoid broad-spectrum insecticide use as a default
+- avoid broad-spectrum insecticide use as default
 - never treat open flowers casually
-- use treatment timing only when label/target justify it
+- use timing only when label/target justify it
 - read the full label
 - do not assume “organic” means harmless to pollinators
 
@@ -168,16 +192,17 @@ Therefore:
 Every meaningful event should record:
 - date
 - plant ID
-- bed/location
-- pest/damage photo
-- pest count or rough density
+- bed ID
+- photo
+- pest count/rough density
 - damage severity 0–5
 - beneficial insects seen
-- weather conditions
+- greenhouse vs outdoor context
+- weather/environment conditions
 - action taken
 - result after 24 h / 7 d
 
-The goal is to learn which pests are actually important in **this Richmond property** rather than importing every theoretical Kentucky pest into the maintenance burden.
+The goal is to learn which pests actually matter in **this Richmond quarter-acre garden**, not import every theoretical Kentucky pest into the maintenance burden.
 
 ## Local escalation
-For ambiguous or severe recurring problems, Madison County Cooperative Extension is the first local horticultural escalation point before guessing or repeatedly treating.
+For ambiguous/severe recurring problems, Madison County Cooperative Extension is the first local horticultural escalation point before guessing or repeatedly treating.
