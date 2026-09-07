@@ -18,8 +18,10 @@ P02,Permanent,Rhubarb envelope,25,40,43,55,15,12,2 to 3 rhubarb crowns,DEFAULT
 P03,Permanent,Dry herb garden,4,28,61,77,24,16,lavender thyme rosemary,DEFAULT
 F01,Flex,Pumpkin and sprawling crop planting/run zone,47,68,13,31,21,18,2 pumpkin hills plus reserved squash routing,DEFAULT
 FL01,Flower,Dahlia cutting/display block,6,14,8,30,8,22,8 to 12 dahlias,DEFAULT
-FL02,Flower,Zinnia and cosmos cutting block,17,27,8,30,10,22,zinnia body plus cosmos airy layer,DEFAULT
+FL02,Flower,Zinnia and cosmos cutting block,17,27,8,30,10,22,zinnia body plus cosmos airy layer and cool-season strip,DEFAULT
 FL03,Flower,Perennial pollinator drift,30,41,8,30,11,22,coneflower black-eyed Susan daylily daisy/geranium as resolved,DEFAULT
+VG-MORNING-GLORY,Vertical Flower,Morning glory arch or trellis reserve,69,73,13,23,4,10,2 to 4 morning glory vines on dedicated support,PROVISIONAL FEATURE
+VG-SWEET-PEA,Vertical Flower,Sweet pea cool-season trellis reserve,74,84,27,29,10,2,8 to 12 ft dedicated sweet pea support,PROVISIONAL FEATURE
 RS-ENT-L,Rose,South entrance left red rose focal,37.5,40.5,5.5,8.5,3,3,red rose,PROVISIONAL PLANT CENTER
 RS-ENT-R,Rose,South entrance right red rose focal,49.5,52.5,5.5,8.5,3,3,red rose,PROVISIONAL PLANT CENTER
 RS-FOCAL,Rose,Flower transition red rose focal,39.5,42.5,29.5,32.5,3,3,red rose,PROVISIONAL PLANT CENTER
