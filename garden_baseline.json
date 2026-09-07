@@ -1,7 +1,7 @@
 {
-  "version": "0.4",
-  "updated": "2026-09-05",
-  "status": "SITE_AND_GARDEN_SCALE_CONFIRMED_COORDINATES_PROVISIONAL",
+  "version": "0.5",
+  "updated": "2026-09-07",
+  "status": "SITE_AND_GARDEN_SCALE_CONFIRMED_DEFAULT_BLUEPRINT_CREATED_REAL_PLACEMENT_PROVISIONAL",
   "site": {
     "city": "Richmond",
     "state": "Kentucky",
@@ -12,10 +12,23 @@
     "remaining_yard_not_garden_by_default": true,
     "usda_zone_working_range": ["6b", "7a"],
     "exact_parcel_half_zone": null,
-    "property_geometry_status": "PROVISIONAL",
+    "real_property_geometry_status": "PROVISIONAL",
     "sun_map_status": "PROVISIONAL",
     "soil_test_status": "PROVISIONAL",
     "water_map_status": "PROVISIONAL"
+  },
+  "default_design_canvas": {
+    "shape": "rectangle",
+    "width_east_west_ft": 90,
+    "length_south_north_ft": 121,
+    "area_sqft": 10890,
+    "origin": "southwest corner",
+    "x_axis": "east",
+    "y_axis": "north",
+    "rotatable": true,
+    "mirrorable": true,
+    "canonical_layout_file": "40_DEFAULT_QUARTER_ACRE_LAYOUT.md",
+    "machine_readable_zones": "data/default_layout_zones.csv"
   },
   "greenhouse": {
     "required": true,
@@ -24,14 +37,24 @@
     "default_width_ft": 16,
     "default_length_ft": 24,
     "default_area_sqft": 384,
+    "default_design_coordinates": {
+      "x_min_ft": 6,
+      "x_max_ft": 22,
+      "y_min_ft": 93,
+      "y_max_ft": 117
+    },
+    "default_location_role": "north-side operational hub",
     "year_round_full_heat_assumed": false,
-    "primary_roles": [
-      "seed starting",
-      "transplant production",
-      "season extension",
-      "protected crop experiments",
-      "potting and work space"
-    ]
+    "mission_priority": [
+      "propagation for outdoor garden",
+      "transplant staging and hardening support",
+      "shoulder-season production",
+      "selected protected crops",
+      "overwintering experiments",
+      "storage"
+    ],
+    "operating_system_file": "41_GREENHOUSE_OPERATING_SYSTEM.md",
+    "propagation_calendar_file": "42_2027_SEED_START_AND_SUCCESSION.md"
   },
   "design_invariants": {
     "red_roses_primary": true,
@@ -41,7 +64,9 @@
     "portable_canonical_data": true,
     "quarter_acre_boundary_requires_explicit_user_change_to_expand": true,
     "hybrid_raised_and_in_ground_beds": true,
-    "permanent_edibles_separate": true
+    "permanent_edibles_separate": true,
+    "normal_first_year_quantities_not_maximum_production": true,
+    "greenhouse_propagation_priority": true
   },
   "area_budget_sqft": {
     "greenhouse": 384,
@@ -53,6 +78,41 @@
     "buffer_pollinator_future_adjustment": 1806,
     "total": 10890
   },
+  "first_year_defaults_2027": {
+    "tomatoes_total": 6,
+    "bell_peppers": 6,
+    "jalapenos": 3,
+    "eggplants": 3,
+    "english_cucumbers": "2-3",
+    "pumpkins": 2,
+    "squash": "2 summer OR 1-2 winter until type resolved",
+    "cabbage_spring": "6-8",
+    "cabbage_fall": "6-8",
+    "garlic_cloves": "40-80",
+    "asparagus_crowns": "15-24",
+    "rhubarb_crowns": "2-3",
+    "red_roses": "3-5",
+    "dahlias": "8-12",
+    "machine_readable_crop_plan": "data/2027_crop_plan.csv"
+  },
+  "annual_rotation": {
+    "block_count": 4,
+    "default_block_size_ft": "12x24",
+    "plan_file": "43_2027_BED_ASSIGNMENT_AND_ROTATION.md"
+  },
+  "build_sequence": [
+    "site",
+    "water_and_drainage",
+    "greenhouse",
+    "primary_paths",
+    "permanent_beds",
+    "irrigation",
+    "annual_beds",
+    "trellises",
+    "flowers_and_roses",
+    "polish"
+  ],
+  "infrastructure_file": "44_INFRASTRUCTURE_AND_BUILD_SEQUENCE.md",
   "plant_count": 38,
   "canonical_plant_source": "04_PLANT_MASTER_LEDGER.csv",
   "plants": [
