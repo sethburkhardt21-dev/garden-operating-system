@@ -1,17 +1,21 @@
-# 2027 Bed Assignment + Rotation Plan — v0.5
+# 2027 Bed Assignment + Rotation Plan — v0.6
 
-**Status:** DEFAULT IMPLEMENTATION PLAN / FINAL BED COORDINATES FOLLOW SITE FIT  
+**Status:** DEFAULT IMPLEMENTATION PLAN / REAL-PARCEL TRANSFORM STILL PROVISIONAL  
 **Applies to:** quarter-acre Garden OS, Richmond, Kentucky
 
-This file converts the requested plant list into a normal, manageable first-year bed plan. It intentionally leaves reserve capacity rather than filling the whole quarter acre with vegetables.
+This file converts the requested plant list into a normal, manageable first-year bed plan. It intentionally leaves reserve capacity rather than filling the quarter acre with maximum production.
 
 ## Core strategy
 
 Use two systems together:
 1. **high-frequency kitchen beds** near the greenhouse for crops harvested/scouted constantly
-2. **larger in-ground rotation blocks** for crop-family history, potatoes, cabbage/alliums, and flexible seasonal use
+2. **four 16 × 16 ft rotation blocks** for crop-family history, potatoes, squash, garlic/cabbage flex, flowers, and recovery
 
-The hybrid system keeps daily work easy without spending money raising every bed.
+The hybrid system keeps daily work easy while avoiding the cost and rigidity of raising every bed.
+
+See exact module coordinates in:
+- `45_VISUAL_MASTERPLAN_AND_BED_GRID.md`
+- `data/bed_inventory_v0_6.csv`
 
 ---
 
@@ -19,116 +23,127 @@ The hybrid system keeps daily work easy without spending money raising every bed
 
 Default module language:
 - 4 ft working width where access is from both sides
-- 8, 12, or 16 ft length depending crop
+- 12–16 ft length depending crop
 - 30–36 in secondary paths
 - 4 ft main spine
 
-These are design modules, not a demand that every bed be lumber-framed.
+These are design modules, not a requirement that every bed be lumber-framed.
 
 ## K01 — heirloom tomatoes
 **Nominal bed:** 4 × 16 ft  
-**2027 allocation:** 2 heirloom plants with generous airflow/support.
+**2027:** 2 plants.
 
-Keep enough spare room for:
-- access
-- mulch
-- optional basil/marigold aesthetic edging where it does not crowd roots/airflow
+Generous support/airflow. Flavor-first showpiece category remains protected even if modern hybrids outperform it on disease.
 
 ## K02 — beefsteak tomatoes
 **Nominal bed:** 4 × 16 ft  
-**2027 allocation:** 2 beefsteak plants.
+**2027:** 2 plants.
 
 Heavy-duty support from day one.
 
 ## K03 — cherry tomatoes
 **Nominal bed:** 4 × 16 ft  
-**2027 allocation:** 2 cherry plants.
+**2027:** 2 plants.
 
-Because cherry cultivars can become extremely vigorous, prioritize vertical control over filling empty soil with neighbors.
+Prioritize vertical control and harvest access over filling empty soil.
 
 ## K04 — bell peppers
-**Nominal bed:** 4 × 12 ft  
-**2027 allocation:** 6 bell peppers.
+**Nominal bed:** 12 × 4 ft  
+**2027:** 6 plants.
 
-Use disease-resistant cultivar shortlist; do not crowd simply because pepper plants look small at transplanting.
+Use disease-resistant cultivar shortlist; do not crowd because transplants initially look small.
 
 ## K05 — jalapeño + eggplant
 **Nominal bed:** 4 × 16 ft  
-**2027 allocation:**
+**2027:**
 - 3 jalapeños
 - 3 eggplants
 
-Separate the two groups clearly for yield/disease records.
+Separate and label the two groups clearly for yield/disease records.
 
 ## K06 — English cucumber trellis
-**Nominal bed:** ~3–4 × 12 ft with trellis on the north side where possible  
-**2027 allocation:** 2–3 plants.
+**Nominal bed:** 4 × 12 ft  
+**2027:** 2–3 plants.
 
-Leave room on both sides to scout and harvest.
+Trellis on north edge where practical. Leave harvest/scouting access on both sides.
 
 ## K07 — cabbage succession
 **Nominal bed:** 4 × 12 ft  
-**2027 allocation:**
-- spring: 6–8 cabbage plants
+**2027:**
+- spring: 6–8 plants
 - fall: 6–8 plants after reset/preparation
 
-Do not plant the fall crop only after the spring crop is gone; transplants must be started earlier.
+Fall transplants must be started before spring occupancy necessarily ends.
 
-## K08 — kitchen herbs / succession
-**Nominal bed:** 4 × 12 ft or equivalent divided area  
-Use for:
+## K08 — basil / parsley / cilantro
+**Nominal bed:** 4 × 12 ft.
+
+Use:
 - basil
 - parsley
 - cilantro
 
-Keep rosemary/thyme/lavender out unless this bed is genuinely dry enough.
+Succession beats one oversized planting. Rosemary/thyme/lavender stay in P03 unless the real bed has equivalent drainage and independent water control.
 
 ---
 
-# Four annual rotation blocks
+# Four annual rotation blocks — v0.6 canonical geometry
 
-Reserve four comparable in-ground or large-bed blocks. A useful default size is approximately **12 × 24 ft each** (~288 sq ft) before surrounding access.
+v0.5's conceptual four ~12 × 24 ft blocks were too large for the previously allocated single rotation room. That geometry is superseded.
 
-Total active block soil = ~1,152 sq ft.
+The canonical blocks are now:
 
-This leaves substantial additional annual-area capacity for paths, succession, flowers, and future household-driven expansion.
+- **R1:** 16 × 16 ft
+- **R2:** 16 × 16 ft
+- **R3:** 16 × 16 ft
+- **R4:** 16 × 16 ft
+
+Total active rotation soil = **1,024 sq ft**.
+
+They occupy the combined east-middle rotation/flex field, with service paths between them.
 
 ## 2027
 
-### R1 — Solanaceae
-- potatoes
-- overflow tomatoes/peppers only if needed
+### R1 — Solanaceae / potatoes
+Primary:
+- golden/yellow potato cultivar
+- second cultivar for baby/new-potato harvest
 
-Keep potato cultivars separated for baby/new vs golden/yellow harvest records.
+Keep cultivars separated for yield/quality records.
+
+Kitchen tomatoes/peppers/eggplant remain in K01–K05 and must have their own location history.
 
 ### R2 — Cucurbitaceae
-- summer squash and/or winter squash once resolved
-- pumpkin planting point on outside edge
+Primary:
+- squash once type is resolved
+- pumpkin rooting point may begin here or in F01, with vines routed toward the south-east flex run
 - overflow cucumber only if needed
 
-Route pumpkin vines outward into assigned flex space rather than through other blocks.
+Do not let vines cross the main spine.
 
-### R3 — Brassica + Allium shoulder-season block
-- cabbage overflow/succession
-- garlic occupying fall-to-early-summer portion
-
-Garlic and cabbage are not the same family, but this flexible block is organized around shoulder-season occupancy rather than claiming a biological companion relationship.
-
-### R4 — reset / annual flowers / flexible recovery
+### R3 — Brassica + allium shoulder-season flex
 Use for one or more:
-- zinnias/cosmos/cut flowers
+- garlic occupying fall-to-early-summer portion
+- cabbage overflow/succession
+- post-garlic basil/flowers/recovery planting
+
+This is an occupancy/rotation block, not a claim that garlic and cabbage have a magical companion relationship.
+
+### R4 — reset / annual flowers / experiment / clean reserve
+Use for one or more:
+- zinnia/cosmos overflow
 - cover crop/rest period
 - trial cultivar
-- unused clean ground
 - temporary nursery space
+- intentionally unused clean ground
 
-This block is deliberately not forced into food production.
+The garden does not fail when a rotation block is not full of food.
 
 ---
 
 # 2028–2030 rotation
 
-Move the major annual family use clockwise through the four blocks.
+Move the major family use clockwise through the four blocks, then review actual disease/soil history before repeating.
 
 | Year | R1 | R2 | R3 | R4 |
 |---|---|---|---|---|
@@ -137,40 +152,35 @@ Move the major annual family use clockwise through the four blocks.
 | 2029 | Brassica/allium flex | Reset/flowers | Solanaceae | Cucurbits |
 | 2030 | Cucurbits | Brassica/allium flex | Reset/flowers | Solanaceae |
 
-Then review actual disease/soil records before automatically repeating.
-
-## Important limitation
-
-The small high-frequency kitchen beds also contain Solanaceae. They need their own location history and should rotate among equivalent kitchen modules when practical. Do not assume the four big blocks alone solve tomato/pepper disease rotation.
+Kitchen-bed families must also rotate among equivalent K-modules when practical. The four big blocks do not by themselves solve tomato/pepper disease carryover.
 
 ---
 
 # Permanent edible areas
 
 ## P01 — asparagus
-**2027 default:** 15–24 crowns.
-
-Create a dedicated permanent bed with room for mature fern growth.
+**2027:** 15–24 crowns.
 
 Rules:
-- no annual crop rotation through it
+- permanent bed
+- no annual tillage
 - no first-year harvest
-- manage weeds early
-- keep strong access around mature ferns
+- strong early weed control
+- room for mature fern growth and access
 
 ## P02 — rhubarb
-**2027 default:** 2–3 crowns.
+**2027:** 2–3 crowns.
 
 Keep distinct from dry-herb irrigation.
 
-## P03 — dry culinary/perennial herb zone
+## P03 — dry culinary/perennial herbs
 - rosemary: 1–2
 - thyme: 2–4
 - lavender: 3–7
 
-Use excellent drainage.
+Use excellent drainage and independent irrigation.
 
-If rosemary is not reliably hardy at the actual site, keep one plant containerized as winter insurance.
+If rosemary proves marginal at the actual microclimate, keep at least one plant containerized as winter insurance.
 
 ---
 
@@ -179,33 +189,28 @@ If rosemary is not reliably hardy at the actual site, keep one plant containeriz
 ## F01 — pumpkin run
 **2027:** 2 plants/hills.
 
-Allocate the vine path before sowing/transplanting.
+Allocate the vine path before planting.
 
 Do not allow:
 - vines across the main spine
-- fruit hidden under dense wet growth without inspection
-- pumpkin leaves to bury neighboring low crops
+- fruit hidden under dense inaccessible growth
+- pumpkin leaves to bury the flower foreground
 
-## F02 — squash
+## Squash
 Until `squash` is resolved:
 - summer path: 2 plants/hills
 - winter path: 1–2 hills
-- if both: split and label separately
+- if both are explicitly chosen, separate and label them
 
-## F03 — potatoes
-2027 target:
-- golden/yellow cultivar: ~20–30 row ft
-- second cultivar / baby-new harvest: ~20–30 row ft
+R2 + F01 have enough reserved geometry to support either path without redesigning the quarter-acre plan.
 
-Use certified seed potatoes.
-
-## F04 — garlic
+## Garlic
 2026 fall planting establishes the 2027 crop.
 
 Target:
-- ~40–80 cloves
+- 40–80 cloves
 
-After garlic harvest, assign the open ground intentionally rather than leaving it weedy. Good follow-on possibilities include a quick annual flower, basil, or recovery planting depending date and conditions.
+After harvest, assign the soil intentionally to a later crop/flower/recovery plan rather than letting it become weedy.
 
 ---
 
@@ -215,77 +220,93 @@ After garlic harvest, assign the open ground intentionally rather than leaving i
 2027 normal target:
 - 8–12 plants/tubers
 
-Enough for a strong visual/cutting group without making tuber lifting/storage a major operation.
+Enough for a strong cutting/display group without turning winter storage into a large operation.
 
-## FL02 — zinnia/cosmos cutting rows
-Use 1–2 medium blocks rather than scattering plants.
+## FL02 — zinnia/cosmos cutting block
+Default design target:
+- zinnias: roughly 24–36 plants across one or two successions, adjusted for spacing
+- cosmos: roughly 10–16 plants
+- marigolds: repeated edge groups, roughly 18–30 plants total across the design
 
-Target:
-- zinnias: one substantial row/block, succession if useful
-- cosmos: one lighter airy row/block
+## FL03 — perennial pollinator drift
+Default first-year envelope:
+- coneflower: 5–7
+- black-eyed Susan: 7–9
+- daylilies: 5–7
+- daisies: 3–5 once resolved
+- hardy geranium: 3–5 only if that is the final geranium interpretation
 
-## FL03 — perennial pollinator backbone
-Mass rather than singleton planting:
-- coneflowers
-- black-eyed Susans
-- daisies once resolved
-- daylilies
-
-## FL04 — red rose architecture
+## Red rose architecture
 2027 default:
-- 3–5 red roses
-- optional white rose: 0 or 1, backyard only
+- 2 matched red entrance roses
+- 1 red path/flower-transition focal rose
+- optional 2 additional red repetitions if composition needs them
+- optional white rose: 0–1, backyard only
 
-Use roses as entrance/path/focal structure, not a huge standalone rose collection.
+See `46_ROSE_AND_FLOWER_DESIGN.md`.
 
-## FL05 — cool-season flowers
-- snapdragons
-- sweet peas on dedicated support
+## Cool-season flowers
+- snapdragons: approximately 18–24 plants in grouped rows
+- sweet peas: one 8–12 ft dedicated support
 
-## FL06 — warm-season vertical
-- morning glory on separate dedicated structure
+## Warm-season vertical
+- morning glory: one separate structure, 2–4 vines depending cultivar/structure
 
-Do not combine morning glory and sweet pea as if they share one seasonal growth pattern.
-
-## FL07 — shade pocket
-- impatiens
-- geranium only after genus/type resolved
+## Shade pocket
+- impatiens only where genuine part shade exists
+- geranium treatment depends on final type
 
 ---
 
 # Greenhouse crop assignment
 
-The greenhouse is not part of outdoor rotation.
+The greenhouse is not part of outdoor crop rotation.
 
 ### Spring
-- propagation dominates
+Propagation dominates.
 
 ### Summer optional protected bay
-At most a small trial by default:
-- 1 tomato
-- and/or 1 English cucumber
-- several peppers if room remains
+At most a modest trial by default:
+- 1 tomato and/or
+- 1 English cucumber and/or
+- several peppers if propagation space is no longer needed
 
-Use containers, grow bags, or dedicated greenhouse soil management so disease history is traceable.
+Use containers/grow bags or documented greenhouse soil management so disease history remains traceable.
 
 ### Fall/winter
-- herbs/cool-season trials only to the level of heat/ventilation actually justified
+Herbs/cool-season trials only to the level justified by heat/light/ventilation.
+
+See `47_GREENHOUSE_EQUIPMENT_SPEC.md` for capacity and systems.
+
+---
+
+# Irrigation mapping
+
+Default irrigation groups:
+- Z1 kitchen Solanaceae
+- Z2 cucumber/cabbage/moist herbs
+- Z3 rotation blocks
+- Z4 permanent moist edibles
+- Z5 dry herbs
+- Z6 roses/flowers
+- Z7 greenhouse
+- Z8 sprawling/flex
+
+See `48_IRRIGATION_ZONE_SIZING.md` and `data/irrigation_zone_template.csv`.
 
 ---
 
 # 2027 harvest-driven adjustment
 
-At year end, every crop gets one of:
+At year end, every crop receives one of:
 - `INCREASE`
 - `HOLD`
 - `REDUCE`
 - `DROP CULTIVAR / KEEP CROP`
 - `DROP CROP ONLY IF USER EXPLICITLY CHANGES ORIGINAL LIST`
 
-Because the requested plant palette is an invariant, a poor cultivar does not automatically delete the crop category. Try a better cultivar/location/management approach first.
-
-## Evidence used for adjustment
-- actual yield
+Evidence:
+- yield
 - household use
 - waste
 - flavor
@@ -296,4 +317,4 @@ Because the requested plant palette is an invariant, a poor cultivar does not au
 - style value
 - greenhouse/bed-space competition
 
-See `data/2027_crop_plan.csv` for the machine-readable first-year crop plan.
+A poor cultivar does not automatically delete a requested crop category.
