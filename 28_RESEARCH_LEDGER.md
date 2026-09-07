@@ -1,6 +1,6 @@
-# Research Ledger — v0.4
+# Research Ledger — v0.6
 
-**Updated:** 2026-09-05  
+**Updated:** 2026-09-07  
 **Rule:** record source, use, claim, confidence, and caveats. Local/cultivar-specific evidence overrides generic data when they conflict.
 
 ## R-001 USDA Plant Hardiness
@@ -187,3 +187,39 @@ Finding: high tunnels are generally passively heated/cooled ground-crop structur
 Use: confirms the Garden OS greenhouse requirement should remain distinct from a high-tunnel-only solution.  
 Status: RESEARCHED  
 URL: https://ccd.uky.edu/resources/systems/hightunnel
+
+## R-030 Historical Kentucky rose resistance candidates
+Sources: University of Kentucky Kentucky Pest News rose disease-tolerance articles and UK landscape disease guidance.  
+Finding: older multi-state resistance compilations used by Kentucky Extension list several classic hybrid-tea candidates with black-spot resistance/tolerance histories, including `Mister Lincoln`, `Olympiad`, `Alec's Red`, and `Chrysler Imperial`; historical regional trials also identified red shrub roses such as `Home Run` and `Knock Out` as strong disease-resistance candidates.  
+Use: create a historically research-backed red-rose shortlist while preserving the user's classic-red preference.  
+Critical caveat: these are older results and not guarantees for current Richmond pathogen populations; availability and current/local performance must still be checked.  
+Status: RESEARCHED WITH AGE/LOCATION CAVEAT  
+URLs: https://www.uky.edu/Ag/kpn/pdf/kpn_1011.pdf ; https://www.uky.edu/Ag/kpn/pdf/kpn_1121.pdf ; https://publications.ca.uky.edu/files/id118.pdf
+
+## R-031 Rose rosette disease
+Source: University of Kentucky Plant Pathology, `Rose Rosette Disease (PPFS-OR-W-16)`  
+Finding: rose rosette is a serious disease threat to cultivated roses in Kentucky and can affect roses even when they have strong resistance to common fungal diseases.  
+Use: prevents the project from treating all abnormal rose growth as black spot/fungal disease and adds a diagnostic escalation path.  
+Status: RESEARCHED  
+URL: https://plantpathology.ca.uky.edu/files/ppfs-or-w-16.pdf
+
+## R-032 Greenhouse summer ventilation sizing
+Source: University of Kentucky greenhouse structures/environmental-control guidance, current 2025/2026 resource.  
+Finding: general summer greenhouse ventilation guidance uses approximately one greenhouse air volume per minute to an effective 8–10 ft height; winter ventilation can be roughly one-quarter volume. Fans also require adequate intake and circulation to avoid stagnant pockets.  
+Use: for a 16 × 24 ft greenhouse, establishes a planning target of roughly 3,100–3,900 CFM effective summer exhaust capacity before system-loss/manufacturer verification.  
+Status: RESEARCHED / FINAL EQUIPMENT SITE-MODEL DEPENDENT  
+URL: https://ccd.uky.edu/sites/default/files/2025-09/final-version.pdf
+
+## R-033 Kentucky drip-irrigation architecture
+Sources: University of Kentucky Center for Crop Diversification irrigation resources; `ID-36 Vegetable Production Guide`; UK Biosystems and Agricultural Engineering home-garden drip presentation.  
+Finding: basic drip systems require a water source, backflow/check protection as applicable, filtration, pressure regulation/gauge, delivery lines, emitters/dripline, and appropriate zoning. UK resources emphasize measuring flow/pressure, sizing systems to actual conditions, and using separate zones rather than assuming a single universal watering setup.  
+Use: supports `48_IRRIGATION_ZONE_SIZING.md` and the Garden OS zone manifold architecture.  
+Status: RESEARCHED  
+URLs: https://ccd.uky.edu/resources/systems/irrigation ; https://publications.mgcafe.uky.edu/sites/publications.ca.uky.edu/files/ID-36.pdf ; https://uknowledge.uky.edu/bae_present/1/
+
+## R-034 Ultra-low-pressure drip is a separate design regime
+Source: University of Kentucky `HO-120 Off the Grid: Ultra-low Pressure Drip Irrigation and Rainwater Catchment for Small Plots and High Tunnels`.  
+Finding: Kentucky research demonstrates that specialized low-pressure/gravity systems can work for small plots/high tunnels, but pressure losses, filtration, lateral length, and component compatibility become critical.  
+Use: prevents casually mixing standard house-pressure drip components with gravity/ultra-low-pressure assumptions.  
+Status: RESEARCHED  
+URL: https://publications.ca.uky.edu/sites/publications.ca.uky.edu/files/HO120.pdf
