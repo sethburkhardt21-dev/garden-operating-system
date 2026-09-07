@@ -162,13 +162,10 @@ Examples:
 Consequence: unused capacity is reserve/airflow/succession/beauty, not an error.
 
 ## D-029 Use four annual rotation blocks plus high-frequency kitchen beds
-Status: ACCEPTED DEFAULT
+Status: MODIFIED BY D-031
 Date: 2026-09-07
 Reason: this balances easy daily access with useful crop-family history.
-Consequence:
-- four ~12 × 24 ft annual blocks form the rotation backbone
-- kitchen beds near the greenhouse keep tomatoes/peppers/cucumber/cabbage/herbs easy to inspect and harvest
-- kitchen-bed family history must still be tracked separately.
+Original default used conceptual ~12 × 24 ft rotation blocks, but v0.6 reconciles their geometry.
 
 ## D-030 Build infrastructure in dependency order
 Status: ACCEPTED
@@ -176,3 +173,66 @@ Date: 2026-09-07
 Canonical sequence:
 `SITE → WATER/DRAINAGE → GREENHOUSE → PRIMARY PATHS → PERMANENT BEDS → IRRIGATION → ANNUAL BEDS → TRELLISES → FLOWERS/ROSES → POLISH`
 Reason: minimize expensive rework and avoid burying utilities after finished beds/paths are installed.
+
+## D-031 Reconcile the rotation field as four 16 × 16 ft blocks
+Status: ACCEPTED DEFAULT
+Date: 2026-09-07
+Reason: v0.5's four ~12 × 24 ft blocks exceeded the previously assigned single rotation-zone geometry. The average garden does not need oversized rotation blocks for the normal first-year crop quantities.
+Consequence:
+- R1–R4 are each 16 × 16 ft.
+- total active rotation soil = 1,024 sq ft.
+- the combined east-middle rotation/flex field is approximately `x=47–86`, `y=37–77`.
+- `45_VISUAL_MASTERPLAN_AND_BED_GRID.md` is the bed-level geometry authority.
+
+## D-032 Use a matched red-rose entrance pair plus one red transition focal by default
+Status: ACCEPTED DEFAULT
+Date: 2026-09-07
+Reason: this satisfies the user's classic red-rose direction while creating formal structure without turning the garden into a rose collection.
+Consequence:
+- default minimum = 3 red roses
+- up to 5 red roses may be used through repetition
+- optional white rose remains 0–1 and backyard only
+- cultivar remains provisional pending current/local performance and availability review
+
+## D-033 Treat historical Kentucky rose resistance lists as candidate evidence, not guarantees
+Status: ACCEPTED
+Date: 2026-09-07
+Reason: older Kentucky/multi-state trials provide useful candidate names, but black-spot reactions vary by location/pathogen population and rose rosette can affect highly resistant roses.
+Consequence:
+- classic red historical candidates such as Mister Lincoln and Olympiad may be shortlisted
+- no cultivar is labeled disease-proof or no-spray solely from older data
+- actual Richmond performance becomes `OBSERVED IN THIS GARDEN` evidence after planting
+
+## D-034 Size greenhouse summer ventilation from greenhouse volume, not floor area alone
+Status: ACCEPTED DESIGN METHOD
+Date: 2026-09-07
+Reason: current UK guidance uses approximately one greenhouse volume per minute at an effective 8–10 ft height for summer ventilation.
+Consequence for 16 × 24 ft structure:
+- planning target ≈ 3,100–3,900 CFM effective installed summer exhaust capacity
+- final fans/intakes must be verified against selected structure, free-air intake, screens/shutters, and manufacturer system losses
+- circulation fans are separate from exhaust capacity
+
+## D-035 Use independently controllable irrigation hydrozones and measured source hydraulics
+Status: ACCEPTED
+Date: 2026-09-07
+Reason: the quarter-acre plan contains incompatible water needs and Kentucky drip guidance emphasizes filtration, pressure regulation, zoning, and real system sizing.
+Default zones:
+- Z1 kitchen Solanaceae
+- Z2 cucumber/cabbage/moist herbs
+- Z3 rotation blocks
+- Z4 permanent moist edibles
+- Z5 dry herbs
+- Z6 roses/flowers
+- Z7 greenhouse
+- Z8 sprawling/flex
+Consequence: runtime is calibrated from soil wetting and weather/plant evidence; a timer schedule never proves water is biologically needed.
+
+## D-036 Create a bed-level machine-readable and visual masterplan
+Status: ACCEPTED
+Date: 2026-09-07
+Reason: the project now has enough normalized geometry to support exact default modules without pretending the real parcel has been surveyed.
+Canonical companions:
+- `45_VISUAL_MASTERPLAN_AND_BED_GRID.md`
+- `data/bed_inventory_v0_6.csv`
+- `docs/default_quarter_acre_masterplan.svg`
+Consequence: later site fitting should transform these coordinates rather than rebuild the garden architecture from zero.
