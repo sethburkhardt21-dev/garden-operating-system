@@ -1,7 +1,7 @@
 {
-  "version": "0.5",
+  "version": "0.6",
   "updated": "2026-09-07",
-  "status": "SITE_AND_GARDEN_SCALE_CONFIRMED_DEFAULT_BLUEPRINT_CREATED_REAL_PLACEMENT_PROVISIONAL",
+  "status": "SITE_AND_GARDEN_SCALE_CONFIRMED_DEFAULT_BLUEPRINT_RECONCILED_REAL_PLACEMENT_PROVISIONAL",
   "site": {
     "city": "Richmond",
     "state": "Kentucky",
@@ -28,7 +28,10 @@
     "rotatable": true,
     "mirrorable": true,
     "canonical_layout_file": "40_DEFAULT_QUARTER_ACRE_LAYOUT.md",
-    "machine_readable_zones": "data/default_layout_zones.csv"
+    "bed_level_layout_file": "45_VISUAL_MASTERPLAN_AND_BED_GRID.md",
+    "visual_masterplan_svg": "docs/default_quarter_acre_masterplan.svg",
+    "machine_readable_zones": "data/default_layout_zones.csv",
+    "machine_readable_beds": "data/bed_inventory_v0_6.csv"
   },
   "greenhouse": {
     "required": true,
@@ -53,7 +56,9 @@
       "overwintering experiments",
       "storage"
     ],
+    "summer_effective_exhaust_target_cfm_range": [3100, 3900],
     "operating_system_file": "41_GREENHOUSE_OPERATING_SYSTEM.md",
+    "equipment_spec_file": "47_GREENHOUSE_EQUIPMENT_SPEC.md",
     "propagation_calendar_file": "42_2027_SEED_START_AND_SUCCESSION.md"
   },
   "design_invariants": {
@@ -66,7 +71,9 @@
     "hybrid_raised_and_in_ground_beds": true,
     "permanent_edibles_separate": true,
     "normal_first_year_quantities_not_maximum_production": true,
-    "greenhouse_propagation_priority": true
+    "greenhouse_propagation_priority": true,
+    "irrigation_runtime_must_be_evidence_based": true,
+    "formal_bones_cottage_abundance_default_style": true
   },
   "area_budget_sqft": {
     "greenhouse": 384,
@@ -93,12 +100,37 @@
     "rhubarb_crowns": "2-3",
     "red_roses": "3-5",
     "dahlias": "8-12",
+    "zinnias": "24-36 across one or two successions",
+    "cosmos": "10-16",
     "machine_readable_crop_plan": "data/2027_crop_plan.csv"
   },
   "annual_rotation": {
     "block_count": 4,
-    "default_block_size_ft": "12x24",
+    "default_block_size_ft": "16x16",
+    "total_active_rotation_soil_sqft": 1024,
+    "rotation_field_bounds_ft": {
+      "x_min": 47,
+      "x_max": 86,
+      "y_min": 37,
+      "y_max": 77
+    },
     "plan_file": "43_2027_BED_ASSIGNMENT_AND_ROTATION.md"
+  },
+  "irrigation": {
+    "zone_count_default": 8,
+    "design_file": "48_IRRIGATION_ZONE_SIZING.md",
+    "commissioning_template": "data/irrigation_zone_template.csv",
+    "requires_measured_source_flow": true,
+    "requires_pressure_regulation_as_applicable": true,
+    "dry_herbs_separate_zone": true,
+    "greenhouse_separate_zone": true
+  },
+  "rose_and_flower_design": {
+    "design_file": "46_ROSE_AND_FLOWER_DESIGN.md",
+    "entrance_red_rose_pair_default": true,
+    "red_transition_focal_default": true,
+    "historical_classic_red_shortlist": ["Mister Lincoln", "Olympiad", "Alec's Red", "Chrysler Imperial"],
+    "cultivar_lock_status": "PROVISIONAL"
   },
   "build_sequence": [
     "site",
@@ -113,6 +145,8 @@
     "polish"
   ],
   "infrastructure_file": "44_INFRASTRUCTURE_AND_BUILD_SEQUENCE.md",
+  "procurement_file": "49_MATERIALS_AND_PROCUREMENT_REGISTER.md",
+  "master_checklist_file": "50_2026_2027_MASTER_CHECKLIST.md",
   "plant_count": 38,
   "canonical_plant_source": "04_PLANT_MASTER_LEDGER.csv",
   "plants": [
