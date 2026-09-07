@@ -1,0 +1,29 @@
+bed_id,zone,description,x_min_ft,x_max_ft,y_min_ft,y_max_ft,width_ft,length_ft,default_2027_use,status
+GH-01,Greenhouse,Enclosed greenhouse,6,22,93,117,16,24,propagation season extension work hub,DESIGN LOCK
+GH-WORK,Greenhouse,Hardening and potting apron,4,28,81,93,24,12,hardening potting staging,DEFAULT
+K01,Kitchen,Heirloom tomato bed,48,52,101,117,4,16,2 heirloom tomatoes,DEFAULT
+K02,Kitchen,Beefsteak tomato bed,56,60,101,117,4,16,2 beefsteak tomatoes,DEFAULT
+K03,Kitchen,Cherry tomato bed,64,68,101,117,4,16,2 cherry tomatoes,DEFAULT
+K04,Kitchen,Bell pepper bed,72,84,101,105,12,4,6 bell peppers,DEFAULT
+K05,Kitchen,Jalapeno and eggplant bed,72,76,81,97,4,16,3 jalapenos plus 3 eggplants,DEFAULT
+K06,Kitchen,English cucumber trellis bed,80,84,81,93,4,12,2 to 3 English cucumbers,DEFAULT
+K07,Kitchen,Cabbage succession bed,48,52,81,93,4,12,6 to 8 spring plus 6 to 8 fall cabbage,DEFAULT
+K08,Kitchen,Moist culinary herb bed,56,60,81,93,4,12,basil parsley cilantro succession,DEFAULT
+R1,Rotation,Annual rotation block 1,48,64,59,75,16,16,Solanaceae potatoes in 2027,DEFAULT
+R2,Rotation,Annual rotation block 2,68,84,59,75,16,16,Cucurbitaceae squash in 2027,DEFAULT
+R3,Rotation,Annual rotation block 3,48,64,39,55,16,16,Brassica garlic shoulder-season flex in 2027,DEFAULT
+R4,Rotation,Annual rotation block 4,68,84,39,55,16,16,reset flowers trial reserve in 2027,DEFAULT
+P01,Permanent,Asparagus envelope,4,22,41,55,18,14,15 to 24 asparagus crowns,DEFAULT
+P02,Permanent,Rhubarb envelope,25,40,43,55,15,12,2 to 3 rhubarb crowns,DEFAULT
+P03,Permanent,Dry herb garden,4,28,61,77,24,16,lavender thyme rosemary,DEFAULT
+F01,Flex,Pumpkin and sprawling crop planting/run zone,47,68,13,31,21,18,2 pumpkin hills plus reserved squash routing,DEFAULT
+FL01,Flower,Dahlia cutting/display block,6,14,8,30,8,22,8 to 12 dahlias,DEFAULT
+FL02,Flower,Zinnia and cosmos cutting block,17,27,8,30,10,22,zinnia body plus cosmos airy layer,DEFAULT
+FL03,Flower,Perennial pollinator drift,30,41,8,30,11,22,coneflower black-eyed Susan daylily daisy/geranium as resolved,DEFAULT
+RS-ENT-L,Rose,South entrance left red rose focal,37.5,40.5,5.5,8.5,3,3,red rose,PROVISIONAL PLANT CENTER
+RS-ENT-R,Rose,South entrance right red rose focal,49.5,52.5,5.5,8.5,3,3,red rose,PROVISIONAL PLANT CENTER
+RS-FOCAL,Rose,Flower transition red rose focal,39.5,42.5,29.5,32.5,3,3,red rose,PROVISIONAL PLANT CENTER
+WF-01,Special,Wildflower tub detail,75,81,9,15,6,6,wildflower tub,PROVISIONAL
+BENCH-01,Amenity,South-east pause bench,73,83,3.5,5.5,10,2,bench pause point,OPTIONAL
+MAIN-SPINE,Path,Primary north-south cart path,43,47,4,117,4,113,cart wheelbarrow circulation,DEFAULT
+MAIN-CROSS,Path,Primary east-west cart path,4,86,57,61,82,4,cart wheelbarrow circulation,DEFAULT
