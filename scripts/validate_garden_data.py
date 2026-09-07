@@ -4,14 +4,15 @@
 Run from repository root:
     python scripts/validate_garden_data.py
 
-The validator intentionally checks invariants that should never silently drift:
+The validator checks invariants that must not silently drift:
 - quarter-acre area math
 - greenhouse geometry
 - canonical plant IDs/count
-- 2027 crop-plan coverage
+- 2027 crop-plan coverage and key location references
 - bed/zone coordinate bounds
 - rotation block geometry
 - required canonical files
+- superseded location IDs do not reappear
 """
 
 from __future__ import annotations
@@ -76,11 +77,14 @@ def check_required_files() -> None:
         "48_IRRIGATION_ZONE_SIZING.md",
         "49_MATERIALS_AND_PROCUREMENT_REGISTER.md",
         "50_2026_2027_MASTER_CHECKLIST.md",
+        "51_AI_CONTINUATION_PROTOCOL.md",
         "data/default_layout_zones.csv",
         "data/bed_inventory_v0_6.csv",
         "data/2027_crop_plan.csv",
         "data/irrigation_zone_template.csv",
         "docs/default_quarter_acre_masterplan.svg",
+        "scripts/validate_garden_data.py",
+        ".github/workflows/validate-garden-data.yml",
         "garden_baseline.json",
     ]
     for relative in required:
@@ -97,6 +101,7 @@ def check_baseline() -> dict | None:
     canvas = baseline.get("default_design_canvas", {})
     greenhouse = baseline.get("greenhouse", {})
     area_budget = baseline.get("area_budget_sqft", {})
+    rotation = baseline.get("annual_rotation", {})
 
     target = site.get("garden_square_feet_target")
     width = canvas.get("width_east_west_ft")
@@ -135,6 +140,19 @@ def check_baseline() -> dict | None:
     except (KeyError, TypeError):
         error("Greenhouse default_design_coordinates missing or invalid")
 
+    if rotation.get("block_count") != 4:
+        error(f"Annual rotation must contain 4 blocks, got {rotation.get('block_count')!r}")
+    if rotation.get("default_block_size_ft") != "16x16":
+        error(
+            "Annual rotation default_block_size_ft must be '16x16'; "
+            f"got {rotation.get('default_block_size_ft')!r}"
+        )
+    if rotation.get("total_active_rotation_soil_sqft") != 1024:
+        error(
+            "Annual rotation active soil must be 1,024 sq ft; "
+            f"got {rotation.get('total_active_rotation_soil_sqft')!r}"
+        )
+
     plants = baseline.get("plants", [])
     plant_count = baseline.get("plant_count")
     ids = [p.get("id") for p in plants]
@@ -168,6 +186,38 @@ def check_crop_plan(baseline: dict | None) -> None:
             error(f"2027 crop plan contains unknown plant IDs: {extra}")
         if len(rows) != baseline.get("plant_count"):
             error(f"2027 crop plan has {len(rows)} rows; expected {baseline.get('plant_count')}")
+
+    by_id = {row.get("plant_id"): row for row in rows}
+
+    # Superseded v0.5 conceptual location IDs must never reappear in active crop locations.
+    legacy_tokens = {"F02", "F03", "F04", "FL04", "FL05", "FL06", "FL07"}
+    for row in rows:
+        location = row.get("primary_location", "")
+        for token in legacy_tokens:
+            # Match whole slash/space-delimited legacy token rather than substrings of unrelated IDs.
+            normalized = location.replace("/", " ").replace(",", " ").replace(";", " ")
+            if token in normalized.split():
+                error(
+                    f"2027 crop plan {row.get('plant_id')}: primary_location uses superseded token {token}: {location!r}"
+                )
+
+    expected_location_contains = {
+        "VEG-007": {"R2", "F01"},
+        "VEG-010": {"R3"},
+        "VEG-011": {"R1"},
+        "VEG-012": {"R1"},
+        "VEG-013": {"F01"},
+        "FLW-001": {"RS-ENT-L", "RS-ENT-R", "RS-FOCAL"},
+        "SPEC-001": {"WF-01"},
+    }
+    for plant_id, required_tokens in expected_location_contains.items():
+        row = by_id.get(plant_id)
+        if not row:
+            continue
+        location = row.get("primary_location", "")
+        for token in required_tokens:
+            if token not in location:
+                error(f"{plant_id}: primary_location must include {token!r}; got {location!r}")
 
 
 def check_rect_csv(path: Path, id_field: str, site_width: float = 90, site_length: float = 121) -> None:
@@ -204,13 +254,29 @@ def check_rect_csv(path: Path, id_field: str, site_width: float = 90, site_lengt
                 error(f"{context}: length {declared} != coordinate length {ymax - ymin}")
 
 
-def check_rotation_blocks() -> None:
+def check_bed_inventory() -> None:
     rows = load_csv(ROOT / "data/bed_inventory_v0_6.csv")
     by_id = {row.get("bed_id"): row for row in rows}
+
+    required_beds = {
+        "GH-01",
+        "K01", "K02", "K03", "K04", "K05", "K06", "K07", "K08",
+        "R1", "R2", "R3", "R4",
+        "P01", "P02", "P03",
+        "F01",
+        "FL01", "FL02", "FL03",
+        "VG-MORNING-GLORY", "VG-SWEET-PEA",
+        "RS-ENT-L", "RS-ENT-R", "RS-FOCAL",
+        "WF-01",
+        "MAIN-SPINE", "MAIN-CROSS",
+    }
+    missing = sorted(required_beds - set(by_id))
+    if missing:
+        error(f"Bed inventory missing required canonical IDs: {missing}")
+
     for rid in ("R1", "R2", "R3", "R4"):
         row = by_id.get(rid)
         if not row:
-            error(f"Missing rotation block {rid}")
             continue
         width = as_float(row, "width_ft", rid)
         length = as_float(row, "length_ft", rid)
@@ -228,6 +294,10 @@ def check_zone_site_row() -> None:
     if area != 10890:
         error(f"SITE zone area must be 10,890 sq ft, got {area}")
 
+    rotation_field = next((row for row in rows if row.get("zone_id") == "ROTATION-FIELD"), None)
+    if not rotation_field:
+        error("data/default_layout_zones.csv missing ROTATION-FIELD row")
+
 
 def main() -> int:
     check_required_files()
@@ -235,7 +305,7 @@ def main() -> int:
     check_crop_plan(baseline)
     check_rect_csv(ROOT / "data/default_layout_zones.csv", "zone_id")
     check_rect_csv(ROOT / "data/bed_inventory_v0_6.csv", "bed_id")
-    check_rotation_blocks()
+    check_bed_inventory()
     check_zone_site_row()
 
     print("Garden OS validation")
