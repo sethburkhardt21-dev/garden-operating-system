@@ -1,7 +1,7 @@
 {
-  "version": "0.6",
+  "version": "0.7",
   "updated": "2026-09-07",
-  "status": "SITE_AND_GARDEN_SCALE_CONFIRMED_DEFAULT_BLUEPRINT_RECONCILED_REAL_PLACEMENT_PROVISIONAL",
+  "status": "SITE_SCALE_GEOMETRY_AND_CORE_SYSTEMS_CONFIRMED_AS_DEFAULT_SELF_VALIDATING_REAL_PLACEMENT_PROVISIONAL",
   "site": {
     "city": "Richmond",
     "state": "Kentucky",
@@ -73,7 +73,8 @@
     "normal_first_year_quantities_not_maximum_production": true,
     "greenhouse_propagation_priority": true,
     "irrigation_runtime_must_be_evidence_based": true,
-    "formal_bones_cottage_abundance_default_style": true
+    "formal_bones_cottage_abundance_default_style": true,
+    "canonical_changes_require_validation": true
   },
   "area_budget_sqft": {
     "greenhouse": 384,
@@ -131,6 +132,12 @@
     "red_transition_focal_default": true,
     "historical_classic_red_shortlist": ["Mister Lincoln", "Olympiad", "Alec's Red", "Chrysler Imperial"],
     "cultivar_lock_status": "PROVISIONAL"
+  },
+  "repo_integrity": {
+    "validator": "scripts/validate_garden_data.py",
+    "github_actions_workflow": ".github/workflows/validate-garden-data.yml",
+    "ai_continuation_protocol": "51_AI_CONTINUATION_PROTOCOL.md",
+    "validation_required_before_canonical_handoff": true
   },
   "build_sequence": [
     "site",
