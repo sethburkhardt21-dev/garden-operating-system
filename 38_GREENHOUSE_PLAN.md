@@ -1,7 +1,7 @@
 # Enclosed Greenhouse Plan — Richmond, Kentucky
 
 **Status:** DESIGN SIZE LOCKED / EXACT SITING PROVISIONAL  
-**Updated:** 2026-09-05
+**Updated:** 2026-09-07
 
 The quarter-acre garden includes a **real enclosed greenhouse inside the garden footprint**, not merely a temporary row cover or open high tunnel.
 
@@ -23,6 +23,18 @@ The greenhouse counts inside the quarter-acre garden envelope, not in addition t
 6. overwinter tender plants where temperature capability allows
 7. store active propagation supplies, trays, pots, labels, and small tools
 8. serve as the garden's weatherproof work room
+
+## Mission priority
+
+When greenhouse uses compete for space, use this order:
+1. propagation for the outdoor garden
+2. transplant staging/hardening support
+3. shoulder-season production
+4. selected protected fruiting crops
+5. overwintering experiments
+6. storage
+
+The greenhouse must not become so full of permanent crops or stored items that it cannot perform its primary propagation mission in February–May.
 
 ## Not the default purpose
 
@@ -48,8 +60,11 @@ Richmond is south of 40° N. UK educational greenhouse guidance notes that north
 
 Therefore:
 - **default candidate:** long axis north–south
+- default normalized layout places it toward the **north side** of the quarter-acre garden to reduce avoidable shading of the main production beds
 - final orientation must also account for shade, prevailing wind, entrance/path geometry, and winter-use goals
-- do not lock orientation until the actual quarter-acre rectangle is placed on the property
+- do not lock the real-world orientation until the quarter-acre rectangle is placed on the property
+
+See `40_DEFAULT_QUARTER_ACRE_LAYOUT.md`.
 
 ## Ventilation and summer control
 
@@ -64,6 +79,8 @@ Minimum design intent:
 - removable shade cloth for peak summer
 
 UK guidance specifically notes that greenhouse cooling in Kentucky commonly relies on air exchange and shading, and that evaporative cooling is less effective in humid conditions.
+
+Detailed control logic and failure modes are now in `41_GREENHOUSE_OPERATING_SYSTEM.md`.
 
 ## Interior layout — 16 × 24 ft
 
@@ -102,7 +119,7 @@ A compact bench near the entrance for:
 Use solar gain + frost cloth/thermal mass where useful.
 
 ### Level 1 — frost protection
-Small controlled heater sized only to protect plants during cold events.
+Controlled heater sized to protect plants during cold events.
 
 ### Level 2 — actively heated production
 Only if winter/very-early crops justify the energy and reliability burden.
@@ -120,11 +137,13 @@ If heat is installed, loss-of-heat contingency matters because a single cold nig
 - cool-season greens as future additions if desired
 
 ### Optional protected production
-- one or more indeterminate tomatoes trained vertically
-- English cucumber
+- one indeterminate tomato trial
+- one English cucumber trial
 - selected peppers
 
 Do not fill the greenhouse permanently with crops that make seed-starting impossible.
+
+The complete 2027 propagation/succession schedule is in `42_2027_SEED_START_AND_SUCCESSION.md`.
 
 ## Biosecurity / disease workflow
 
@@ -162,7 +181,7 @@ Track:
 
 ## Exact siting gate
 
-Final greenhouse coordinates require:
+Final real-world coordinates require:
 - quarter-acre garden location
 - north
 - shade objects
@@ -172,4 +191,4 @@ Final greenhouse coordinates require:
 - drainage
 - path/door approach
 
-The greenhouse should be easy to reach from the house and should not cast avoidable shade over the main production beds.
+Until then, `40_DEFAULT_QUARTER_ACRE_LAYOUT.md` is the canonical average blueprint: 90 × 121 ft, greenhouse on the north side, ready to rotate/mirror to fit the actual property.
