@@ -1,197 +1,177 @@
-# Garden Operating System — START HERE — v0.6
+# Garden Operating System — START HERE — v0.7
 
-**Status:** RICHMOND CONFIRMED / QUARTER-ACRE GARDEN LOCKED / BED-LEVEL MASTERPLAN + GREENHOUSE/IRRIGATION SPECS CREATED  
+**Status:** RICHMOND CONFIRMED / QUARTER-ACRE GARDEN LOCKED / BED-LEVEL MASTERPLAN / SELF-VALIDATING LIVING REPO  
 **Updated:** 2026-09-07
 
 ## Current truth
 
-Site-confirmed:
 - Richmond, Kentucky / Madison County
-- approximately 2-acre residential yard
-- actual Garden OS limited to approximately **1/4 acre = 10,890 sq ft**
-- decent-size enclosed greenhouse inside the garden
+- ~2-acre residential property context
+- actual Garden OS cultivated footprint = **1/4 acre / 10,890 sq ft**
+- remaining ~1.75 acres are ordinary yard unless explicitly expanded
+- default design canvas = **90 × 121 ft**
+- default greenhouse = **16 × 24 ft / 384 sq ft** inside the quarter-acre garden
+- exact requested plant list = 38 canonical entries
+- red roses dominate; optional white rose maximum = 1, backyard/interior only
+- wildflower feature = separate tub
 
-Canonical normalized design:
-- **90 × 121 ft** quarter-acre rectangle
-- southwest origin `(0,0)`
-- north-up default
-- entire design can later be rotated/mirrored onto the real parcel
+## Before doing any major work
 
-Default greenhouse:
-- **16 × 24 ft = 384 sq ft**
-- north-side operational hub by default
+Run:
 
-Remaining ~1.75 acres stay ordinary yard/open space unless explicitly expanded later.
+```bash
+python scripts/validate_garden_data.py
+```
 
-The exact requested plant list remains preserved in `04_PLANT_MASTER_LEDGER.csv`.
+The GitHub workflow `.github/workflows/validate-garden-data.yml` runs the same validation on pushes and pull requests.
+
+If an AI is continuing this project, read:
+
+`51_AI_CONTINUATION_PROTOCOL.md`
+
+before changing architecture or canonical data.
 
 ---
 
-# What changed in v0.6
+# Canonical geometry now in force
 
-## Exact default bed map now exists
-Open:
-- `45_VISUAL_MASTERPLAN_AND_BED_GRID.md`
-- `docs/default_quarter_acre_masterplan.svg`
+## Macro
+`40_DEFAULT_QUARTER_ACRE_LAYOUT.md`
+
+## Bed-level
+`45_VISUAL_MASTERPLAN_AND_BED_GRID.md`
+
+## Machine-readable / visual
+- `data/default_layout_zones.csv`
 - `data/bed_inventory_v0_6.csv`
+- `docs/default_quarter_acre_masterplan.svg`
 
-The garden now has default coordinates for:
-- K01–K08 kitchen beds
-- R1–R4 rotation blocks
-- P01/P02/P03 permanent areas
-- FL01–FL03 flower blocks
-- F01 pumpkin/flex area
-- rose entrance/focal points
-- primary paths
+Current rotation backbone:
+- R1–R4
+- each **16 × 16 ft**
+- 1,024 sq ft total active rotation soil
 
-## Rotation geometry corrected
-The four old conceptual ~12 × 24 ft rotation blocks are superseded.
-
-Current default:
-- four **16 × 16 ft** blocks
-- total active rotation soil = **1,024 sq ft**
-
-## Rose/flower composition now exists
-`46_ROSE_AND_FLOWER_DESIGN.md`
-
-Default structure:
-- matched red entrance pair
-- one red transition/path focal
-- 3–5 red roses total
-- optional white rose remains 0–1, backyard only
-- flowers are massed/drifted rather than one-of-each
-
-## Greenhouse equipment specification now exists
-`47_GREENHOUSE_EQUIPMENT_SPEC.md`
-
-Current summer exhaust planning target:
-- approximately **3,100–3,900 CFM effective installed capacity**
-- final hardware still depends on selected structure/intake/system losses
-
-## Irrigation is now hydraulically designable
-`48_IRRIGATION_ZONE_SIZING.md`
-
-Eight default hydrozones exist, plus:
-- source GPM/pressure measurement
-- filter/regulator/gauge/manifold architecture
-- commissioning by observed wetting depth/width
-- greenhouse and dry-herb independent zones
-
-Worksheet:
-- `data/irrigation_zone_template.csv`
-
-## Procurement is staged
-`49_MATERIALS_AND_PROCUREMENT_REGISTER.md`
-
-Do not buy greenhouse foundations, final fans, bulk irrigation tubing, roses, or path materials before their dependency gates close.
-
-## One implementation checklist now controls the build
-`50_2026_2027_MASTER_CHECKLIST.md`
-
-Use it as the top-level execution list from now through first-season commissioning.
+Do not reintroduce the superseded 12 × 24 ft rotation-block geometry.
 
 ---
 
-# Execute in this order
+# Immediate execution order
 
 1. `50_2026_2027_MASTER_CHECKLIST.md`
 2. `45_VISUAL_MASTERPLAN_AND_BED_GRID.md`
-3. `docs/default_quarter_acre_masterplan.svg`
-4. `40_DEFAULT_QUARTER_ACRE_LAYOUT.md`
-5. `39_QUARTER_ACRE_GARDEN_PROGRAM.md`
-6. `47_GREENHOUSE_EQUIPMENT_SPEC.md`
-7. `38_GREENHOUSE_PLAN.md`
-8. `41_GREENHOUSE_OPERATING_SYSTEM.md`
-9. `48_IRRIGATION_ZONE_SIZING.md`
-10. `49_MATERIALS_AND_PROCUREMENT_REGISTER.md`
-11. `44_INFRASTRUCTURE_AND_BUILD_SEQUENCE.md`
-12. `37_FALL_2026_RICHMOND_ACTION_PLAN.md`
-13. `42_2027_SEED_START_AND_SUCCESSION.md`
-14. `43_2027_BED_ASSIGNMENT_AND_ROTATION.md`
-15. `46_ROSE_AND_FLOWER_DESIGN.md`
-16. `02_SITE_PROFILE.md`
-17. `34_RICHMOND_KY_SITE_BASELINE.md`
-18. `36_2027_PLANT_COUNT_AND_SPACE_MODEL.md`
-19. `04_PLANT_MASTER_LEDGER.csv`
-20. `05_PLANT_PROFILES/`
-21. `31_CULTIVAR_MATRIX_PROVISIONAL.md`
-22. `06_ANNUAL_CALENDAR_PROVISIONAL.md`
-23. `32_TODAY_ENGINE.md`
-24. `09_SOIL_PLAN.md`
-25. `10_IRRIGATION_PLAN.md`
-26. `12_PEST_IPM.md`
-27. `13_DISEASE_PLAYBOOK.md`
-28. `25_STYLE_UPGRADES.md`
-29. `27_GITHUB_REUSE_AUDIT.md`
-30. `28_RESEARCH_LEDGER.md`
-31. `29_DECISION_LOG.md`
-32. `30_OPEN_QUESTIONS.md`
+3. `47_GREENHOUSE_EQUIPMENT_SPEC.md`
+4. `48_IRRIGATION_ZONE_SIZING.md`
+5. `49_MATERIALS_AND_PROCUREMENT_REGISTER.md`
+6. `44_INFRASTRUCTURE_AND_BUILD_SEQUENCE.md`
+7. `37_FALL_2026_RICHMOND_ACTION_PLAN.md`
+8. `42_2027_SEED_START_AND_SUCCESSION.md`
+9. `43_2027_BED_ASSIGNMENT_AND_ROTATION.md`
+10. `46_ROSE_AND_FLOWER_DESIGN.md`
+11. `31_CULTIVAR_MATRIX_PROVISIONAL.md`
+12. task-specific plant/soil/IPM/disease files
 
 ---
 
 # Immediate September 2026 work
 
-## URGENT / highest value
+### URGENT
 - secure garlic planting stock
-- walk/stake the 90 × 121 ft garden footprint or equivalent transformed shape
-- identify greenhouse position, sun, drainage, water route, and cart approach
-- measure water-source flow/pressure
+- preserve photos of existing pest/disease evidence
+- identify/mark actual standing-water zones after rain
+
+### THIS WEEK
+- walk/stake a 90 × 121 ft quarter-acre footprint or equivalent transformed shape
+- confirm greenhouse sun/drainage/access/water route
+- measure source water flow and pressure
 - submit separate soil samples
+- tag dahlias intended for storage
+- check real site for utilities/septic/no-dig conflicts
 
-## THIS WEEK
-- compare greenhouse models against `47_GREENHOUSE_EQUIPMENT_SPEC.md`
-- mark main north–south and east–west paths on the ground
-- verify the v0.6 bed arrangement does not collide with real trees/utilities/septic
-- photograph fixed viewpoints
-- tag dahlias before frost
-
-## OPTIONAL
-- test rose entrance spacing with temporary stakes
-- mock up bench/wildflower-tub location
+### OPTIONAL
+- mock up red entrance rose pair with temporary stakes
+- mock up bench/wildflower-tub position
 - choose trellis material language
 
-## DO NOT TOUCH YET
-- do not bulk-buy soil amendments before soil results
-- do not buy final exhaust fan before greenhouse model/intake design
-- do not install permanent path aggregate before buried services are resolved
-- do not order a large rose collection; current default is only 3–5 red roses
+### DO NOT TOUCH YET
+- do not cultivate the rest of the ~2-acre property
+- do not bulk-buy amendments before soil results
+- do not buy final greenhouse fan before model/intake design
+- do not install final path aggregate before buried services are resolved
+- do not buy a large rose collection; current default is 3–5 red roses
 
 ---
 
-# 2027 first-year scale remains normal
+# Greenhouse current design
 
-- 6 tomatoes
-- 6 bell peppers
-- 3 jalapeños
-- 3 eggplants
-- 2–3 English cucumbers
-- 2 pumpkins
-- modest squash
-- 6–8 spring + 6–8 fall cabbage
-- 40–80 garlic cloves
-- 15–24 asparagus crowns
-- 2–3 rhubarb crowns
-- 3–5 red roses
-- 8–12 dahlias
+Mission order:
+1. propagation
+2. transplant staging/hardening
+3. shoulder-season production
+4. selected protected crops
+5. overwintering experiments
+6. storage
 
-Unused capacity is reserve, airflow, successions, flowers, and comfort—not a mistake.
+Current Kentucky-based summer exhaust planning target:
+- **~3,100–3,900 CFM effective installed capacity**
+- final hardware remains model/intake/system-loss dependent
+
+Files:
+- `38_GREENHOUSE_PLAN.md`
+- `41_GREENHOUSE_OPERATING_SYSTEM.md`
+- `47_GREENHOUSE_EQUIPMENT_SPEC.md`
 
 ---
 
-# Still not allowed to fake
+# Irrigation current design
 
-Unknown until observed/measured:
-- exact real-parcel placement
-- mature-tree shade
-- water-source flow/pressure until tested
-- drainage/low spots
-- soil chemistry
-- wildlife pressure
-- utilities/septic/no-dig zones
-- exact greenhouse model
-- several cultivar/type choices
+Default zones:
+- Z1 kitchen Solanaceae
+- Z2 cucumber/cabbage/moist herbs
+- Z3 rotation blocks
+- Z4 permanent moist edibles
+- Z5 dry herbs
+- Z6 roses/flowers
+- Z7 greenhouse
+- Z8 sprawling/flex
 
-These do not block default planning, but they can override local details when real evidence arrives.
+Final sizing requires actual source GPM/pressure.
+
+Files:
+- `48_IRRIGATION_ZONE_SIZING.md`
+- `data/irrigation_zone_template.csv`
+
+A timer never proves the plants need water.
+
+---
+
+# Rose / flower current design
+
+Default rose geometry:
+- matched red entrance pair
+- one red transition/path focal
+- total 3–5 red roses
+- optional white rose 0–1 only
+
+Classic-red candidate names from older Kentucky resistance evidence remain **candidates**, not guarantees.
+
+File:
+- `46_ROSE_AND_FLOWER_DESIGN.md`
+
+---
+
+# Current unresolved cultivar/type choices
+
+These do not block architecture:
+- squash = summer / winter / both
+- daisy type
+- geranium type
+- eggplant form
+- pumpkin purpose
+- cherry tomato color preference
+- final rose cultivar mix
+
+File:
+- `31_CULTIVAR_MATRIX_PROVISIONAL.md`
 
 ---
 
@@ -201,7 +181,11 @@ Every daily brief collapses to:
 
 **URGENT → THIS WEEK → OPTIONAL → DO NOT TOUCH YET**
 
-## Evidence states
+Every task should expose its reason.
+
+---
+
+# Evidence states
 
 Use only:
 - `PROVISIONAL`
@@ -209,6 +193,8 @@ Use only:
 - `SITE CONFIRMED`
 - `OBSERVED IN THIS GARDEN`
 - `SUPERSEDED`
+
+When a conclusion changes, update the current canonical document and preserve history in `29_DECISION_LOG.md` rather than leaving contradictory instructions active.
 
 ## Hard boundary
 
