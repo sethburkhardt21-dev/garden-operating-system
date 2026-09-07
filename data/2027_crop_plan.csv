@@ -1,0 +1,39 @@
+plant_id,requested_name,2027_default_quantity,primary_location,secondary_or_greenhouse_role,start_method,default_start_window,outdoor_or_harvest_note,status
+VEG-001,Heirloom tomato,2,K01,GH-PROP then outdoor,seed indoors,Mar 10-25,transplant early-to-mid May weather permitting,PROVISIONAL DEFAULT
+VEG-002,Beefsteak tomato,2,K02,GH-PROP then outdoor,seed indoors,Mar 10-25,transplant early-to-mid May weather permitting,PROVISIONAL DEFAULT
+VEG-003,Cherry tomato,2,K03,GH-PROP then outdoor; optional 1 GH-TALL trial,seed indoors,Mar 10-25,transplant early-to-mid May weather permitting,PROVISIONAL DEFAULT
+VEG-004,Jalapeño,3,K05,GH-PROP then outdoor,seed indoors,Feb 20-Mar 5,transplant May after warm conditions,PROVISIONAL DEFAULT
+VEG-005,Bell pepper,6,K04,GH-PROP then outdoor,seed indoors,Feb 20-Mar 5,transplant May after warm conditions,PROVISIONAL DEFAULT
+VEG-006,Eggplant,3,K05,GH-PROP then outdoor,seed indoors,Feb 20-Mar 5,transplant May after warm conditions,PROVISIONAL DEFAULT
+VEG-007,Squash,2 summer OR 1-2 winter,F02,short greenhouse start optional,seed/direct,Apr 15-25 if started,final type unresolved,PROVISIONAL DEFAULT
+VEG-008,English cucumber,2-3,K06 trellis,GH-PROP then outdoor; optional GH-TALL trial,short seed start,Apr 15-25,transplant May,PROVISIONAL DEFAULT
+VEG-009,Asparagus,15-24 crowns,P01,None,crowns outdoors,March weather/soil permitting,no first-year harvest,PROVISIONAL DEFAULT
+HERB-001,Basil,4-8 at a time,K08,GH-PROP and shoulder-season greenhouse,seed indoors plus succession,Mar 25-Apr 10 main batch,transplant May; succession later,PROVISIONAL DEFAULT
+HERB-002,Rosemary,1-2,P03,GH-BENCH winter insurance optional,transplant/cutting preferred,cultivar dependent,protect/overwinter as needed,PROVISIONAL DEFAULT
+HERB-003,Thyme,2-4,P03,GH-BENCH optional,transplant or seed,winter/spring,permanent dry zone,PROVISIONAL DEFAULT
+HERB-004,Parsley,3-6,K08,GH-PROP/bench,seed indoors,Feb 1-15,transplant spring and succession as needed,PROVISIONAL DEFAULT
+HERB-005,Cilantro,small repeated batches,K08,GH/other cool nursery only when useful,direct or small batch,cool-season windows,expect heat bolting,PROVISIONAL DEFAULT
+HERB-006,Lavender,3-7,P03,GH-PROP only if seed treatment understood,transplant or treated seed,species dependent,permanent dry zone,PROVISIONAL DEFAULT
+VEG-010,Garlic,40-80 cloves,F04,None,cloves outdoors,Oct-early Nov 2026,harvest summer 2027 by maturity cues,PROVISIONAL DEFAULT
+VEG-011,Baby potatoes,20-30 row ft,R1/F03,None,certified seed potatoes,spring outdoors,harvest portion young for baby/new potatoes,PROVISIONAL DEFAULT
+VEG-012,Golden potatoes,20-30 row ft,R1/F03,None,certified seed potatoes,spring outdoors,harvest by cultivar maturity,PROVISIONAL DEFAULT
+VEG-013,Pumpkin,2 plants/hills,F01,short greenhouse start optional,seed/direct,Apr 15-25 if started,route vines outward deliberately,PROVISIONAL DEFAULT
+VEG-014,Cabbage,6-8 spring + 6-8 fall,K07/R3,GH-PROP for spring; cooler nursery for fall,seed indoors,Feb 1-15 spring; Jun 25-Jul 10 fall,transplant by weather and plant maturity,PROVISIONAL DEFAULT
+VEG-015,Rhubarb,2-3 crowns,P02,None,crowns outdoors,March weather/soil permitting,protect establishment years,PROVISIONAL DEFAULT
+FLW-001,Red roses,3-5,FL04,None,nursery plants,spring/fall appropriate to stock/site,use as repeated focal structure,PROVISIONAL DEFAULT
+FLW-002,Optional white rose,0-1,FL04 backyard only,None,nursery plant,spring/fall appropriate,only if explicitly retained,OPTIONAL
+FLW-003,Dahlias,8-12,FL01,GH optional wake-up,stored tubers,Mar-Apr optional start,plant after frost risk; lift/store after season,PROVISIONAL DEFAULT
+FLW-004,Zinnias,1-2 blocks/rows,FL02,GH short start optional,direct or seed indoors,Apr optional / May direct,succession if useful,PROVISIONAL DEFAULT
+FLW-005,Marigolds,repeated groups,FL02/edges,GH short start optional,direct or seed indoors,late Mar-Apr optional,transplant/direct after frost,PROVISIONAL DEFAULT
+FLW-006,Daisies,group after species resolved,FL03,None,transplant/seed,species dependent,exact daisy unresolved,OPEN TYPE
+FLW-007,Purple coneflowers,group/drift,FL03,GH/winter sow only if needed,transplant or treated seed,species dependent,perennial establishment,PROVISIONAL DEFAULT
+FLW-008,Black-eyed Susans,group/drift,FL03,GH/winter sow only if needed,transplant or treated seed,species dependent,perennial establishment,PROVISIONAL DEFAULT
+FLW-009,Cosmos,1 block/row,FL02,GH short start optional,direct or seed indoors,Apr optional / May direct,succession possible,PROVISIONAL DEFAULT
+FLW-010,Impatiens,shade mass,FL07,GH start optional,purchased/start indoors,cultivar dependent,plant after frost in actual shade pocket,PROVISIONAL DEFAULT
+FLW-011,Morning glories,1 dedicated support,FL06,GH short start optional,direct or seed indoors,Apr 10-20 optional / warm direct,keep off crop trellises,PROVISIONAL DEFAULT
+FLW-012,Sweet peas,1 dedicated support,FL05,GH/early start optional,direct/early start,late winter-early spring,cool-season vine,PROVISIONAL DEFAULT
+FLW-013,Snapdragons,1-2 rows/groups,FL05,GH-PROP,seed indoors,Jan 25-Feb 15,cool-season transplant/display,PROVISIONAL DEFAULT
+FLW-014,Lupines,small trial,FL03,GH/winter sow only if species fit,treated seed/transplant,species dependent,conditional in Kentucky heat/humidity,CONDITIONAL
+FLW-015,Geraniums,group after type resolved,FL07 or perennial border,GH optional,seed/transplant,type dependent,exact genus/type unresolved,OPEN TYPE
+FLW-016,Daylilies,small repeated clumps,FL03,None,divisions/transplants,spring/fall,perennial structure,PROVISIONAL DEFAULT
+SPEC-001,Wildflower tub,1 tub,FL foreground/path junction,None,approved seed mix,fall/winter or spring by species,separate container feature,PROVISIONAL DEFAULT
