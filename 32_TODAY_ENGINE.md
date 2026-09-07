@@ -1,32 +1,32 @@
-# Today Engine — Human Operating Layer v0.3
+# Today Engine — Human Operating Layer v0.6
 
-**Site:** Richmond, Kentucky / approximately 2-acre yard  
-**Goal:** A person should be able to open the garden project and know what matters today without reading the entire repository.
+**Site:** Richmond, Kentucky / quarter-acre Garden OS inside an approximately 2-acre yard  
+**Goal:** open the project and know what matters today without reading the entire repository.
 
-The engine is rule-based first. Weather/sensor automation may enrich it later but must never become the only way to operate the garden.
+The engine is rule-based first. Weather/sensor automation may enrich it later but never becomes the only way to operate the garden.
 
-## Output format
+## Required daily output
 
-Every daily brief must contain exactly these four sections:
+Every brief contains exactly four sections:
 
 ### URGENT
-Only items where delay is likely to cause meaningful damage, loss, or missed harvest.
+Delay is likely to cause meaningful damage, loss, safety risk, or missed harvest.
 
 ### THIS WEEK
-Normal maintenance that should happen soon but does not require panic.
+Normal work that should happen soon but does not require panic.
 
 ### OPTIONAL
 Style upgrades, experiments, record-keeping, and nonessential improvements.
 
 ### DO NOT TOUCH YET
-Plants/actions where intervention would be premature or harmful.
+Actions that are premature, unsupported by evidence, or likely to create rework.
 
 ---
 
 # Daily decision sequence
 
 ## 1. Weather gate
-Check Richmond-area conditions and then compare them with the actual yard:
+Check Richmond-area conditions, then compare them with the actual quarter-acre garden:
 - overnight low
 - daytime high
 - rainfall in previous 24–72 hours
@@ -45,49 +45,56 @@ Create alerts for:
 
 Weather alerts outrank routine tasks.
 
-On the two-acre site, also ask: **is one garden room behaving differently from the rest of the yard?** A low pocket can frost or stay wet while the house-side core remains fine.
+Also ask whether one Garden OS room is behaving differently:
+- greenhouse overheated while outdoors is mild?
+- low outdoor bed still saturated?
+- south flower bed hotter/drier than kitchen beds?
+- greenhouse frost-protected while outdoor crops are exposed?
 
-## 2. Water gate
+## 2. Greenhouse gate
+When greenhouse is active, check before ordinary garden chores if weather could create a rapid failure.
+
+Look at:
+- current inside temperature
+- daily high/low
+- exhaust/vent status
+- humidity/condensation
+- propagation-bench moisture
+- heater state during cold events
+- door/vent position
+
+Urgent greenhouse triggers include:
+- rising temperature with failed fan/closed vent
+- heater failure during freeze threat
+- wilted propagation trays
+- standing water/electrical concern
+- rapid pest outbreak in enclosed space
+
+Use `41_GREENHOUSE_OPERATING_SYSTEM.md` and `47_GREENHOUSE_EQUIPMENT_SPEC.md`.
+
+## 3. Water gate
 Do not water because “today is watering day.”
 
 For each hydrozone:
 1. Check recent rainfall.
 2. Inspect soil moisture at useful root depth.
-3. Check container weight/moisture where relevant.
+3. Check containers/greenhouse media separately.
 4. Look for stress symptoms but do not diagnose from wilting alone.
-5. Water deeply if the root zone actually needs water.
+5. Water only when root-zone evidence supports it.
 
-Kentucky Extension guidance for summer vegetables emphasizes moistening roughly the upper 6–8 inches rather than frequent shallow sprinkling.
+Default zones:
+- Z1 kitchen Solanaceae
+- Z2 cucumber/cabbage/moist herbs
+- Z3 rotation blocks
+- Z4 permanent moist edibles
+- Z5 dry herbs
+- Z6 roses/flowers
+- Z7 greenhouse
+- Z8 sprawling/flex
 
-### High-priority moisture group
-- tomatoes
-- peppers
-- eggplant
-- cucumbers
-- squash
-- pumpkin
-- cabbage
-- potatoes
-- basil
-- parsley
-- cilantro
+Kentucky Extension guidance favors deep root-zone wetting rather than frequent shallow sprinkling.
 
-### Separate dry/drainage group
-- rosemary
-- thyme
-- lavender
-
-### Separate container logic
-- wildflower tub
-- any potted herbs
-- grow-bag potatoes if used
-- movable flowers
-
-Containers can require attention when in-ground beds do not.
-
-## 3. Harvest gate
-Check crops where delayed harvest reduces quality or future production.
-
+## 4. Harvest gate
 High-frequency summer checks:
 - cherry tomatoes
 - slicing tomatoes
@@ -97,33 +104,32 @@ High-frequency summer checks:
 - basil
 - cut flowers
 
-If a cucumber or summer squash has reached usable size, harvest should generally outrank cosmetic tasks.
+If a cucumber or summer squash is ready, harvest generally outranks cosmetic work.
 
-## 4. Support gate
-Check fast-growing vertical/heavy plants:
+## 5. Support gate
+Check:
 - indeterminate tomatoes
 - English cucumber
 - morning glory
 - sweet peas
-- tall dahlias
-- tall zinnias/cosmos if wind exposed
+- dahlias
+- tall zinnias/cosmos
+- greenhouse tall-crop supports if used
 
-Action only when:
-- stems are escaping support
-- fruit weight is pulling branches down
-- ties are cutting into stems
-- trellis anchors are loosening
+Act when:
+- stems escape support
+- fruit weight pulls branches down
+- ties constrict stems
+- anchors loosen
+- vines invade paths/other crops/greenhouse vents
 
-For this two-acre yard, also inspect whether storm exposure differs between open-yard structures and sheltered garden rooms.
-
-## 5. Disease gate
-Walk the garden slowly.
-
+## 6. Disease gate
 Inspect lower/inner foliage first on:
 - tomatoes
 - peppers
 - cucurbits
 - roses
+- greenhouse crops
 
 Look for:
 - spots
@@ -134,41 +140,43 @@ Look for:
 - stem lesions
 - unusual wilt
 - fruit rot
+- distorted rose growth that may need rose-rosette escalation
 
 If symptoms appear:
 1. photograph before removing evidence
-2. record bed/garden-room + date + weather pattern
+2. record bed ID + date + weather pattern
 3. compare multiple symptoms
-4. isolate likely infectious vs environmental cause
-5. use the disease playbook before treating
+4. distinguish likely infectious vs environmental stress
+5. use `13_DISEASE_PLAYBOOK.md`
+6. escalate uncertain/high-value cases to Extension rather than guessing
 
-## 6. Pest gate
-Look at both sides of leaves and plant bases.
-
-Priority crops:
+## 7. Pest gate
+Priority:
 - cabbage
 - cucurbits
 - roses
 - tomatoes/peppers
 - potatoes
+- greenhouse undersides/new growth
 
 Record:
-- pest seen
-- number seen
-- damage level
-- beneficial insects present
+- organism or damage seen
+- rough count/density
+- damage severity
+- beneficial insects
+- action taken
 
 Do not spray merely because one insect exists.
 
-## 7. Flower-performance gate
+## 8. Flower-performance gate
 Check:
 - spent flowers
 - broken stems
 - cutting-stage blooms
-- plants being shaded
-- supports
+- support
+- shading/crowding
 
-High-return deadheading/cutting group:
+High-return cutting/deadheading group:
 - roses
 - zinnias
 - dahlias
@@ -176,47 +184,52 @@ High-return deadheading/cutting group:
 - snapdragons
 - sweet peas
 
-## 8. Perennial protection gate
-Permanent plants receive different treatment.
+## 9. Perennial protection gate
 
 ### Asparagus
-After harvest season, fern growth is future-energy infrastructure. Do not cut healthy ferns merely because they look untidy.
+Healthy fern growth after harvest season supports future crowns. Do not cut simply for tidiness.
 
 ### Rhubarb
-Do not harvest heavily from newly establishing crowns. Leaves are not edible.
+Do not heavily harvest establishing crowns. Leaves are not edible.
 
-### Roses/daylilies/coneflower/Rudbeckia
-Avoid unnecessary digging around established root zones.
+### Roses / daylilies / coneflower / Rudbeckia
+Avoid unnecessary root disturbance.
 
-## 9. Site-infrastructure gate
-Because the property is two acres, add a quick infrastructure scan when working outside:
-- hose left across mower/path?
+### Dry herbs
+Do not respond to every wilt-looking moment with vegetable-style irrigation; confirm root-zone dryness.
+
+## 10. Infrastructure gate
+Quick scan:
 - irrigation leak?
+- greenhouse fan/controller fault?
+- hose across path?
 - trellis leaning?
-- fence/gate breach?
-- standing water after rain?
-- deer/groundhog evidence?
-- new shade or tree-limb issue?
+- standing water?
+- gate/fence problem?
+- deer/rabbit/groundhog evidence?
+- path hazard?
 
-A site problem can affect more plants than an individual plant problem.
+A system problem can affect many plants at once.
 
 ---
 
 # Maintenance modes
 
 ## Five-minute check
-1. Weather warning?
-2. Anything obviously wilted/broken?
-3. Harvest cucumbers/squash/ripe fruit.
-4. Check containers.
-5. Look for catastrophic pest/disease change.
+1. Weather/freeze/heat warning?
+2. Greenhouse failure warning?
+3. Anything obviously wilted/broken?
+4. Harvest urgent crops.
+5. Check containers/propagation.
+6. Look for catastrophic pest/disease change.
 
 ## Fifteen-minute check
 Five-minute check plus:
 - inspect tomato/cucumber supports
 - quick cabbage/cucurbit pest check
+- rose foliage glance
 - deadhead obvious spent blooms
-- update one-line journal entry
+- one-line journal update
 
 ## Thirty-minute session
 - full moisture check
@@ -231,75 +244,74 @@ Five-minute check plus:
 - all above
 - mulch touch-up
 - irrigation inspection
+- greenhouse bench cleanup
 - detailed pruning/training
-- soil/plant measurements
+- measurements/photos
 - inventory updates
-- photos
 
 ## Weekend project
 Only schedule jobs such as:
-- property/site surveying
-- building trellises
-- installing drip irrigation
+- greenhouse construction/equipment
+- irrigation commissioning
+- trellis building
 - bed edging
 - compost work
 - perennial planting
 - soil amendments based on test
 - lifting/storing dahlias
-- constructing the wildflower tub
-- fence/barrier work
+- wildflower-tub work
+- fencing/barrier work
+- path surfacing
 
 ---
 
-# Example brief — September 2026, Richmond site
+# Example brief — September 2026
 
 ### URGENT
-- If current warm-season plants are still producing, harvest overripe cucumbers/squash/tomatoes before deterioration.
-- Photograph any disease symptoms before fall cleanup removes evidence.
-- If a heavy-rain event occurs, mark standing-water/slow-drainage zones while they are visible.
+- Secure garlic planting stock before preferred varieties disappear.
+- Photograph active disease/pest symptoms before cleanup destroys evidence.
+- During heavy rain, mark actual standing-water zones while they are visible.
 
 ### THIS WEEK
-- Order/select garlic planting stock if not already secured.
-- Use `35_TWO_ACRE_SITE_SURVEY_PROTOCOL.md` to sketch house, driveway, trees, fences, north, water points, and candidate garden core.
-- Start separate Madison County soil samples for candidate vegetable/perennial areas.
-- Measure hose distance to the best sunny garden-core candidate.
-- Mark dahlias intended for winter storage.
+- Walk/stake the 90 × 121 ft quarter-acre footprint or a transformed equivalent.
+- Confirm greenhouse candidate location, drainage, sun, cart access, and water route.
+- Measure water-source flow/pressure.
+- Submit separate soil samples for relevant garden management zones.
+- Tag dahlias intended for storage.
 
 ### OPTIONAL
-- Photograph the two-acre yard from fixed reference points for year-over-year comparison.
-- Choose a likely aesthetic direction from `25_STYLE_UPGRADES.md`.
-- Mark possible red-rose sightline/focal locations on the rough sketch.
+- Test the red-rose entrance pair with temporary stakes.
+- Mock up the bench/wildflower-tub position.
+- Choose the trellis/material language.
 
 ### DO NOT TOUCH YET
-- Do not cultivate a huge portion of the two acres merely because it is available.
-- Do not buy a property-scale irrigation system until water points and garden-room coordinates are known.
-- Do not randomly fertilize before zone-specific soil tests.
-- Do not finalize asparagus/rhubarb coordinates without drainage/sun evidence.
-- Do not call the parcel USDA 7a or 6b with certainty until the exact location is pinned on the USDA map.
+- Do not cultivate the remaining ~1.75 acres.
+- Do not bulk-buy soil amendments before tests.
+- Do not buy final greenhouse exhaust hardware before structure/intake design is known.
+- Do not install final path aggregate before buried water/electrical routes are settled.
+- Do not buy a large rose collection; default is 3–5 red roses.
 
 ---
 
-# Future machine-readable inputs
+# Machine-readable future inputs
 
-The eventual Today Engine may ingest:
+The Today Engine may eventually ingest:
 - date
-- confirmed Richmond location
-- local forecast
+- Richmond forecast
 - observed rainfall
-- garden-room microclimate
-- frost alerts
+- greenhouse temperature/RH
+- hydrozone moisture
 - plant stage
 - last watering
-- soil moisture
-- last fertilizer
 - harvest history
 - disease flags
 - pest flags
 - task due dates
+- irrigation flow anomalies
 
 But every generated task must expose its reason, for example:
 
-`WATER: Kitchen Garden tomatoes — soil dry at 3–4 in, no meaningful rain in 3 days, hot forecast.`
+`WATER: K01–K03 tomatoes — root zone dry at 3–4 in, no meaningful rain in 3 days, hot forecast.`
 
 Not:
 
