@@ -1,230 +1,273 @@
-# 2027 Plant Count + Space Model — Quarter-Acre Richmond Garden
+# 2027 Plant Count + Space Model — Quarter-Acre Richmond Garden v0.7
 
-**Status:** BALANCED FIRST-YEAR MODEL / exact shopping quantities still provisional  
-**Updated:** 2026-09-05
+**Status:** BALANCED FIRST-YEAR MODEL / exact shopping quantities still cultivar/site dependent  
+**Updated:** 2026-09-07
 
-The property is approximately two acres, but the Garden OS now uses only about **1/4 acre (10,890 sq ft)** including paths, greenhouse, flowers, work areas, and all crops.
+The property is approximately two acres, but the Garden OS uses only about **1/4 acre (10,890 sq ft)** including greenhouse, paths, flowers, work areas, and all crops.
 
-This file intentionally avoids scaling plant counts merely because a quarter acre could physically hold more. The goal is a normal, abundant household garden that is pleasant to maintain.
+This file intentionally avoids scaling plant counts merely because a quarter acre can physically hold more. The goal is a normal, abundant household garden that remains pleasant to maintain.
 
 ## Core rule
 
-**Quarter acre is the maximum designed footprint, not a command to fill every bed with maximum-density crops.**
+**Quarter acre is the maximum designed footprint, not a command to fill every square foot.**
 
-Use 2027 to learn actual household consumption, disease pressure, labor, and yield. Increase individual crops later only when they are actually wanted.
+Use 2027 to learn actual household consumption, disease pressure, labor, irrigation behavior, and yield. Increase later only from evidence.
 
 ---
 
 # Balanced 2027 edible counts
 
-## Tomatoes — 6 outdoor plants total
-- heirloom: **2**
-- beefsteak: **2**
-- cherry: **2**
+## Tomatoes — 6 outdoor plants
+- heirloom: 2 in K01
+- beefsteak: 2 in K02
+- cherry: 2 in K03
 
-Enough to compare types and provide a strong household harvest without creating a tomato farm.
+Enough to compare types and create a strong household harvest without a tomato farm.
 
 ### Greenhouse tomato option
-The greenhouse may hold **1–2 protected indeterminate tomatoes** as an experiment, but those are not mandatory additions. If used, reduce or maintain outdoor counts according to household demand rather than automatically increasing total production.
+At most 1–2 protected indeterminate tomatoes as an experiment after propagation demand falls. Do not automatically add them on top of outdoor production.
 
 ## Peppers
-- bell: **6**
-- jalapeño: **3**
-
-Optional greenhouse shoulder-season peppers can be moved/managed as experiments, not a second full pepper crop.
+- bell: 6 in K04
+- jalapeño: 3 in K05
 
 ## Eggplant
-- **3 plants**
+- 3 in K05
 
 ## English cucumber
-- **2–3 outdoor trellised plants**
+- 2–3 outdoor plants in K06 on dedicated trellis
 
-Optional greenhouse cucumber: **1 plant/trained vine** only if protected production is desired and it does not crowd the propagation area.
+Optional greenhouse cucumber: 1 trial vine only if it does not compromise propagation/workspace.
 
 ## Squash
-Until exact type is resolved:
-- summer squash: **2 plants/hills**
-- winter squash: **1–2 hills**
-- if both are wanted, keep the total modest in year one
+Until type is resolved:
+- summer: 2 plants/hills
+- winter: 1–2 hills
+- if both are selected, keep total modest
+
+Geometry is reserved in R2/F01.
 
 ## Pumpkin
-- **2 plants/hills**
-
-Use a deliberate outer-edge vine run.
+- 2 plants/hills in F01/R2 route
 
 ## Cabbage
-- spring: **6–8 plants**
-- fall: **6–8 plants**
-
-This creates useful seasonal comparison without overwhelming harvest.
+- spring: 6–8 in K07
+- fall: 6–8 in K07
+- R3 can handle overflow/succession
 
 ## Garlic
-- **40–80 cloves**
-
-This is enough for a meaningful household crop while still leaving flexible rotation space.
+- 40–80 cloves in R3
 
 ## Potatoes
-- golden/yellow type: **20–30 ft row equivalent**
-- second type for baby/new-potato harvest: **20–30 ft row equivalent**
+R1:
+- golden/yellow type: ~20–30 row-ft equivalent
+- second cultivar for baby/new potatoes: ~20–30 row-ft equivalent
 
-Do not use the quarter-acre footprint to justify 100+ ft rows until household demand proves it.
+This fits comfortably in the 16 × 16 R1 block when laid out appropriately; final row geometry follows selected planting method and access.
 
 ## Asparagus
-- **15–24 crowns**
-
-Permanent, long-term crop; no first-year harvest.
+- 15–24 crowns in P01
+- no first-year harvest
 
 ## Rhubarb
-- **2–3 crowns**
+- 2–3 crowns in P02
 
 ---
 
 # Herbs
 
 ## Basil
-- 4–8 plants at a time
-- succession replace rather than planting a huge one-time block
+- 4–8 plants at a time in K08
+- succession rather than one oversized planting
 
 ## Rosemary
-- 1–2 plants
-- one may stay containerized for winter flexibility
+- 1–2 in P03
+- one may remain containerized for winter flexibility
 
 ## Thyme
-- 2–4 culinary plants or a short repeated edge
+- 2–4 in P03
 
 ## Parsley
-- 3–6 plants
+- 3–6 in K08
 
 ## Cilantro
-- repeated short sowings instead of a large permanent patch
+- repeated small K08 sowings
 
 ## Lavender
-- 3–7 plants depending mature cultivar width
+- 3–7 in P03 depending mature width
 
 ---
 
 # Roses + flowers
 
-The flower garden should feel generous, but counts should create masses without consuming the quarter acre.
-
 ## Red roses
-Recommended starting architecture:
-- **3–5 red roses** total
+- **3–5 total**
 
-Use them as entrance/path/focal punctuation.
+Default:
+- matched entrance pair
+- one transition/path focal
+- optional two additional repetitions only if composition benefits
 
 ## Optional white rose
-- 0 or 1, backyard only
+- 0–1, backyard/interior only
 
-## Dahlias
-- **8–16 tubers/plants**
+## Dahlias — FL01
+- **8–12**
 
-## Zinnias
-- 1–2 modest blocks/rows; succession sow if bouquet use proves high
+This supersedes older 8–16 wording and matches the current normal first-year design.
 
-## Cosmos
-- 1 modest row/block
+## Zinnias — FL02
+- roughly **24–36** plants across one or two successions, adjusted for cultivar spacing
+
+## Cosmos — FL02
+- roughly **10–16**
 
 ## Marigolds
-- repeated edge groups rather than hundreds of plants
+- roughly **18–30** repeated edge plants/groups across the design
 
 ## Snapdragons
-- one spring/fall cutting row or block
+- roughly **18–24** grouped cool-season plants
 
-## Coneflower / black-eyed Susan / daylily / daisies
-- use repeated groups sized by mature spread
-- favor a few strong drifts over dozens of scattered single plants
+## Coneflower — FL03
+- 5–7
+
+## Black-eyed Susan — FL03
+- 7–9
+
+## Daylilies — FL03
+- 5–7
+
+## Daisies — FL03
+- 3–5 after species resolves
+
+## Geraniums
+If hardy Geranium:
+- 3–5 in FL03
+
+If Pelargonium:
+- roughly 6–9 seasonal/container plants in a suitable area
 
 ## Impatiens
-- one defined shade pocket
+- 12–18 only if a real part-shade pocket exists
 
-## Morning glory / sweet peas
-- one dedicated vertical feature each, or one structure used in different seasons if biology/timing permits
+## Morning glory
+- 2–4 vines on one dedicated `VG-MORNING-GLORY` structure
+
+## Sweet peas
+- one 8–12 ft `VG-SWEET-PEA` support
+
+## Lupines
+- 3–5 plant trial only if selected
 
 ---
 
-# Greenhouse occupancy model — 16 × 24 ft
+# Greenhouse occupancy — 16 × 24 ft
 
-The greenhouse's first job is **supporting the entire outdoor garden**, not maximizing greenhouse yield.
+The greenhouse first supports the outdoor garden.
 
 ## Late winter / early spring
-Use most bench capacity for:
+Use propagation capacity for:
 - tomatoes
 - peppers
 - eggplant
-- cabbage starts where appropriate
+- cabbage
 - herbs
 - snapdragons/flowers
-- dahlia starts/propagation if used
+- optional dahlia wake-up/propagation
+
+Target working capacity: approximately 8–12 standard 1020-style trays without blocking aisle/workspace.
 
 ## Spring transition
 - harden/stage transplants
-- begin clearing benches as plants move outside
-- reserve a small permanent work/propagation zone
+- clear benches as crops move out
+- retain active work/propagation space
 
-## Summer
-Possible uses:
-- 1–2 protected tomatoes
-- 1 cucumber
-- peppers/herbs
-- propagation/experiments
+## Summer optional
+- 1 tomato and/or
+- 1 cucumber and/or
+- several peppers/herbs
 
-But Kentucky heat means ventilation and shade management are mandatory; do not assume greenhouse summer production is automatically easier than outdoor growing.
+Kentucky heat means summer greenhouse production may be harder, not easier. Ventilation/shade come first.
 
 ## Fall
-- start fall crops/transplants
-- extend herbs/greens
-- protect selected crops from early frost
+- fall transplants
+- herbs/cool-season trials
+- frost extension
 
 ## Winter
-- use level depends on heating choice
-- default is not full commercial winter production
+Use depends on the selected heating mode; full commercial winter production is not default.
 
 ---
 
-# Approximate bed-space program
+# Current exact bed-space program
 
-The quarter-acre area budget is in `39_QUARTER_ACRE_GARDEN_PROGRAM.md`.
+Canonical modules now exist rather than approximate examples.
 
-Within the ~2,700 sq ft annual edible allocation, a reasonable first-year build can use a fraction of the space actively and keep some area for:
-- rotation
-- succession
-- cover crop/rest
-- access
-- experimentation
+## Kitchen
+- K01 4 × 16 — heirloom tomatoes
+- K02 4 × 16 — beefsteak tomatoes
+- K03 4 × 16 — cherry tomatoes
+- K04 12 × 4 — bell peppers
+- K05 4 × 16 — jalapeño + eggplant
+- K06 4 × 12 — cucumber
+- K07 4 × 12 — cabbage
+- K08 4 × 12 — moist culinary herbs
 
-Example modules:
-- tomatoes: ~4 × 24 ft or equivalent
-- peppers/eggplant: ~4 × 20–24 ft
-- cucumber trellis: ~8–12 ft long bed
-- cabbage/garlic modules: multiple 4 × 8 or 4 × 12 ft beds
-- squash: ~8 × 10 ft open area
-- potato rows: ~40–60 total row feet
-- pumpkin: edge planting + controlled vine lane
+## Rotation
+- R1–R4 each 16 × 16
+- 1,024 sq ft active rotation soil total
 
-## Permanent modules
-- asparagus: bed sized for 15–24 crowns
-- rhubarb: ~2–3 crown spaces with mature spread
-- herbs: split into moist and dry zones
+## Permanent
+- P01 asparagus envelope: 18 × 14
+- P02 rhubarb envelope: 15 × 12
+- P03 dry herb room: 24 × 16
+
+## Flowers
+- FL01 dahlias: 8 × 22
+- FL02 zinnia/cosmos: 10 × 22
+- FL03 perennial drift: 11 × 22
+
+## Flex
+- F01 pumpkin/sprawling crop envelope: 21 × 18
+
+Exact normalized coordinates are in `data/bed_inventory_v0_6.csv`.
+
+---
+
+# Active soil vs total quarter-acre footprint
+
+Not all 10,890 sq ft is production soil.
+
+The footprint includes:
+- 384 sq ft greenhouse
+- main/secondary paths
+- work/hardening area
+- trellis/rose feature clearances
+- wildflower/bench detail
+- airflow
+- reserve/succession ground
+- irrigation/compost/service space
+
+This is intentional.
 
 ---
 
 # Expansion trigger
 
-Increase a crop only if 2027 shows:
+Increase a crop only when 2027 shows:
 - harvest is consistently used/gifted/preserved
-- family wants more
+- household wants more
 - maintenance is comfortable
-- disease burden is acceptable
-- irrigation/support capacity is adequate
+- disease burden acceptable
+- irrigation/support capacity adequate
 
 Reduce when:
 - food is wasted
 - flavor is disappointing
-- crop creates disproportionate work
+- labor is disproportionate
 - disease pressure remains high
-- greenhouse/outdoor duplication produces too much of the same crop
+- greenhouse/outdoor duplication produces excess
 
 ## Default philosophy
 
-A successful quarter-acre garden should have **room to breathe**. Empty rotation/flex space is not failure; it is resilience.
+A successful quarter-acre garden has **room to breathe**. Empty/reserve soil is resilience, not failure.
