@@ -1,0 +1,9 @@
+zone_id,zone_name,beds_or_area,water_source,measured_source_gpm,static_psi,dynamic_psi,regulator_target_psi,dripline_ft,emitter_spacing_in,emitter_gph,estimated_zone_gph,estimated_zone_gpm,measured_zone_gpm,commissioning_runtime_min,observed_wetting_depth_in,last_calibrated,status
+Z1,Kitchen Solanaceae,K01 K02 K03 K04 K05,,,,,,,,,,,,,,DESIGN
+Z2,Cucumber cabbage moist herbs,K06 K07 K08,,,,,,,,,,,,,,DESIGN
+Z3,Rotation blocks,R1 R2 R3 R4,,,,,,,,,,,,,,DESIGN
+Z4,Permanent moist edibles,P01 P02,,,,,,,,,,,,,,DESIGN
+Z5,Dry herbs,P03,,,,,,,,,,,,,,DESIGN
+Z6,Roses and flowers,RS-* FL01 FL02 FL03,,,,,,,,,,,,,,DESIGN
+Z7,Greenhouse,GH-PROP GH-BENCH GH-TALL,,,,,,,,,,,,,,DESIGN
+Z8,Sprawling flex,F01 squash route,,,,,,,,,,,,,,DESIGN
