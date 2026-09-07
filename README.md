@@ -1,8 +1,8 @@
-# Garden Operating System — v0.5
+# Garden Operating System — v0.6
 
-**Status:** RICHMOND SITE CONFIRMED / QUARTER-ACRE GARDEN LOCKED / GREENHOUSE LOCKED / DEFAULT BLUEPRINT + 2027 OPERATING PLAN CREATED  
+**Status:** RICHMOND SITE CONFIRMED / QUARTER-ACRE GARDEN LOCKED / GREENHOUSE LOCKED / BED-LEVEL BLUEPRINT + SYSTEM SPECS CREATED  
 **Updated:** 2026-09-07  
-**Purpose:** Turn the exact requested plant list into a living, research-backed system for planning, growing, maintaining, diagnosing, harvesting, beautifying, and improving this specific Richmond, Kentucky garden year after year.
+**Purpose:** Turn the exact requested plant list into a living, research-backed system for planning, building, growing, maintaining, diagnosing, harvesting, beautifying, and improving this specific Richmond, Kentucky garden year after year.
 
 ## Site truth now locked
 
@@ -11,8 +11,7 @@
 - **Actual Garden OS footprint:** approximately **1/4 acre = 10,890 sq ft**
 - **Remaining ~1.75 acres:** ordinary yard/open space unless explicitly expanded later
 - **Default garden blueprint:** **90 × 121 ft** normalized rectangle
-- **Greenhouse:** real enclosed greenhouse inside the quarter-acre footprint
-- **Default greenhouse:** **16 × 24 ft = 384 sq ft**
+- **Greenhouse:** enclosed 16 × 24 ft greenhouse inside the quarter-acre footprint
 - Requested plant inventory remains preserved.
 - Red roses remain the dominant rose theme; one optional white backyard rose remains the only exception.
 - Wildflower tub remains separate.
@@ -20,168 +19,236 @@
 - Herbs remain split by moisture/drainage need.
 - Canonical garden truth remains portable Markdown + CSV + JSON.
 
-## What v0.5 adds
+## What v0.6 adds
 
-The project no longer stops at an area budget. It now has a default buildable blueprint and a first-year operating model.
+v0.5 established the average blueprint and first-year operating plan. v0.6 resolves the geometry down to beds and turns several design concepts into engineering/procurement specifications.
 
-### Physical blueprint
-`40_DEFAULT_QUARTER_ACRE_LAYOUT.md`
-- exact 90 × 121 ft normalized coordinate system
-- north-up default plan
-- greenhouse placed toward the north side
-- central cart spine
-- kitchen garden
-- permanent edible/herb areas
-- rotation blocks
-- flex pumpkin/squash/potato/garlic zone
-- cutting/rose garden
-- machine-readable coordinates in `data/default_layout_zones.csv`
+### 1. Bed-level masterplan
+`45_VISUAL_MASTERPLAN_AND_BED_GRID.md`
 
-The whole plan can later be rotated, mirrored, or translated onto the best real part of the yard.
+Adds:
+- exact default K01–K08 kitchen-bed coordinates
+- exact P01/P02/P03 permanent areas
+- exact R1–R4 rotation block coordinates
+- exact FL01–FL03 flower blocks
+- pumpkin/flex geometry
+- default red-rose focal positions
+- path relationships
 
-### Greenhouse operating system
-`41_GREENHOUSE_OPERATING_SYSTEM.md`
-- propagation-first mission hierarchy
-- ventilation/cooling sequence
-- frost-protection modes
-- humidity/condensation logic
-- watering
-- summer/winter operating modes
-- hardening workflow
-- greenhouse pest/disease biosecurity
-- power/fan/heater/water failure playbooks
+Companions:
+- `data/bed_inventory_v0_6.csv`
+- `docs/default_quarter_acre_masterplan.svg`
 
-### 2027 propagation calendar
-`42_2027_SEED_START_AND_SUCCESSION.md`
-- peppers/eggplant: late Feb–early Mar default
-- tomatoes: mid/late March
-- cucumber/squash/pumpkin: short April starts if not direct-sown
-- spring/fall cabbage timing
-- herbs and flower starts
-- greenhouse bench-capacity logic
-- succession rules
+### 2. Rotation geometry corrected
+v0.5's conceptual four ~12 × 24 ft rotation blocks did not fit the earlier single rotation envelope.
 
-### 2027 bed + rotation plan
-`43_2027_BED_ASSIGNMENT_AND_ROTATION.md`
-- normal first-year crop quantities
-- kitchen-bed assignments
-- four annual rotation blocks
-- 2027–2030 family-rotation framework
-- permanent asparagus/rhubarb/herb areas
-- pumpkin/squash/potato/garlic flex plan
-- flower/rose groupings
-- machine-readable crop plan in `data/2027_crop_plan.csv`
+v0.6 makes the actual canonical rotation field:
+- **four 16 × 16 ft blocks**
+- **1,024 sq ft total active rotation soil**
+- inside the combined east-middle rotation/flex field
 
-### Infrastructure sequence
-`44_INFRASTRUCTURE_AND_BUILD_SEQUENCE.md`
+This is ample for the intentionally normal first-year crop scale.
 
-Build order is now:
+### 3. Rose + flower design
+`46_ROSE_AND_FLOWER_DESIGN.md`
 
-**SITE → WATER/DRAINAGE → GREENHOUSE → PRIMARY PATHS → PERMANENT BEDS → IRRIGATION → ANNUAL BEDS → TRELLISES → FLOWERS/ROSES → POLISH**
+Adds:
+- matched red-rose entrance pair + one red transition focal as the default structure
+- 3–5 red roses total, not a giant rose garden
+- historical Kentucky black-spot-resistance evidence treated as candidate evidence rather than guarantees
+- classic-red candidates such as Mister Lincoln/Olympiad for further current/local validation
+- dahlia/zinnia/cosmos/perennial drift composition
+- cool-season and warm-season flower sequence
+- conditional handling for lupines, daisies, geraniums, and impatiens
 
-This prevents buried utilities, greenhouse service, or paths from being added after finished beds are already in the way.
+### 4. Greenhouse equipment specification
+`47_GREENHOUSE_EQUIPMENT_SPEC.md`
 
-## Quarter-acre area budget
+The 16 × 24 ft greenhouse now has a real functional specification:
+- structure/anchoring requirements
+- ventilation/intake design
+- circulation fans
+- shade strategy
+- heating modes
+- electrical/water requirements
+- benches and interior zones
+- propagation capacity
+- failure playbooks
 
-See `39_QUARTER_ACRE_GARDEN_PROGRAM.md`.
+Current UK greenhouse guidance supports a summer ventilation planning target of roughly one greenhouse volume per minute. For this greenhouse, that yields approximately **3,100–3,900 CFM effective installed exhaust capacity**, subject to final structure and system-loss verification.
 
-Planning allocation:
-- greenhouse — 384 sq ft
-- annual edible production — ~2,700 sq ft
-- permanent edible + herbs — ~1,200 sq ft
-- roses + flowers — ~1,800 sq ft
-- pumpkin/squash/potato/garlic/flex — ~1,200 sq ft
-- paths/work/compost/irrigation — ~1,800 sq ft
-- buffer/pollinator/future adjustment — ~1,806 sq ft
+### 5. Irrigation hydraulics
+`48_IRRIGATION_ZONE_SIZING.md`
 
-Total = **10,890 sq ft**.
+Adds:
+- source GPM/pressure measurement gate
+- filter/regulator/gauge/manifold architecture
+- eight default hydrozones
+- emitter/dripline flow formulas
+- commissioning by observed wetting depth/width
+- greenhouse and dry-herb independent zones
+- rain override and flow-anomaly logic
 
-These are planning envelopes, not density targets. Airflow, reserve ground, succession, paths, and work space are legitimate uses of the quarter acre.
+Worksheet:
+- `data/irrigation_zone_template.csv`
+
+### 6. Procurement control
+`49_MATERIALS_AND_PROCUREMENT_REGISTER.md`
+
+Separates:
+- BUY NOW
+- BUY AFTER SITE FIT
+- BUY AFTER MODEL SELECTED
+- WINTER ORDER
+- SPRING BUY
+- OPTIONAL
+- DO NOT BUY YET
+
+The goal is to prevent high-cost rework from premature greenhouse, irrigation, path, or bed purchases.
+
+### 7. Master implementation checklist
+`50_2026_2027_MASTER_CHECKLIST.md`
+
+Single dependency-ordered checklist from September 2026 through first-season commissioning in 2027.
+
+---
+
+## Canonical physical design
+
+The default canvas is 90 × 121 ft, north-up:
+
+**south entrance / red roses → flower foreground → rotation/flex → kitchen garden → greenhouse/work hub**
+
+The entire design may later be rotated, mirrored, or translated onto the best real quarter-acre part of the 2-acre yard.
+
+Do not quietly expand beyond the quarter acre.
+
+---
 
 ## Default 2027 crop scale
 
-The first year stays intentionally normal rather than exploiting every available square foot:
+The first year remains intentionally normal:
 - tomatoes: 6 total across heirloom/beefsteak/cherry
 - bell peppers: 6
 - jalapeños: 3
 - eggplant: 3
 - English cucumber: 2–3
-- squash: 2 summer or 1–2 winter until type resolved
+- squash: 2 summer or 1–2 winter until resolved
 - pumpkin: 2 plants/hills
 - cabbage: 6–8 spring + 6–8 fall
 - garlic: 40–80 cloves
-- potatoes: two modest 20–30 ft row allocations
+- potatoes: two modest cultivar allocations
 - asparagus: 15–24 crowns
 - rhubarb: 2–3 crowns
 - red roses: 3–5
 - dahlias: 8–12
-- other flowers: grouped/drifted rather than one-of-each
+- zinnias: roughly 24–36 across one or two successions
+- cosmos: roughly 10–16
 
-The greenhouse does **not** automatically double outdoor plant counts.
+Reserve soil, airflow, access, flower massing, and succession space are intentional uses of the quarter acre.
+
+---
 
 ## Greenhouse direction
 
-The 16 × 24 ft greenhouse remains a propagation/work/season-extension structure first.
-
 Default mission order:
-1. propagation for outdoor garden
+1. propagation for the outdoor garden
 2. transplant staging/hardening support
-3. shoulder-season crops
+3. shoulder-season production
 4. selected protected crops
 5. overwintering experiments
 6. storage
 
-It is not assumed to be fully heated all winter.
+The greenhouse is **not** assumed to be fully heated all winter.
+
+Summer overheating is treated as a first-order design risk, not an afterthought.
+
+---
+
+## Irrigation direction
+
+Default independent hydrozones:
+- Z1 kitchen Solanaceae
+- Z2 cucumber/cabbage/moist herbs
+- Z3 rotation blocks
+- Z4 permanent moist edibles
+- Z5 dry herbs
+- Z6 roses/flowers
+- Z7 greenhouse
+- Z8 sprawling/flex
+
+A timer schedule does not prove plants need water. Source hydraulics are measured; runtime is calibrated from soil wetting, weather, and plant stage.
+
+---
 
 ## Richmond-specific research integrated
 
-- Madison County Extension is the primary local Extension reference.
-- Madison County currently advertises free resident soil testing, up to 10 samples per home/farm per calendar year.
-- Richmond/Madison sits around the USDA 2023 6b–7a transition at coarse scale; exact parcel half-zone remains to be pinned.
-- Kentucky Central/Eastern planting windows replace the superseded northern-Kentucky assumption.
-- Kentucky greenhouse guidance informs heating/ventilation/cooling design.
+Primary evidence remains University of Kentucky / Madison County Extension where available.
+
+Integrated topics include:
+- Richmond/Madison hardiness context
+- Kentucky planting windows
+- garlic
+- asparagus/rhubarb
+- tomato/pepper/cucurbit disease pressure
+- rose black spot and rose rosette
+- greenhouse structure/heating/cooling/ventilation
+- drip irrigation architecture
+- open-source garden software/data reuse
+
+See `28_RESEARCH_LEDGER.md`.
+
+---
 
 ## What remains provisional
 
-The project now has an average blueprint, so work can continue without waiting. The real-world plan can later improve when these are known:
-- exact quarter-acre placement within the property
-- house/driveway geometry
-- north on the real parcel
-- mature trees/shade
+The system can continue without these, but real-world siting improves when known:
+- exact quarter-acre placement within the 2-acre property
+- mature-tree shade
+- water-source flow/pressure and route
 - slopes/wet areas
-- water/hose locations
 - septic/utilities/no-dig zones
-- wildlife pressure
 - soil-test results
+- wildlife pressure
+- final greenhouse manufacturer/model
+- several plant cultivar/type choices
 
-Until then, **90 × 121 ft north-up** is the canonical design canvas.
+Until then, the normalized v0.6 design is the current source of truth.
+
+---
 
 ## Start here
 
-1. `00_START_HERE.md` — current state and execution order.
-2. `40_DEFAULT_QUARTER_ACRE_LAYOUT.md` — default physical blueprint.
-3. `39_QUARTER_ACRE_GARDEN_PROGRAM.md` — scale/area program.
-4. `38_GREENHOUSE_PLAN.md` — greenhouse structure/role.
-5. `41_GREENHOUSE_OPERATING_SYSTEM.md` — greenhouse daily control logic.
-6. `42_2027_SEED_START_AND_SUCCESSION.md` — first full propagation calendar.
-7. `43_2027_BED_ASSIGNMENT_AND_ROTATION.md` — first-year crop/rotation plan.
-8. `44_INFRASTRUCTURE_AND_BUILD_SEQUENCE.md` — build order and infrastructure.
-9. `37_FALL_2026_RICHMOND_ACTION_PLAN.md` — current implementation work.
-10. `02_SITE_PROFILE.md` — confirmed site truth.
-11. `34_RICHMOND_KY_SITE_BASELINE.md` — local climate/Extension baseline.
-12. `36_2027_PLANT_COUNT_AND_SPACE_MODEL.md` — sizing rationale.
-13. `04_PLANT_MASTER_LEDGER.csv` — canonical requested inventory.
-14. `05_PLANT_PROFILES/` — care profiles.
-15. `06_ANNUAL_CALENDAR_PROVISIONAL.md` — Richmond calendar.
-16. `31_CULTIVAR_MATRIX_PROVISIONAL.md` — cultivar shortlist.
-17. `32_TODAY_ENGINE.md` — daily operating logic.
-18. `09_SOIL_PLAN.md` / `10_IRRIGATION_PLAN.md` — soil/water infrastructure.
-19. `12_PEST_IPM.md` / `13_DISEASE_PLAYBOOK.md` — health management.
-20. `25_STYLE_UPGRADES.md` — visual system.
-21. `27_GITHUB_REUSE_AUDIT.md` — software reuse.
-22. `28_RESEARCH_LEDGER.md` — evidence ledger.
-23. `29_DECISION_LOG.md` — accepted/superseded decisions.
-24. `30_OPEN_QUESTIONS.md` — remaining refinements.
+1. `00_START_HERE.md`
+2. `50_2026_2027_MASTER_CHECKLIST.md`
+3. `45_VISUAL_MASTERPLAN_AND_BED_GRID.md`
+4. `docs/default_quarter_acre_masterplan.svg`
+5. `40_DEFAULT_QUARTER_ACRE_LAYOUT.md`
+6. `39_QUARTER_ACRE_GARDEN_PROGRAM.md`
+7. `38_GREENHOUSE_PLAN.md`
+8. `41_GREENHOUSE_OPERATING_SYSTEM.md`
+9. `47_GREENHOUSE_EQUIPMENT_SPEC.md`
+10. `48_IRRIGATION_ZONE_SIZING.md`
+11. `49_MATERIALS_AND_PROCUREMENT_REGISTER.md`
+12. `42_2027_SEED_START_AND_SUCCESSION.md`
+13. `43_2027_BED_ASSIGNMENT_AND_ROTATION.md`
+14. `46_ROSE_AND_FLOWER_DESIGN.md`
+15. `44_INFRASTRUCTURE_AND_BUILD_SEQUENCE.md`
+16. `37_FALL_2026_RICHMOND_ACTION_PLAN.md`
+17. `04_PLANT_MASTER_LEDGER.csv`
+18. `05_PLANT_PROFILES/`
+19. `31_CULTIVAR_MATRIX_PROVISIONAL.md`
+20. `06_ANNUAL_CALENDAR_PROVISIONAL.md`
+21. `32_TODAY_ENGINE.md`
+22. `09_SOIL_PLAN.md`
+23. `10_IRRIGATION_PLAN.md`
+24. `12_PEST_IPM.md`
+25. `13_DISEASE_PLAYBOOK.md`
+26. `25_STYLE_UPGRADES.md`
+27. `27_GITHUB_REUSE_AUDIT.md`
+28. `28_RESEARCH_LEDGER.md`
+29. `29_DECISION_LOG.md`
+30. `30_OPEN_QUESTIONS.md`
 
 ## Human operating principle
 
@@ -191,4 +258,4 @@ Deep detail belongs in the repository. Daily operation collapses to:
 
 ## Hard boundary rule
 
-Do not let future work quietly turn the remaining 1.75 acres into more garden. Expansion requires an explicit user decision.
+The Garden OS stops at approximately one quarter acre unless the user explicitly changes that decision.
